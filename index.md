@@ -1,9 +1,8 @@
+----
+layout: base
+title: Beauty and Joy of Computing
+----
 
 
-Table of Contents
-=================
-
- * Section 0: Welcome!
- *
-
+lol
 
