@@ -109,27 +109,79 @@ Computer scientists and engineers have developed effective [error detection](htt
 Example: Parity Bit Error Detection
 -----------------------------------
 
-Suppose you are sending a stream of data to a server. By adding a parity bit, you enable to the server to detect some basic transmission errors. For example, if the server expects that every byte will contain an **even number of 1s** and it detects a byte such as ```0001 0101``` with an odd number of 1s, it can tell that an error occured. Perhaps the user meant to send ```000**0** 0101``` but one of the bits was flipped from 0 to 1 during transmission.
+Suppose you are sending a stream of data to a server. By adding a parity bit, you enable to the server to detect some basic transmission errors. For example, if the server expects that every byte will contain an **even number of 1s** and it detects a byte such as ```0001 0101``` with an odd number of 1s, it can tell that an error occured. Perhaps the user meant to send ```0000 0101``` but one of the bits was flipped from 0 to 1 during transmission.
 
-A parity bit is a bit that is added as the leftmost bit of a bit string to ensure that the number of bits that are 1 in the bit string are even or odd.
+A **parity bit** is a bit that is added as the leftmost bit of a bit string to ensure that the number of bits that are 1 in the bit string are even or odd.
 
 To see how this works, suppose our data are stored in strings containing 7 bits.
 
-In an even parity scheme the eighth bit, the parity bit, is set to 1 if the number of 1s in the 7 data bits is odd, thereby making the number of 1s in the 8-bit byte an even number. It is set to 0 if the number of 1s in the data is even.
+In an **even parity scheme** the eighth bit, the parity bit, is set to 1 if the number of 1s in the 7 data bits is odd, thereby making the number of 1s in the 8-bit byte an even number. It is set to 0 if the number of 1s in the data is even.
 
-In an odd parity scheme the eighth bit, the parity bit, is set to 1 if the number of 1s in the 7 data bits is even, thereby making the number of 1s in the 8-bit byte an odd number. It is set to 0 if the number of 1s in the data is odd.
+In an **odd parity scheme** the eighth bit, the parity bit, is set to 1 if the number of 1s in the 7 data bits is even, thereby making the number of 1s in the 8-bit byte an odd number. It is set to 0 if the number of 1s in the data is odd.
 
 The following table summarize this approach.
 
-    Data Bits (7) 	Add a parity bit to get 8 bits
-    Even Parity
-    Total number 1s is even 	Odd Parity
-    Total number of 1s is odd
-    000 0000 (0 1s) 	0000 0000 	1000 0000
-    011 0010 (3 1s) 	1011 0010 	0011 0010
-    011 0011 (4 1s) 	0011 0011 	1011 0011
-    011 0111 (5 1s) 	1011 0111 	0011 0111
+| Data Bits (7)         | Add a parity bit to get 8 bits                           ||
+|                       | Even Parity (even number 1s) | Odd Parity (odd number 1s) |
+| ```000 0000``` (0 1s) | ```0000 0000```              | ```1000 0000```            | 
+| ```011 0010``` (3 1s) | ```1011 0010```              | ```0011 0010```            | 
+| ```011 0011``` (4 1s) | ```0011 0011```              | ```1011 0011```            | 
+| ```011 0111``` (5 1s) | ```1011 0111```              | ```0011 0111```            | 
 
 
 Question: What would happen in this scheme if 2 bits were switched from 1 to 0 or 0 to 1?
+
+
+Quiz Yourself
+-------------
+
+To see if you understand these concepts, try the following quizzes. If you can get ten-in-a-row correct, that's a pretty good indication that you get it.
+
+ * [Parity Error Detection I](http://www.cs.trincoll.edu/%7Eram/q/110/parity-error-detection.html)
+ * [Parity Error Detection II](http://www.cs.trincoll.edu/%7Eram/q/110/parity-error-detection-2.html)
+
+
+Variables and Abstraction
+-------------------------
+
+When you program you will create variables to make the script much more functional -- i.e., the user could change the value of the variable.
+
+This is an important example of **abstraction** at work -- in this case, we are letting an *abstract symbol* (the variable) represent or stand for something else (its value, 2 or 8). 
+
+
+
+What is a Variable?
+-------------------
+
+A *variable* in a computer program is a *symbol* that represents a *memory location* where a piece of data can be stored. You can think of a computer memory as a large array of numbered mail boxes, where the numbers represent the address of the memory location. In this example, there are 8 memory locations numbered 17-24 (in decimal) and 10001 - 11000 (in binary). None of the locations have any value stored in them yet.
+
+ | 17    | 18    | 19    | 20    | 21    | 22    | 23    | 24    |
+ | 10001 | 10010 | 10011 | 10100 | 10101 | 10110 | 10111 | 11000 |
+ |       |       |       |       |       |       |       |       |
+
+When you define a *variable*, you are giving name to a memory location.
+
+ | name  | score | wins  | 20    | 21    | 22    | 23    | 24    |
+ | 10001 | 10010 | 10011 | 10100 | 10101 | 10110 | 10111 | 11000 |
+ | Joe   | 8     | 2     |       |       |       |       |       |
+
+
+What is a Value?
+----------------
+
+In a computer program a *value* is a symbol of a piece of *data*. For example, the numeral '8' represents the number 8. Values (data) are stored in the computer's memory locations.
+
+Symbols like the numeral '8' are also examples of *abstractions*. The numeral '8' and the word 'eight' and the binary string '1000' are all symbols that represent the number 8, which is itself an abstract concept of 8 things. For example, they can all be used to refer to the number of little circles here: o o o o o o o o.
+
+So, in a computer program we use abstract symbols to represent both *variables* and *values*.
+
+
+Values vs. Variables
+--------------------
+
+It's important to distinguish between the variable's *name* (e.g., score or name) from the *value* that it represents -- i.e, from the value that it is storing in its memory location (e.g., **8** or **Joe**).
+
+
+*Material from Dr. Ralph Morelli, Trinity College*
+
 
