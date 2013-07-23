@@ -79,6 +79,32 @@ In general, an n-bit sequence can represent 2<sup>n</sup> different things. Here
 
 
 
+Data Abstraction: How Colors Are Represented in Bits
+----------------------------------------------------
+
+<img src="rgb.png" align="left" />
+
+The [RGB model](http://en.wikipedia.org/wiki/RGB_color_model) adds together 3 primary colors, Red, Green, and Blue, where each color component (R,G,B) is represented as an 8-bit **byte**.
+
+If there are 256 (2<sup>8</sup>) possible values for each of R,G,B, the triplet can represent 256 × 256 × 256 = 16,777,216 different colors, which corresponds well to the number of colors the human eye can distinguish.
+
+ * (R, G, B)
+ * (65,65,65) = Grey
+ * (255,0,0) = Red
+ * (0,255,0) = Green
+ * (0,0,255) = Blue
+ * (65,0,0) = Brown
+ 
+Try to mix your own colors: [Colorschemer.com](http://www.colorschemer.com/online.html)
+
+
+Perfection is Normal
+--------------------
+
+Because they are based on strings of discrete bits, *digital* (as opposed to *analog*) copies are perfect copies.
+
+Computer scientists and engineers have developed effective [error detection](http://en.wikipedia.org/wiki/Parity_bit) and error correction schemes to insure accurate data representation and communication.
+
 
 
 
