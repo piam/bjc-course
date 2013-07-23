@@ -28,8 +28,8 @@ Because binary numbers can get very long, computer scientists use other number s
 In this homework you will watch a short (10 minute) video about binary numbers and learn how to convert.
 
 
-Watch the following Khan Academy video on binary
-------------------------------------------------
+Khan Academy video on binary
+----------------------------
 
  * [Binary numbers](http://www.khanacademy.org/video/binary-numbers?playlist=Pre-algebra)
 
