@@ -28,6 +28,6 @@ Readings/Lectures
 
 Labs/Exercises
 --------------
-
+ * Lab 1: [Conversion Exercise]({{ site.baseurl }}curriculum/01-welcome/labs/01-conversion)
 
 
