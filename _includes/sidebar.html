@@ -1,20 +1,20 @@
 
 <div>
-    <ul class="nav nav-pills nav-stacked">
-    <li class="active"><a href="#">Unit 1</a></li>
-    <li><a href="#">Unit 2</a></li>
-    <li><a href="#">Unit 3</a></li>
-    <li><a href="#">Unit 4</a></li>
-    <li><a href="#">Unit 5</a></li>
-    <li><a href="#">Unit 6</a></li>
-    <li><a href="#">Unit 7</a></li>
-    <li><a href="#">Unit 8</a></li>
-    <li><a href="#">Unit 9</a></li>
-    <li><a href="#">Unit 10</a></li>
-    <li><a href="#">Unit 11</a></li>
-    <li><a href="#">Unit 12</a></li>
-    <li><a href="#">Unit 13</a></li>
-    </ul>
+  <ul class="nav nav-pills nav-stacked">
+    <li {% if page.unit = 1 %}class="active"{% endif %} ><a href="{{ site.baseurl }}curriculum/01-welcome/">Unit 1</a></li>
+    <li {% if page.unit = 2 %}class="active"{% endif %} ><a href="{{ site.baseurl }}curriculum/02-loops-and-variables/">Unit 2</a></li>
+    <li {% if page.unit = 3 %}class="active"{% endif %} ><a href="{{ site.baseurl }}curriculum/03-build-your-own-blocks/">Unit 3</a></li>
+    <li {% if page.unit = 4 %}class="active"{% endif %} ><a href="{{ site.baseurl }}curriculum/04-conditionals-and-ai/">Unit 4</a></li>
+    <li {% if page.unit = 5 %}class="active"{% endif %} ><a href="{{ site.baseurl }}curriculum/05-lists/">Unit 5</a></li>
+    <li {% if page.unit = 6 %}class="active"{% endif %} ><a href="{{ site.baseurl }}curriculum/06-searching-sorting/">Unit 6</a></li>
+    <li {% if page.unit = 7 %}class="active"{% endif %} ><a href="{{ site.baseurl }}curriculum/07-recursion/">Unit 7</a></li>
+    <li {% if page.unit = 8 %}class="active"{% endif %} ><a href="{{ site.baseurl }}curriculum/08-cloud-computing/">Unit 8</a></li>
+    <li {% if page.unit = 9 %}class="active"{% endif %} ><a href="{{ site.baseurl }}curriculum/09-data/">Unit 9</a></li>
+    <li {% if page.unit = 10 %}class="active"{% endif %} ><a href="{{ site.baseurl }}curriculum/10-internet/">Unit 10</a></li>
+    <li {% if page.unit = 11 %}class="active"{% endif %} ><a href="{{ site.baseurl }}curriculum/11-final-project/">Unit 11</a></li>
+    <li {% if page.unit = 12 %}class="active"{% endif %} ><a href="{{ site.baseurl }}curriculum/12-higher-order-functions/">Unit 12</a></li>
+    <li {% if page.unit = 13 %}class="active"{% endif %} ><a href="{{ site.baseurl }}curriculum/13-object-oriented/">Unit 13</a></li>
+  </ul>
 </div>
 
 
