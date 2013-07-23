@@ -122,8 +122,8 @@ In an **odd parity scheme** the eighth bit, the parity bit, is set to 1 if the n
 The following table summarize this approach.
 
 | Data Bits (7)         | Add a parity bit to get 8 bits                           ||
+| --------------------- | --------------------------------------------------------- |
 |                       | Even Parity (even number 1s) | Odd Parity (odd number 1s) |
-| --------------------- | ---------------------------- | -------------------------- |
 | ```000 0000``` (0 1s) | ```0000 0000```              | ```1000 0000```            | 
 | ```011 0010``` (3 1s) | ```1011 0010```              | ```0011 0010```            | 
 | ```011 0011``` (4 1s) | ```0011 0011```              | ```1011 0011```            | 
@@ -156,17 +156,17 @@ What is a Variable?
 
 A *variable* in a computer program is a *symbol* that represents a *memory location* where a piece of data can be stored. You can think of a computer memory as a large array of numbered mail boxes, where the numbers represent the address of the memory location. In this example, there are 8 memory locations numbered 17-24 (in decimal) and 10001 - 11000 (in binary). None of the locations have any value stored in them yet.
 
- | 17    | 18    | 19    | 20    | 21    | 22    | 23    | 24    |
- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
- | 10001 | 10010 | 10011 | 10100 | 10101 | 10110 | 10111 | 11000 |
- |       |       |       |       |       |       |       |       |
+| 17    | 18    | 19    | 20    | 21    | 22    | 23    | 24    |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| 10001 | 10010 | 10011 | 10100 | 10101 | 10110 | 10111 | 11000 |
+|       |       |       |       |       |       |       |       |
 
 When you define a *variable*, you are giving name to a memory location.
 
- | name  | score | wins  | 20    | 21    | 22    | 23    | 24    |
- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
- | 10001 | 10010 | 10011 | 10100 | 10101 | 10110 | 10111 | 11000 |
- | Joe   | 8     | 2     |       |       |       |       |       |
+| name  | score | wins  | 20    | 21    | 22    | 23    | 24    |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| 10001 | 10010 | 10011 | 10100 | 10101 | 10110 | 10111 | 11000 |
+| Joe   | 8     | 2     |       |       |       |       |       |
 
 
 What is a Value?
