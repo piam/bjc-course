@@ -18,7 +18,7 @@ Learning Objectives
 
 Readings/Lectures
 -----------------
- * [Blown to Bits](): Chapter 1
+ * [Blown to Bits](): Chapter 1 
  * Item 01.01 What is Abstraction?
  * Item 01.02 More on Abstraction
  * Item 01.03 Binary and Hexadecimal Numbers
