@@ -82,7 +82,7 @@ In general, an n-bit sequence can represent 2<sup>n</sup> different things. Here
 Data Abstraction: How Colors Are Represented in Bits
 ----------------------------------------------------
 
-<img src="rgb.png" align="right" height="100" />
+<img src="rgb.png" align="right" width="100" />
 
 The [RGB model](http://en.wikipedia.org/wiki/RGB_color_model) adds together 3 primary colors, Red, Green, and Blue, where each color component (R,G,B) is represented as an 8-bit **byte**.
 
