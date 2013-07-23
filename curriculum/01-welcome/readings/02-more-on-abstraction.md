@@ -63,7 +63,20 @@ The length of a binary sequence -- a sequence of 0s and 1s -- determines the num
 
 For example, with 1 bit, you can have two different sequences, 0 or 1, which can stand for two different colors, say, 0 stands for white and 1 for black. With 2 bits, you can have four different sequences, 00, 01, 10, or 11, which can represent four different colors, white, black, red, green. And so on.
 
-In general, an n-bit sequence can represent 2^n different things. Here's how:
+In general, an n-bit sequence can represent 2<sup>n</sup> different things. Here's how:
+
+
+| Number of Bits | Number of Things       | Representations                 |
+|:--------------:|:----------------------:| ------------------------------- |
+| 1              | 2 (ie 2<sup>1</sup>)   | 0,1                             |
+| 2              | 4 (ie 2<sup>2</sup>)   | 00,01,10,11                     |
+| 3              | 8 (ie 2<sup>3</sup>)   | 000,001,010,011,100,101,110,111 |
+| 4              | 16 (ie 2<sup>4</sup>)  |                                 |
+| 5              | 32 (ie 2<sup>5</sup>)  |                                 |
+| 6              | 64 (ie 2<sup>6</sup>)  |                                 |
+| 7              | 128 (ie 2<sup>7</sup>) |                                 |
+| 8              | 256 (ie 2<sup>8</sup>) |                                 |
+
 
 
 
