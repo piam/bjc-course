@@ -28,7 +28,7 @@ Learning Objectives
 
 Readings/Lectures
 -----------------
- * Blown to Bits: [Chapter 1](http://www.bitsbook.com/wp-content/uploads/2008/12/chapter1.pdf)
+ * Blown to Bits: [Chapter 2](http://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf)
  * Reading 01.01: [What is Abstraction?]({{ site.baseurl }}curriculum/01-welcome/readings/01-what-is-abstraction)
  * Reading 01.02: [More on Abstraction]({{ site.baseurl }}curriculum/01-welcome/readings/02-more-on-abstraction)
  * Reading 01.03: [Binary and Hexadecimal Numbers]({{ site.baseurl }}curriculum/01-welcome/readings/03-binary-and-hexadecimal)
@@ -38,7 +38,7 @@ Readings/Lectures
 
 Labs/Exercises
 --------------
- * Lab 1: [Conversion Exercise]({{ site.baseurl }}curriculum/01-welcome/labs/01-conversion)
- * Lab 2: [Welcome to Visual Programming]({{ site.baseurl }}curriculum/01-welcome/labs/02-exploring-visual-programming)
- * Lab 3: [Lights, Camera, Action]({{}})
+ * Lab 01.01: [Conversion Exercise]({{ site.baseurl }}curriculum/01-welcome/labs/01-conversion)
+ * Lab 01.02: [Welcome to Visual Programming]({{ site.baseurl }}curriculum/01-welcome/labs/02-exploring-visual-programming)
+ * Lab 01.03: [Lights, Camera, Action]({{}})
 
