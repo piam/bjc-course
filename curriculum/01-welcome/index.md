@@ -40,5 +40,5 @@ Labs/Exercises
 --------------
  * Lab 01.01: [Conversion Exercise]({{ site.baseurl }}curriculum/01-welcome/labs/01-conversion)
  * Lab 01.02: [Welcome to Visual Programming]({{ site.baseurl }}curriculum/01-welcome/labs/02-exploring-visual-programming)
- * Lab 01.03: [Lights, Camera, Action]({{}})
+ * Lab 01.03: [Lights, Camera, Action]({{ site.baseurl}}curriculum/01-welcome/labs/03-lights-camera-action)
 
