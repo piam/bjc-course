@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Unit 01 - Welcome to Visual Programming
+title: Welcome to Visual Programming
 unit: 1
 uniturl: 01-welcome
 ---
@@ -13,6 +13,16 @@ Unit 01: Welcome to Visual Programming
 
 Learning Objectives
 -------------------
+ * 1: The student can use computing tools and techniques to create artifacts.
+ * 4: The student can use programming as a creative tool.
+ * 5: The student can describe the combination of abstractions used to represent data.
+ * 6: The student can explain how binary sequences are used to represent digital data.
+ * 7: The student can develop an abstraction.
+ * 9: The student can use models and simulations to raise and answer questions.
+ * 28: The student can analyze how computing affects communication, interaction, and cognition.
+ * 29: The student can connect computing with innovations in other fields.
+ * 30: The student can analyze the beneficial and harmful effects of computing.
+ * 31: The student can connect computing within economic, social, and cultural contexts.
 
 
 
@@ -29,5 +39,6 @@ Readings/Lectures
 Labs/Exercises
 --------------
  * Lab 1: [Conversion Exercise]({{ site.baseurl }}curriculum/01-welcome/labs/01-conversion)
-
+ * Lab 2: [Welcome to Visual Programming]({{ site.baseurl }}curriculum/01-welcome/labs/02-exploring-visual-programming)
+ * Lab 3: [Lights, Camera, Action]({{}})
 

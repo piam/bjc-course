@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Conversion Exercise
+title: Exploring Visual Programming
 unit: 1
 uniturl: 01-welcome
 lab: 2
@@ -9,7 +9,6 @@ laburl: 02-exploring-visual-programming
 
 Lab: Welcome to Visual Programming
 ==================================
-
 Let's open up SNAP at [http://snap.berkeley.edu/run](http://snap.berkeley.edu/run)
 
 You will see a screen like the one shown below. Explore the aspects of the user interface. Play around for a while and see if you can figure out the major components of the interface. In the next step, you will make your first project and explore further.
@@ -22,6 +21,8 @@ Let’s first look at the IDE (Integrated Development Environment).
 
 <img src="lab-ide-3.png" align="right" />
 
+
+
 Make a sprite sing
 ------------------
 For your first project, make a quick song! You will find the following **blocks** in the Sound tab useful; feel free to change the default numbers as you see fit.
@@ -31,9 +32,9 @@ While you are working on it, try to figure out how to connect and disconnect blo
 *Hint*: Try to use many copies of one of the blocks in a row, and hear the result. Do this for each block.
 
 
+
 Meowing: One at a Time or in Unison?
 ------------------------------------
-
 With this brief introduction to the scratch interface, we begin to examine how sprites and blocks
 interact and affect one another. For example, the "play sound" blocks from earlier allow us to control
 when and how many sounds we here. Consider the difference between these two blocks?
@@ -59,9 +60,9 @@ Experiment with these blocks: 1) How about two "play sound (meow)" and then one 
 Explain the difference between 1) and 2). Why did you hear a different amount of meows?
 
 
+
 Some Starting Lingo
 -------------------
-
 
 | Term | Example/Description |
 | ---- | ------------------- |
@@ -77,7 +78,46 @@ Some Starting Lingo
 
 
 
+Experiment with a Short Play
+----------------------------
+Try to make these scripts in SNAP! You will find that the Cat and the Duck have completely separate
+script areas. Click on each character to see their script area. Once you are done, press the green flag to
+start the short play.
+
+Cat’s Script Window
+![Cat's script](lab-script-1.png)
+
+Duck’s Script Window
+![Cat's script](lab-script-2.png)
 
 
+
+A note about style
+------------------
+You will notice that we chose to name the messages that were broadcast so that it would help us keep
+track of what we were doing and what messages we were sending. We recommend that you do this in
+your projects!
+
+
+Hints
+-----
+To choose a new sprite, drag an image file into the Costume area. Click on the paint brush to create a new image of your own.
+
+Try to figure out what the commands (whose images are on the left) and buttons (whose images are on the right) do. These will be helpful to get the characters to face each other.
+
+
+
+Try It! Play
+------------
+Once you have this working, change the sprites, and then change the script of the "play" so that each
+character says at least two additional lines.
+
+
+Exporting Sprites
+-----------------
+By this point, you have probably figured out how to save your projects, but you can also save individual
+Sprites separately. To save (or export) a Sprite, right-click on the sprite and select export this sprite. To
+load (or import) a Sprite, click on the icon with a folder next to New Sprite (circled in yellow in the image
+below) and select the Sprite that you want to add to your project.
 
 
