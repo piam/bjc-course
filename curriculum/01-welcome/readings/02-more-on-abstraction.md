@@ -106,5 +106,30 @@ Because they are based on strings of discrete bits, *digital* (as opposed to *an
 Computer scientists and engineers have developed effective [error detection](http://en.wikipedia.org/wiki/Parity_bit) and error correction schemes to insure accurate data representation and communication.
 
 
+Example: Parity Bit Error Detection
+-----------------------------------
 
+Suppose you are sending a stream of data to a server. By adding a parity bit, you enable to the server to detect some basic transmission errors. For example, if the server expects that every byte will contain an **even number of 1s** and it detects a byte such as ```0001 0101``` with an odd number of 1s, it can tell that an error occured. Perhaps the user meant to send ```000**0** 0101``` but one of the bits was flipped from 0 to 1 during transmission.
+
+A parity bit is a bit that is added as the leftmost bit of a bit string to ensure that the number of bits that are 1 in the bit string are even or odd.
+
+To see how this works, suppose our data are stored in strings containing 7 bits.
+
+In an even parity scheme the eighth bit, the parity bit, is set to 1 if the number of 1s in the 7 data bits is odd, thereby making the number of 1s in the 8-bit byte an even number. It is set to 0 if the number of 1s in the data is even.
+
+In an odd parity scheme the eighth bit, the parity bit, is set to 1 if the number of 1s in the 7 data bits is even, thereby making the number of 1s in the 8-bit byte an odd number. It is set to 0 if the number of 1s in the data is odd.
+
+The following table summarize this approach.
+
+    Data Bits (7) 	Add a parity bit to get 8 bits
+    Even Parity
+    Total number 1s is even 	Odd Parity
+    Total number of 1s is odd
+    000 0000 (0 1s) 	0000 0000 	1000 0000
+    011 0010 (3 1s) 	1011 0010 	0011 0010
+    011 0011 (4 1s) 	0011 0011 	1011 0011
+    011 0111 (5 1s) 	1011 0111 	0011 0111
+
+
+Question: What would happen in this scheme if 2 bits were switched from 1 to 0 or 0 to 1?
 
