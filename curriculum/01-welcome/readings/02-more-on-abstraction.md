@@ -121,9 +121,8 @@ In an **odd parity scheme** the eighth bit, the parity bit, is set to 1 if the n
 
 The following table summarize this approach.
 
-| Data Bits (7)         | Add a parity bit to get 8 bits                           ||
-|                       | Even Parity (even number 1s) | Odd Parity (odd number 1s) |
-| --------------------- | -----------------------------| -------------------------- |
+| Data Bits (7)         | Even Parity (even number 1s) | Odd Parity (odd number 1s) |
+| --------------------- | ---------------------------- | -------------------------- |
 | ```000 0000``` (0 1s) | ```0000 0000```              | ```1000 0000```            | 
 | ```011 0010``` (3 1s) | ```1011 0010```              | ```0011 0010```            | 
 | ```011 0011``` (4 1s) | ```0011 0011```              | ```1011 0011```            | 
