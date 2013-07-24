@@ -145,3 +145,42 @@ reports the bigger value (the maximum).
 ![Dialog](lab-block-19.png)
 
 
+Input Types
+-----------
+Unfortunately, we have a bug with our ```max``` block! We wanted the ```max```
+block to work only for numbers. Yet, you can type text in!
+
+![Dialog](lab-block-20.png)
+
+We are going to limit the ```max``` block to accept only numbers as arguments.
+
+ * Open the Block Editor for the ```max``` block and click on the input ```x```
+
+![Dialog](lab-block-21.png)
+
+ * Then, click on the right arrow in the pop-up box shown above. This will open
+   the dialog box shown below. This allows us to specify the shape of the slot.
+   We want a numbers-only slot (as shown selected below). We can also specify
+   that we want the variable to have a *default* value; this is similar to
+   blocks like move that always start out with the default value 10.
+
+![Dialog](lab-block-22.png)
+
+ * Modify both the ```x`` and ```y``` variables to take only numbers and to have
+   the default values of ```5``` and ```10```, respectively. Your 
+   ```Block Editor``` should then look like this, with the default values shown
+   in the header.
+
+![Dialog](lab-block-23.png)
+
+ * When you click OK, you should be able to see your block in the Operators tab,
+   with the default values filled in. Also, note that you will no longer be able
+   to enter text.
+
+![Dialog](lab-block-24.png)
+
+Note: Maybe we *did* want the ```max``` block to work with words! However, for
+the ```draw square``` and ```draw shape``` blocks, we definitely only wanted
+numbers. Modify those blocks to only take in numbers.
+
+
