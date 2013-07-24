@@ -114,7 +114,7 @@ however, you can also type the names of the input as shown below.
 
 ![Dialog](lab-block-15.png)
 
-The percent signs () indicate that the word should be an input. We want you to
+The percent signs (%) indicate that the word should be an input. We want you to
 feel comfortable with both entry methods.
 
 
@@ -199,7 +199,7 @@ copies of our ```max``` block.
 ![Dialog](lab-block-26.png)
 
 
-Try It! AddNumbers & JoinText
+Try It! AddNumbers and JoinText
 -----------------------------
 Your challenge is to create the following two blocks. You can use the same project file.
 
@@ -216,8 +216,8 @@ Your challenge is to create the following two blocks. You can use the same proje
 Predicates
 ----------
 We want to make our own predicate, a kind of block that reports either ```true```
-or ```false```. We have a "greater than" operator (&gt;), an "equal" operator (=),
-and a "less than" operator (&lt;), but we want a new "greater than or equal to" (&gt;=)
+or ```false```. We have a "greater than" operator (), an "equal" operator (=),
+and a "less than" operator (), but we want a new "greater than or equal to" (=)
 operator.
 
  * We will create the new block and select the ```predicate``` shape.
