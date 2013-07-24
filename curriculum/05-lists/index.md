@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Build Your Own Blocks
+title: Lists
 unit: 5
 uniturl: 05-lists
 ---
