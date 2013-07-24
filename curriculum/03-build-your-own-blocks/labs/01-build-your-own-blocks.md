@@ -145,6 +145,17 @@ reports the bigger value (the maximum).
 ![Dialog](lab-block-19.png)
 
 
+Input Types
+-----------
+Unfortunately, we have a bug with our ```max``` block! We wanted the ```max```
+block to work only for numbers. Yet, you can type text in!
+
+
+
+Note: Maybe we *did* want the ```max``` block to work with words! However, for
+the ```draw square``` and ```draw shape``` blocks, we definitely only wanted
+numbers. Modify those blocks to only take in numbers.
+
 
 Composition of Functions
 ------------------------
