@@ -166,7 +166,10 @@ We are going to limit the ```max``` block to accept only numbers as arguments.
 
 ![Dialog](lab-block-22.png)
 
-
+ * Modify both the ```x``` and ```y``` variables to take only numbers and to have
+   the default values of ```5``` and ```10```, respectively. Your 
+   ```Block Editor``` should then look like this, with the default values shown
+   in the header.
 
 ![Dialog](lab-block-23.png)
 
