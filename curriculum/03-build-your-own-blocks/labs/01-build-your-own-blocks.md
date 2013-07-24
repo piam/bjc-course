@@ -164,6 +164,9 @@ We are going to limit the ```max``` block to accept only numbers as arguments.
    that we want the variable to have a *default* value; this is similar to
    blocks like move that always start out with the default value 10.
 
+![Dialog](lab-block-22.png)
+
+
 
 ![Dialog](lab-block-23.png)
 
