@@ -58,3 +58,45 @@ We are going to teach the computer how to draw a square using a block named
 Congratulations! You have just created your own block!
 
 
+Improving the draw square block
+-------------------------------
+You have created a block that draws a square, but it only draws a square where
+each side is of length ```100``` steps. It would be great if we could specify
+how long we wanted each side to be. We will edit the block to accept an *argument*
+(or *input*), which tells it the length of the square it has to draw.
+
+ * We are going to go back and edit the block. Right-click on the new block and
+   select edit to go back to the block editor.
+
+![Dialog](lab-block-8.png)
+
+ * In the ```Block Editor```, notice that when you move the mouse over the top
+   row of the new block, some plus signs (+) show up. When you click on these
+   plus signs, you can add more text or arguments. When you click on the text
+   between the plus signs, you can delete or modify that text. Click on the plus
+   sign at the far right as shown below:
+
+![Dialog](lab-block-9.png)
+
+ * When you click on the plus sign on the far right, you should get the following
+   dialog box. With this dialog box, we can select if we want to add input (orange)
+   or more text (blue). We want to add the input ```size```, so we type ```size```,
+   select ```Input Name``` and click ```OK```.
+
+![Dialog](lab-block-10.png)
+
+ * Now, we have a variable inside our block definition.
+
+![Dialog](lab-block-11.png)
+
+ * Drag the variable ```size``` down into the move block. Whenever we need a
+   new copy of a variable, we just grab the copy from that variable in the top row.
+
+![Dialog](lab-block-12.png)
+
+ * When we click OK, we wll see that our draw square block now takes an argument.
+   We can put different numbers in the blank and draw squares of different sizes!
+
+![Dialog](lab-block-14.png)
+
+
