@@ -6,7 +6,7 @@ uniturl: 01-welcome
 ---
 
 
-Unit 01: Welcome to Visual Programming
+Unit 1: Welcome to Visual Programming
 ======================================
 ### Broadcast, Animations, and Music! 
 
@@ -28,17 +28,17 @@ Learning Objectives
 
 Readings/Lectures
 -----------------
- * Blown to Bits: [Chapter 2](http://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf)
- * Reading 01.01: [What is Abstraction?]({{ site.baseurl }}curriculum/01-welcome/readings/01-what-is-abstraction)
- * Reading 01.02: [More on Abstraction]({{ site.baseurl }}curriculum/01-welcome/readings/02-more-on-abstraction)
- * Reading 01.03: [Binary and Hexadecimal Numbers]({{ site.baseurl }}curriculum/01-welcome/readings/03-binary-and-hexadecimal)
+ * Blown to Bits: [Chapter 1](http://www.bitsbook.com/wp-content/uploads/2008/12/chapter1.pdf)
+ * Reading 1.01: [What is Abstraction?]({{ site.baseurl }}curriculum/01-welcome/readings/01-what-is-abstraction)
+ * Reading 1.02: [More on Abstraction]({{ site.baseurl }}curriculum/01-welcome/readings/02-more-on-abstraction)
+ * Reading 1.03: [Binary and Hexadecimal Numbers]({{ site.baseurl }}curriculum/01-welcome/readings/03-binary-and-hexadecimal)
  * Lecture Video: [Binary Hex Decimal](http://www.screencast.com/t/c2tp610y1tx6)
  * [Why software is eating the world](http://online.wsj.com/article/SB10001424053111903480904576512250915629460.html) (Wall Street Journal) (DEAD LINK)
 
 
 Labs/Exercises
 --------------
- * Lab 01.01: [Conversion Exercise]({{ site.baseurl }}curriculum/01-welcome/labs/01-conversion)
- * Lab 01.02: [Welcome to Visual Programming]({{ site.baseurl }}curriculum/01-welcome/labs/02-exploring-visual-programming)
- * Lab 01.03: [Lights, Camera, Action]({{ site.baseurl}}curriculum/01-welcome/labs/03-lights-camera-action)
+ * Lab 1.01: [Conversion Exercise]({{ site.baseurl }}curriculum/01-welcome/labs/01-conversion)
+ * Lab 1.02: [Welcome to Visual Programming]({{ site.baseurl }}curriculum/01-welcome/labs/02-exploring-visual-programming)
+ * Lab 1.03: [Lights, Camera, Action]({{ site.baseurl}}curriculum/01-welcome/labs/03-lights-camera-action)
 

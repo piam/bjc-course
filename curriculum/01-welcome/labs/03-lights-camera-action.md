@@ -17,5 +17,6 @@ In general, your movie should have at least:
  * Ten (10) total broadcasts of messages. This can be five each, or six/four, etc.
  * Add sounds (Sound Tab)
 
-The activity is open to your creativity -- tell a story, create characters, experiment with moving sprites around stage
+The activity is open to your creativity -- tell a story, create characters,
+experiment with moving sprites around stage
 
