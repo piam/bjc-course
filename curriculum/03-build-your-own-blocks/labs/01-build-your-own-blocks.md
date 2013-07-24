@@ -150,7 +150,20 @@ Input Types
 Unfortunately, we have a bug with our ```max``` block! We wanted the ```max```
 block to work only for numbers. Yet, you can type text in!
 
+![Dialog](lab-block-20.png)
 
+We are going to limit the ```max``` block to accept only numbers as arguments.
+
+ * Open the Block Editor for the ```max``` block and click on the input ```x```
+
+
+![Dialog](lab-block-23.png)
+
+ * When you click OK, you should be able to see your block in the Operators tab,
+   with the default values filled in. Also, note that you will no longer be able
+   to enter text.
+
+![Dialog](lab-block-24.png)
 
 Note: Maybe we *did* want the ```max``` block to work with words! However, for
 the ```draw square``` and ```draw shape``` blocks, we definitely only wanted
