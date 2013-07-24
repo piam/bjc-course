@@ -25,7 +25,7 @@ Learning Objectives
 
 Readings/Lectures
 -----------------
- * Lecture Slides 5.01: [Functions]({{ site.baseurl}}curriculum/05-lists/readings/01-lists-slides.pdf)
+ * Lecture Slides 5.01: [Lists]({{ site.baseurl}}curriculum/05-lists/readings/01-lists-slides.pdf)
 
 
 Labs/Exercises
