@@ -272,6 +272,5 @@ For each of the following problems, decide whether it can be solved by a *logari
 For each of the following problems, decide whether or not it is *intractable* and explain briefly why or why not.
 
  * Computing the sum of all the numbers in a square matrix of dimension N × N.
-
  * Given n integers does there exists a subset of them that sum exactly to B? For example, suppose the integers are {4, 5, 8, 13, 15, 24, 33}. If B = 36 then the answer is yes (and 4, 8, 24 is a solution). If B = 14 the answer is no.
 
