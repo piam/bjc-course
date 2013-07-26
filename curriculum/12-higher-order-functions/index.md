@@ -21,7 +21,7 @@ Readings/Lectures
 
 Labs/Exercises
 --------------
- * Lab 12.01: [Encryption and Decryption]({{ site.baseurl}}curriculum/12-higher-order-functions/labs/01-higher-order-functions-exercises)
+ * Lab 12.01: [Higher Order Functions Exercise]({{ site.baseurl}}curriculum/12-higher-order-functions/labs/01-higher-order-functions-exercises)
 
  
 

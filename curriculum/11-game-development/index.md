@@ -24,5 +24,5 @@ Readings/Lectures
 
 Labs/Exercises
 --------------
- * Portfolio Project 11.01: [Programming Portfolio Project]({{ site.baseurl}}curriculum/11-game-development/labs/03-internet-portfolio-project)
+ * Portfolio Project 11.01: [Programming Portfolio Project]({{ site.baseurl}}curriculum/11-game-development/labs/01-programming-portfolio-project)
 
