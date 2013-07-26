@@ -19,7 +19,7 @@ Learning Objectives
 
 Readings/Lectures
 -----------------
- * Blown to Bits: [Chapter 3](http://www.bitsbook.com/wp-content/uploads/2008/12/chapter3.pdf)
+ * Blown to Bits: [Chapter 3](http://www.bitsbook.com/wp-content/uploads/2008/12/chapter3.pdf), pages 99-108
  * Lecture Slides 3.01: [Functions]({{ site.baseurl}}curriculum/03-build-your-own-blocks/readings/01-functions-slides.pdf)
  * Lecture Video 3.02: [Functions]({{ site.baseurl}}curriculum/03-build-your-own-blocks/readings/02-functions-video.mp4)
  

@@ -26,7 +26,7 @@ Learning Objectives
 
 Readings/Lectures
 -----------------
- * Blown to Bits: [Chapter 2](http://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf)
+ * Blown to Bits: [Chapter 2](http://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf), pages 36-42 and 55-61
  * Lecture Slides 2.01: [Applications that changed the world]({{ site.baseurl}}curriculum/02-loops-and-variables/readings/01-applications-that-changed-the-world-slides.pdf)
  * Lecture Slides 2.02: [Algorithms]({{ site.baseurl}}curriculum/02-loops-and-variables/readings/02-algorithms-slides.pdf)
  * Lecture Slides 2.03: [Algorithm Development Activity]({{ site.baseurl}}curriculum/02-loops-and-variables/readings/03-algorithms-activity-slides.pdf)

@@ -24,7 +24,7 @@ Learning Objectives
 
 Readings/Lectures
 -----------------
- * Blown to Bits: [Appendix]({{ site.baseurl}}curriculum/10-internet/readings/btb-appendix)
+ * Blown to Bits: [Appendix]({{ site.baseurl}}curriculum/10-internet/readings/btb-appendix.pdf)
  * Reading 10.01: [How Google Works]({{ site.baseurl}}curriculum/10-internet/readings/01-how-google-works)
  * Reading 10.02: [Life Before Search]({{ site.baseurl}}curriculum/10-internet/readings/02-life-before-search)
  * Reading 10.03: [Search Takes a Team]({{ site.baseurl}}curriculum/10-internet/readings/03-search-takes-a-team)

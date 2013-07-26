@@ -23,7 +23,7 @@ Learning Objectives
 
 Readings/Lectures
 -----------------
- * Blown to Bits: [Chapter 4](http://www.bitsbook.com/wp-content/uploads/2008/12/chapter4.pdf)
+ * Blown to Bits: [Chapter 4](http://www.bitsbook.com/wp-content/uploads/2008/12/chapter4.pdf), pages 120-138 and 145-151
  * Reading 6.01: [All Algorithms are Not Equal]({{ site.baseurl}}curriculum/06-searching-sorting/readings/01-all-algorithms-are-not-equal)
  * Reading 6.02: [Algorithm Analysis]({{ site.baseurl}}curriculum/06-searching-sorting/readings/02-algorithm-analysis)
  * Lecture Slides 6.03: [Searching and Sorting with Alonzo]({{ site.baseurl}}curriculum/06-searching-sorting/readings/03-algorithms-slides.pdf)
