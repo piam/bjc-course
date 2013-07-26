@@ -19,3 +19,77 @@ Learning Objective 24: The student can explain the abstractions in the Internet 
  * 24c. Description of evolving standards that the Internet is built on, including those for addresses and names.
  * 24d. Identification of abstractions in the Internet and how the Internet functions.
 
+Let's Watch the Internet
+------------------------
+Cnet provides a tool that measures the bandwidth of your Internet connection. [Bandwidth](http://en.wikipedia.org/wiki/Bandwidth_%28computing%29) is the amount of data that can be transferred over your connection per unit time. It is usually measured in kilobits per second (Kbps), thousands of bits per second, or Millibits per second (Mbps), millions of bits per second.
+
+[Akamai](http://en.wikipedia.org/wiki/Akamai_Technologies) provides some nice [visualization tools](http://www.akamai.com/html/technology/visualizing_akamai.html).
+
+There are a couple of command-line tools that we can use to watch packets traveling on the Internet. But first you have to find the command line on your system:
+
+ * Find the Terminal or Konsole program on your workstations. 
+ * (Linux Users: Look under System) 
+ * (Mac Users: Open Applications > Utilities > Terminal) 
+ * (Windows User: Open the Command Prompt)
+
+[Traceroute](http://en.wikipedia.org/wiki/Traceroute) is a network diagnostic tool that lets you display the path that your packets take across the Internet.
+
+$ traceroute google.com
+
+traceroute: Warning: google.com has multiple addresses; using 74.125.224.163
+
+traceroute to google.com (74.125.224.163), 64 hops max, 52 byte packets
+
+ 1  192.168.1.1 (192.168.1.1)  1.302 ms  0.919 ms  0.757 ms
+
+ 2  10.4.144.1 (10.4.144.1)  8.513 ms  9.206 ms  8.140 ms
+
+ 3  68.9.8.225 (68.9.8.225)  10.512 ms  10.055 ms  9.773 ms
+
+ 4  ip68-9-7-65.ri.ri.cox.net (68.9.7.65)  11.274 ms  10.933 ms  11.802 ms
+
+ 5  ip98-190-33-42.ri.ri.cox.net (98.190.33.42)  9.947 ms  9.830 ms  10.313 ms
+
+ 6  ip98-190-33-21.ri.ri.cox.net (98.190.33.21)  13.648 ms  12.782 ms  11.729 ms
+
+ 7  provdsrj01-ae3.0.rd.ri.cox.net (98.190.33.20)  11.678 ms  12.195 ms  11.936 ms
+
+ 8  nyrkbprj01-ae2.0.rd.ny.cox.net (68.1.1.173)  17.775 ms  17.548 ms  17.816 ms
+
+ 9  209.85.248.178 (209.85.248.178)  21.314 ms  17.731 ms  22.360 ms
+
+10  209.85.251.88 (209.85.251.88)  18.121 ms  21.036 ms  18.488 ms
+
+11  209.85.249.11 (209.85.249.11)  28.026 ms  55.017 ms  28.288 ms
+
+12  66.249.95.149 (66.249.95.149)  39.955 ms  38.041 ms  50.290 ms
+
+13  72.14.233.86 (72.14.233.86)  56.257 ms  65.504 ms  54.386 ms
+
+14  64.233.174.142 (64.233.174.142)  98.997 ms  91.343 ms  89.584 ms
+
+15  64.233.174.189 (64.233.174.189)  90.320 ms  89.137 ms  168.799 ms
+
+16  72.14.236.11 (72.14.236.11)  90.281 ms  92.398 ms  100.019 ms
+
+17  lax02s01-in-f3.1e100.net (74.125.224.163)  91.074 ms  99.050 ms  92.037 ms
+
+$
+
+[Ping](http://en.wikipedia.org/wiki/Ping) is a utility to test whether a host on the Internet is reachable: that lets you display the path that your packets take across the Internet and ti reports the round-trip time for messages to that host.
+
+$ ping google.com
+
+PING google.com (74.125.239.14): 56 data bytes
+
+64 bytes from 74.125.239.14: icmp_seq=0 ttl=48 time=91.242 ms
+
+64 bytes from 74.125.239.14: icmp_seq=1 ttl=48 time=89.957 ms
+
+64 bytes from 74.125.239.14: icmp_seq=2 ttl=48 time=91.471 ms
+
+64 bytes from 74.125.239.14: icmp_seq=3 ttl=48 time=90.506 ms
+
+64 bytes from 74.125.239.14: icmp_seq=4 ttl=48 time=91.070 ms
+
+...
