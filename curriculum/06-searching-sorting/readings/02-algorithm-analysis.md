@@ -40,25 +40,25 @@ Efficiency issues only come into play when there are large amounts of **data**. 
 
 For example, this table shows the differences in running time in seconds for the same sort algorithm on different input sizes.
 
- | List Size, N | Older Computer | Newer Computer |
- | ------------ | -------------- | -------------- |
- | 125          | 12.5           | 2.8            |
- | 250          | 49.3           | 11.0           |
- | 500          | 195.8          | 43.4           |
- | 1000         | 780.3          | 172.9          |
- | 2000         | 3114.9         | 690.5          |
+| List Size, N | Older Computer | Newer Computer |
+| ------------ | -------------- | -------------- |
+| 125          | 12.5           | 2.8            |
+| 250          | 49.3           | 11.0           |
+| 500          | 195.8          | 43.4           |
+| 1000         | 780.3          | 172.9          |
+| 2000         | 3114.9         | 690.5          |
 
 Computer scientists like to *abstract away* the efficiency differences that are caused by different hardware and software -- e.g., faster vs. slower computer.
 
 Here are some old data obtained on different machines when sorting 2000 integers using the same algorithm:
 
- | Type of computer | Time   |
- | ---------------- | ------ |
- | Home PC          | 51.915 |
- | Desktop PC       | 11.508 |
- | Minicomputer     | 2.382  |
- | Mainframe        | 0.431  |
- | Supercomputer    | 0.087  |
+| Type of computer | Time   |
+| ---------------- | ------ |
+| Home PC          | 51.915 |
+| Desktop PC       | 11.508 |
+| Minicomputer     | 2.382  |
+| Mainframe        | 0.431  |
+| Supercomputer    | 0.087  |
 
 **Empirical Analysis**: The data in both of these tables were gathered **empirically** or **experimentally** -- i.e., by running and timing the actual program on different machines and inputs.
 Abstract Analysis
@@ -80,9 +80,9 @@ As you can see, as *X* increases, the running time increases. But look at the di
 
 In terms of these four types of functions, we arrange the them in the following order in terms of how fast they increase as the size of, x, increases:
 
- | logarithmic       | linear | quadratic     | exponential   |
- | ----------------- | ------ | ------------- | ------------- |
- | log<sub>2</sub> x | x      | x<sup>2</sup> | 2<sup>x</sup> |
+| logarithmic       | linear | quadratic     | exponential   |
+| ----------------- | ------ | ------------- | ------------- |
+| log<sub>2</sub> x | x      | x<sup>2</sup> | 2<sup>x</sup> |
 
 
 Algorithm Efficiency
@@ -91,16 +91,16 @@ Computer scientists like to characterize algorithm efficiency in terms of **how 
 
 To see the dramatic differences, consider some numbers for these for types of functions:
     
- | Inputs | Logarithmic     | Linear | Quadratic     | Exponential   |
- | ------ | --------------- | ------ | ------------- | ------------- |
- | n      | log<sub>2</sub> | n      | n<sup>2</sup> | 2<sup>n</sup> |
- | 8      | 3               | 8      | 64            | 256           |
- | 16     | 4               | 16     | 256           | 65,536        |
- | 32     | 5               | 32     | 1,024         | 4,296,967,296 |
- | 64     | 6               | 64     | 4,096         | 1.84 x 1019   |
- | 128    | 7               | 128    | 16,384        | 3.40 x 1038   |
- | 256    | 8               | 256    | 65,536        | 1.15 x 1077   |
- | 512    | 9               | 512    | 262,144       | 1.34 x 10154  |
+| Inputs | Logarithmic     | Linear | Quadratic     | Exponential   |
+| ------ | --------------- | ------ | ------------- | ------------- |
+| n      | log<sub>2</sub> | n      | n<sup>2</sup> | 2<sup>n</sup> |
+| 8      | 3               | 8      | 64            | 256           |
+| 16     | 4               | 16     | 256           | 65,536        |
+| 32     | 5               | 32     | 1,024         | 4,296,967,296 |
+| 64     | 6               | 64     | 4,096         | 1.84 x 1019   |
+| 128    | 7               | 128    | 16,384        | 3.40 x 1038   |
+| 256    | 8               | 256    | 65,536        | 1.15 x 1077   |
+| 512    | 9               | 512    | 262,144       | 1.34 x 10154  |
 
 So, for 512 inputs, a linear algorithm could perform some task in 512 seconds. Whereas an exponential algorithm would take 1.34 x 10154 seconds.
 
@@ -232,12 +232,12 @@ The only known way to solve this problem is by **brute force**. List all possibl
 
 In general there are *N!* ways to arrange *N* cities. So there are 3 × 2 × 1 = 6 ways to arrange 3 cities. And in general *N!* is much greater than *2N*:
 
- | N | N!  | 2N  |
- | - | --- | --- |
- | 3 | 6   | 8   |
- | 4 | 24  | 16  |
- | 5 | 120 | 32  |
- | 6 | 720 | 64  |
+| N | N!  | 2N  |
+| - | --- | --- |
+| 3 | 6   | 8   |
+| 4 | 24  | 16  |
+| 5 | 120 | 32  |
+| 6 | 720 | 64  |
 
 Problems that can only be solved by *exponential algorithms* are known as **intractable problems**. There is no general, optimal solution for the traveling salesman problem that runs in a reasonable amount of time.
 
