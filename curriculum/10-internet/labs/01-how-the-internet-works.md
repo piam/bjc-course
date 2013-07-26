@@ -102,3 +102,37 @@ Routers running the [Internet Protocol (IP)](http://en.wikipedia.org/wiki/Intern
 
 **Analogy**: You can think of the local networks as different countries where the citizens are connected by different languages. The IP is like a translater that translates from French to English.
 
+Example
+-------
+Suppose you type the URL of your school’s home page into your browser.  may seem like your browser (the client) is directly connected to my web page (on the server), as in the top half of the [following diagram](http://en.wikipedia.org/wiki/File:IP_stack_connections.svg).
+
+But your request and the server's response travel through several Internet abstraction layers as shown in the bottom half of this diagram.
+
+Tracing the Data Flow
+---------------------
+At the **application layer**:
+
+ * Your browser uses the [HyperText Transfer Protocol (HTTP)](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) protocol, the primary World Wide Web (WWW) protocol.
+ * The HTTP protocol requests a translation of the host name portion of the URL www.cs.trincoll.edu into an [IP Address](http://turing.cs.trincoll.edu/~ram/cpsc110/inclass/internet/) of the server that stores my home page from a [Domain Name System (DNS)](http://en.wikipedia.org/wiki/Domain_Name_System) server.
+
+There are many other application layer protocols, including:
+ * [File Transfer Protocol (FTP)](http://en.wikipedia.org/wiki/File_Transfer_Protocol)
+ * [Simple Mail Transfer Protocol (SMTP)}(http://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)
+ * [Post Office Protocol](http://en.wikipedia.org/wiki/Post_Office_Protocol)
+ * [Secure Shell](http://en.wikipedia.org/wiki/Secure_Shell) -- remote terminal sessions
+
+At the **transport layer**:
+
+ * The [Transmission Control Protocol (TCP)](http://en.wikipedia.org/wiki/Transmission_Control_Protocol) to is used to insure a reliable, ordered delivery of a stream of data from your browser to the trincoll.edu server.
+
+At the **internet layer**:
+
+ * The [Internet Protocol (IP)](http://turing.cs.trincoll.edu/~ram/cpsc110/inclass/internet/) is used to transmit 1500 byte packets of data through the interet. Each packet is sent separately from the client to the server.
+
+At the link layer, the **hardware layer**.
+
+Various protocols are used to transmit the data across different local area networks. Some of the protocols include:
+ * [Ethernet](http://en.wikipedia.org/wiki/Transmission_Control_Protocol)
+ * [Digital Subscriber Line (DSL)](http://en.wikipedia.org/wiki/Digital_subscriber_line)
+ * [Point-to-Point (PPP)](http://en.wikipedia.org/wiki/Point-to-Point_Protocol)
+
