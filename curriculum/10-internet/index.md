@@ -29,6 +29,7 @@ Readings/Lectures
 
 Labs/Exercises
 --------------
- * Lab 10.01: [Encryption and Decryption]({{ site.baseurl}}curriculum/10-internet/labs/01-how-the-internet-works)
+ * Lab 10.01: [How the Internet Works]({{ site.baseurl}}curriculum/10-internet/labs/01-how-the-internet-works)
+ * Lab 10.02: [Internet Activity]({{ site.baseurl}}curriculum/10-internet/labs/02-internet-activity)
  
  
