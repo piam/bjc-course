@@ -25,7 +25,7 @@ Readings/Lectures
 
 Labs/Exercises
 --------------
- * Tutorial 13.01: [Designing Games]]({{ site.baseurl}}curriculum/13-object-oriented/labs/01-designing-games.pdf)
+ * Tutorial 13.01: [Designing Games]({{ site.baseurl}}curriculum/13-object-oriented/labs/01-designing-games.pdf)
  * Tutorial 13.02: [Your first game]({{ site.baseurl}}curriculum/13-object-oriented/labs/02-your-first-game.pdf)
  * Tutorial 13.03: [Maze game]({{ site.baseurl}}curriculum/13-object-oriented/labs/03-maze-game.pdf)
 
