@@ -16,7 +16,7 @@ Table of Contents
  * Unit 8: [In the Clouds]( {{ site.baseurl }}curriculum/08-cloud-computing/ )
  * Unit 9: [Data Data Everywhere]( {{ site.baseurl }}curriculum/09-data/ )
  * Unit 10: [The Wonderful World of the Web]( {{ site.baseurl }}curriculum/10-internet/ )
- * Unit 11: [The End is Near]( {{ site.baseurl }}curriculum/11-final-project/ )
+ * Unit 11: [Game Development]( {{ site.baseurl }}curriculum/11-game-development/ )
  * Optional Unit (12): [Higher Order Functions]( {{ site.baseurl }}curriculum/12-higher-order-functions/ )
  * Optional Unit (13): [Object-Oriented Programming with GameMaker]( {{ site.baseurl }}curriculum/13-object-oriented/ )
  
