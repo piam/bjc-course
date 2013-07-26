@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Top Songs Lab
+title: Data Portfolio Project
 unit: 9
 uniturl: 09-data
-lab: 1
-laburl: 01-top-songs
+lab: 2
+laburl: 02-data-portfolio-project
 ---
 
 
