@@ -16,7 +16,7 @@ Learning Objectives
 
 Readings/Lectures
 -----------------
- * Lecture Slides 12.01: [Higher Order Functions]({{ site.baseurl}}curriculum/12-higher-order-functions/readings/01-higher-order-functions-slides.pdf)
+ * Lecture Slides 12.01: [Higher Order Functions]({{ site.baseurl}}curriculum/12-higher-order-functions/readings/01-higher-order-function-slides.pdf)
 
 
 Labs/Exercises
