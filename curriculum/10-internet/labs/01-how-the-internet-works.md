@@ -29,7 +29,7 @@ There are a couple of command-line tools that we can use to watch packets travel
 
  * Find the Terminal or Konsole program on your workstations. 
  * (Linux Users: Look under System) 
- * (Mac Users: Open Applications > Utilities > Terminal) 
+ * (Mac Users: Open Applications &lt; Utilities &lt; Terminal) 
  * (Windows User: Open the Command Prompt)
 
 [Traceroute](http://en.wikipedia.org/wiki/Traceroute) is a network diagnostic tool that lets you display the path that your packets take across the Internet.
@@ -93,3 +93,102 @@ PING google.com (74.125.239.14): 56 data bytes
 64 bytes from 74.125.239.14: icmp_seq=4 ttl=48 time=91.070 ms
 
 ...
+
+Internet Infrastructure
+-----------------------
+The Internet is a network of independent networks -- independent in the sense that the local networks use [different protocols](http://sumansinformationtechnology.blogspot.com/2010/01/what-is-internet.html) to transmit data among their computers.
+
+Routers running the [Internet Protocol (IP)](http://en.wikipedia.org/wiki/Internet_Protocol) connect the different local networks together, creating the Internet. The IP takes care of routing data through the Internet and translates data from a local protocol (such as Ethernet) to IP and vice versa.
+
+**Analogy**: You can think of the local networks as different countries where the citizens are connected by different languages. The IP is like a translater that translates from French to English.
+
+Example
+-------
+Suppose you type the URL of your school’s home page into your browser.  may seem like your browser (the client) is directly connected to my web page (on the server), as in the top half of the [following diagram](http://en.wikipedia.org/wiki/File:IP_stack_connections.svg).
+
+But your request and the server's response travel through several Internet abstraction layers as shown in the bottom half of this diagram.
+
+Tracing the Data Flow
+---------------------
+At the **application layer**:
+
+ * Your browser uses the [HyperText Transfer Protocol (HTTP)](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) protocol, the primary World Wide Web (WWW) protocol.
+ * The HTTP protocol requests a translation of the host name portion of the URL www.cs.trincoll.edu into an [IP Address](http://turing.cs.trincoll.edu/~ram/cpsc110/inclass/internet/) of the server that stores my home page from a [Domain Name System (DNS)](http://en.wikipedia.org/wiki/Domain_Name_System) server.
+
+There are many other application layer protocols, including:
+ * [File Transfer Protocol (FTP)](http://en.wikipedia.org/wiki/File_Transfer_Protocol)
+ * [Simple Mail Transfer Protocol (SMTP)}(http://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)
+ * [Post Office Protocol](http://en.wikipedia.org/wiki/Post_Office_Protocol)
+ * [Secure Shell](http://en.wikipedia.org/wiki/Secure_Shell) -- remote terminal sessions
+
+At the **transport layer**:
+
+ * The [Transmission Control Protocol (TCP)](http://en.wikipedia.org/wiki/Transmission_Control_Protocol) to is used to insure a reliable, ordered delivery of a stream of data from your browser to the trincoll.edu server.
+
+At the **internet layer**:
+
+ * The [Internet Protocol (IP)](http://turing.cs.trincoll.edu/~ram/cpsc110/inclass/internet/) is used to transmit 1500 byte packets of data through the interet. Each packet is sent separately from the client to the server.
+
+At the link layer, the **hardware layer**.
+
+Various protocols are used to transmit the data across different local area networks. Some of the protocols include:
+ * [Ethernet](http://en.wikipedia.org/wiki/Transmission_Control_Protocol)
+ * [Digital Subscriber Line (DSL)](http://en.wikipedia.org/wiki/Digital_subscriber_line)
+ * [Point-to-Point (PPP)](http://en.wikipedia.org/wiki/Point-to-Point_Protocol)
+
+Packet Switching
+----------------
+The Internet (the IP) is based on [packet switching](http://en.wikipedia.org/wiki/Packet_Switching). Data are broken into 1500 byte blocks (8 bits per byte), which are transmitted from router to router through the Internet.
+
+This contrasts with **circuit switching**, the technology that land-line telephones used to use, in which a continuous circuit was set up through switches from one end of the call to the other.
+
+IP Addresses
+------------
+An [IPv4 address](http://en.wikipedia.org/wiki/IP_address) uses a 32-bit IP address, broken into 4 8-bit segments each represented by a decimal number. An IPv6 address uses a 128-bit address, broken into 8 16-bit segments represented as Hexadecimal numbers:
+
+**Question**: Why do you think Hex is used in IPv6 instead of decimal?
+
+Domain Names
+------------
+
+An Internet domain name is organized into a number of levels as shown in [this diagram](http://en.wikipedia.org/wiki/Domain_name). A domain name takes the following form:
+
+     fourth-level-domain  .  third-level-domain  .  second-level-domain    .   top-level domain 
+
+           turing         .         cs           .       trincoll          .         edu
+
+A hostname is a domain name that is associated with an IP address. For example, the following are examples of hostnames:
+
+ * trincoll.edu
+ * www.trincoll.edu
+ * turing.cs.trincoll.edu
+
+But top-level domain names, such as com and edu are not hostnames.
+
+Domain Name Service
+-------------------
+Domain names are mapped into IP address by the [Domain Name System](http://en.wikipedia.org/wiki/Domain_Name_System), a network of servers that keep track of the mappings.
+
+In this example, three look-ups are need before the IP address is resolved.
+
+ 
+
+The World Wide Web
+------------------
+The World Wide Web (WWW) is not a network -- technically speaking. It is a system of interlinked [hypertext documents](http://turing.cs.trincoll.edu/~ram/cpsc110/inclass/internet/http://turing.cs.trincoll.edu/~ram/cpsc110/inclass/internet/) that can be accessed via the Internet.
+
+The Web is a service governed by the [HyperText Transfer Protocol (HTTP)](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) protocol.
+
+It was invented by [Sir Tim Berners-Lee](http://en.wikipedia.org/wiki/Tim_Berners-Lee), who, to his credit, turned his invention into an open standard.
+
+"I just had to take the hypertext idea and connect it to the
+Transmission Control Protocol and domain name system ideas
+and ta-da! the World Wide Web."
+
+
+Discussion Questions
+--------------------
+ * Would the Web be the success that it is if Berners-Lee had made it a proprietary system?
+ * Would the Internet be the success that it is if it was not based on open standards?
+
+
