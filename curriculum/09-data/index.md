@@ -39,9 +39,12 @@ Labs/Exercises
 --------------
 
  * Lab 9.01: [Top Songs]({{ site.baseurl}}curriculum/09-data/labs/01-top-songs)
+ * Portfolio Project 9.02: [Data Portfolio Project]({{ site.baseurl}}curriculum/09-data/labs/02-data-portfolio-project)
 
-Resources
-
- * Top 100 songs
- * Top 500 songs
+Resources for Project
+ * [Data Sets](http://archive.ics.uci.edu/ml/datasets.html)
+ * [Amazon Data](https://aws.amazon.com/datasets)
+ * [Census Data](https://www.census.gov/main/www/cen2000.html)
+ * [KDnuggets](http://www.kdnuggets.com/datasets/)
+ 
 

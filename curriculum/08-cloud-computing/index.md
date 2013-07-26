@@ -37,10 +37,5 @@ Labs/Exercises
  * Lab 8.01: [Encryption and Decryption]({{ site.baseurl}}curriculum/08-cloud-computing/labs/01-encryption-decryption)
  * Project 8.02: [Encryption Project]({{ site.baseurl}}curriculum/08-cloud-computing/labs/02-encryption-project)
  
-Resources for Project
- * [Data Sets](http://archive.ics.uci.edu/ml/datasets.html)
- * [Amazon Data](https://aws.amazon.com/datasets)
- * [Census Data](https://www.census.gov/main/www/cen2000.html)
- * [KDnuggets](http://www.kdnuggets.com/datasets/)
- 
+
  
