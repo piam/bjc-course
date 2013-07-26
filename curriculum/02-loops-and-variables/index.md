@@ -39,6 +39,6 @@ Labs/Exercises
 --------------
  * Lab 2.01: [Variables and Looping]({{ site.baseurl}}curriculum/02-loops-and-variables/labs/01-variables-and-looping)
  * Lab 2.02: [Position on the Stage]({{ site.baseurl}}curriculum/02-loops-and-variables/labs/02-position-on-the-stage)
- * Lab 2.03: [Repeat Until Practice Worksheet]({{ site.baseurl}}curriculum/02-loops-and-variables/labs/03-practice-repeat-until.docx)
+ * Lab 2.03: [Repeat Until Practice Worksheet]({{ site.baseurl}}curriculum/02-loops-and-variables/labs/03-practice-repeat-until.pdf)
  * Lab 2.04: [Regular Figures Worksheet]({{ site.baseurl}}curriculum/02-loops-and-variables/labs/04-regular-figures-activity.pdf)
 
