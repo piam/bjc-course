@@ -37,6 +37,6 @@ Labs/Exercises
 --------------
  * Activity 6.01: [Searching Activity]({{ site.baseurl}}curriculum/06-searching-sorting/labs/01-searching-activity)
  * Activity 6.02: [Searching (non Video-) Game]({{ site.baseurl}}curriculum/06-searching-sorting/labs/02-searching-game)
- * Lab 6.03: [Update the Guessing Game]({{ site.baseurl}}curriculum/curriculum/06-searching-sorting/labs/03-update-guessing-game)
+ * Lab 6.03: [Update the Guessing Game]({{ site.baseurl}}curriculum/06-searching-sorting/labs/03-update-guessing-game)
 
 

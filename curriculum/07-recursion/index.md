@@ -20,7 +20,7 @@ Learning Objectives
 Readings/Lectures
 -----------------
  * Reading 7.01: [All Algorithms are Not Equal]({{ site.baseurl}}curriculum/07-recursion/readings/01-what-is-recursion)
- * Reading 7.02: [Algorithm Analysis]({{ site.baseurl}}curriculum/07-recursion/readings/02-recursion-in-a-nutshell)
+ * Reading 7.02: [Recursion in a Nutshell]({{ site.baseurl}}curriculum/07-recursion/readings/02-recursion-in-a-nutshell)
  
 External Resources
 
