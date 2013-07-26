@@ -122,7 +122,7 @@ Your task is to pick 3 cities/locations from [http://traceroute.org](http://trac
  
 
 Reflection on these Internet Tools
-
+----------------------------------
  * What impact has the Internet had on solving problems and gathering information?
  * What problems has the Internet created? What are we doing to address these problems?
 
