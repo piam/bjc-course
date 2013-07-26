@@ -24,7 +24,16 @@ Learning Objectives
 
 Readings/Lectures
 -----------------
+ * Blown to Bits: [Appendix]({{ site.baseurl}}curriculum/10-internet/readings/btb-appendix)
+ * Reading 10.01: [How Google Works]({{ site.baseurl}}curriculum/10-internet/readings/01-how-google-works)
+ * Reading 10.02: [Life Before Search]({{ site.baseurl}}curriculum/10-internet/readings/02-life-before-search)
+ * Reading 10.03: [Search Takes a Team]({{ site.baseurl}}curriculum/10-internet/readings/03-search-takes-a-team)
+ * Reading 10.04: [Blown to Bits Appendix Questions]({{ site.baseurl}}curriculum/10-internet/readings/04-bits-questions)
 
+External Resources
+ * [The Rise of Human-Computer Cooperation](http://www.ted.com/talks/shyam_sankar_the_rise_of_human_computer_cooperation.html) - TED Talk
+ * [Packet Switching Demo](http://www.pbs.org/opb/nerds2.0.1/geek_glossary/packet_switching_flash.html) - PBS
+ * [Warriors of the Net Video](http://www.teachertube.com/viewVideo.php?video_id=23140)
 
 
 Labs/Exercises
