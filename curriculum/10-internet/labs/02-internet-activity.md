@@ -71,47 +71,47 @@ For example, using the pages at traceroute.org, if you start from the site given
 
 traceroute to 152.3.250.1 (152.3.250.1), 30 hops max, 72 byte packets
 
-1 r2d2 (212.42.96.42) 0.255 ms 0.262 ms 0.246 ms [0% loss]
+1 r2d2 (212.42.96.42) 0.255 ms 0.262 ms 0.246 ms (0% loss)
 
-2 R76 (212.42.96.80) 0.340 ms 0.310 ms 0.314 ms [0% loss]
+2 R76 (212.42.96.80) 0.340 ms 0.310 ms 0.314 ms (0% loss)
 
-3 195.218.197.85 (195.218.197.85) 57.587 ms 57.609 ms 74.506 ms [0% loss]
+3 195.218.197.85 (195.218.197.85) 57.587 ms 57.609 ms 74.506 ms (0% loss)
 
-4 p4.Moscow.gldn.net (195.239.11.166) 81.353 ms 85.248 ms 83.839 ms [0% loss]
+4 p4.Moscow.gldn.net (195.239.11.166) 81.353 ms 85.248 ms 83.839 ms (0% loss)
 
-5 mx01.Stockholm.gldn.net (194.186.156.41) 75.101 ms 75.684 ms 75.102 ms [0% loss]
+5 mx01.Stockholm.gldn.net (194.186.156.41) 75.101 ms 75.684 ms 75.102 ms (0% loss)
 
-6 xe-11-0-0-xcr1.skt.cw.net (166.63.220.65) 75.182 ms 90.087 ms 75.216 ms [0% loss]
+6 xe-11-0-0-xcr1.skt.cw.net (166.63.220.65) 75.182 ms 90.087 ms 75.216 ms (0% loss)
 
-7 xe-0-3-1-xcr2.amd.cw.net (195.2.9.217) 201.529 ms 176.642 ms 177.156 ms [0% loss]
+7 xe-0-3-1-xcr2.amd.cw.net (195.2.9.217) 201.529 ms 176.642 ms 177.156 ms (0% loss)
 
-8 ae0-xcr2.amd.cw.net (195.2.30.105) 175.810 ms 175.820 ms 175.656 ms [0% loss]
+8 ae0-xcr2.amd.cw.net (195.2.30.105) 175.810 ms 175.820 ms 175.656 ms (0% loss)
 
-9 xe-7-0-0-xcr2.lsw.cw.net (195.2.25.38) 176.593 ms 176.578 ms 176.607 ms [0% loss]
+9 xe-7-0-0-xcr2.lsw.cw.net (195.2.25.38) 176.593 ms 176.578 ms 176.607 ms (0% loss)
 
-10 xe-2-2-0-xcr2.lnd.cw.net (195.2.28.185) 178.416 ms 175.892 ms 175.479 ms [0% loss]
+10 xe-2-2-0-xcr2.lnd.cw.net (195.2.28.185) 178.416 ms 175.892 ms 175.479 ms (0% loss)
 
-11 xe-3-1-0-xcr1.bkl.cw.net (195.2.21.214) 103.025 ms 102.920 ms 103.093 ms [0% loss]
+11 xe-3-1-0-xcr1.bkl.cw.net (195.2.21.214) 103.025 ms 102.920 ms 103.093 ms (0% loss)
 
-12 xe-8-1-0-xcr1.nyk.cw.net (195.2.25.26) 176.424 ms 176.293 ms 200.133 ms [0% loss]
+12 xe-8-1-0-xcr1.nyk.cw.net (195.2.25.26) 176.424 ms 176.293 ms 200.133 ms (0% loss)
 
-13 nyc-brdr-02.inet.qwest.net (63.146.27.61) 174.859 ms 174.929 ms 174.798 ms [0% loss]
+13 nyc-brdr-02.inet.qwest.net (63.146.27.61) 174.859 ms 174.929 ms 174.798 ms (0% loss)
 
-14 * * * [100% loss]
+14 * * * (100% loss)
 
-15 65.121.156.210 (65.121.156.210) 200.693 ms 216.372 ms 200.503 ms [0% loss]
+15 65.121.156.210 (65.121.156.210) 200.693 ms 216.372 ms 200.503 ms (0% loss)
 
-16 rtpcrs-gw-to-wscrs-gw.ncren.net (128.109.212.9) 223.205 ms 203.419 ms 203.567 ms [0% loss]
+16 rtpcrs-gw-to-wscrs-gw.ncren.net (128.109.212.9) 223.205 ms 203.419 ms 203.567 ms (0% loss)
 
-17 rlgh7600-gw-to-rtp-crs-gw.ncren.net (128.109.9.6) 206.194 ms 206.184 ms 206.192 ms [0% loss]
+17 rlgh7600-gw-to-rtp-crs-gw.ncren.net (128.109.9.6) 206.194 ms 206.184 ms 206.192 ms (0% loss)
 
-18 roti-gw-to-rlgh7600-gw.ncren.net (128.109.70.18) 215.218 ms 215.790 ms 215.372 ms [0% loss]
+18 roti-gw-to-rlgh7600-gw.ncren.net (128.109.70.18) 215.218 ms 215.790 ms 215.372 ms (0% loss)
 
-19 tel1u-datacenter-vrf.netcom.duke.edu (152.3.234.25) 204.385 ms 204.414 ms 205.012 ms [0% loss]
+19 tel1u-datacenter-vrf.netcom.duke.edu (152.3.234.25) 204.385 ms 204.414 ms 205.012 ms (0% loss)
 
-20 tel2u_3_12_4.netcom.duke.edu (152.3.250.254) 215.001 ms 215.041 ms 214.813 ms [0% loss]
+20 tel2u_3_12_4.netcom.duke.edu (152.3.250.254) 215.001 ms 215.041 ms 214.813 ms (0% loss)
 
-21 dukedns1.netcom.duke.edu (152.3.250.1) 204.437 ms 204.365 ms 204.392 ms [0% loss]
+21 dukedns1.netcom.duke.edu (152.3.250.1) 204.437 ms 204.365 ms 204.392 ms (0% loss)
 
 
 
