@@ -2,11 +2,11 @@
 layout: page
 title: Object Oriented Programming with Game Maker
 unit: 13
-uniturl: 13-cloud-computing
+uniturl: 13-object-oriented
 ---
 
-Object Oriented Programming with Game Maker
-===========================================
+Unit 13: Object Oriented Programming with Game Maker
+====================================================
 
 Learning Objectives
 -------------------
