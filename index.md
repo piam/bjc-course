@@ -3,5 +3,5 @@ layout: base
 title: Beauty and Joy of Computing
 ---
 
-lol
+[Please click here]({{ site.baseurl }}/curriculum/).
 
