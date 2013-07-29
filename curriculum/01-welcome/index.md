@@ -44,4 +44,6 @@ Labs/Exercises
  * Lab 1.01: [Conversion Exercise]({{ site.baseurl }}curriculum/01-welcome/labs/01-conversion)
  * Lab 1.02: [Welcome to Visual Programming]({{ site.baseurl }}curriculum/01-welcome/labs/02-exploring-visual-programming)
  * Lab 1.03: [Lights, Camera, Action]({{ site.baseurl}}curriculum/01-welcome/labs/03-lights-camera-action)
+ * [Resource Pack for All Snap Labs]({{ site.baseurl}}curriculum/01-welcome/labs/snap-media.zip)
+
 
