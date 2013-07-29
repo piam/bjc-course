@@ -26,7 +26,7 @@ Learning Objectives
 
 Readings/Lectures
 -----------------
- * Lecture Slides 4.01: [Functions]({{ site.baseurl}}curriculum/04-conditionals-and-ai/readings/01-conditional-blocks-slides.pdf)
+ * Lecture Slides 4.01: [Conditional Blocks]({{ site.baseurl}}curriculum/04-conditionals-and-ai/readings/01-conditional-blocks-slides.pdf)
  * Reading 4.02: [How many days are in a month? (Example)]({{ site.baseurl}}curriculum/04-conditionals-and-ai/readings/02-days-in-month-example)
  * Lecture Slides 4.03: [AI]({{ site.baseurl}}curriculum/04-conditionals-and-ai/readings/03-ai-slides.pdf)
  * Lecture Video 4.04: [If Blocks]({{ site.baseurl}}curriculum/04-conditionals-and-ai/readings/04-if-blocks-video.mp4)
