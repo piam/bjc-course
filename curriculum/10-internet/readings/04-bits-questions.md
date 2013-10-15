@@ -2,7 +2,7 @@
 layout: page
 title: Blown to Bits Appendix Questions
 unit: 10
-uniturl: 10-data
+uniturl: 10-internet
 reading: 4
 readingurl: 04-bits-questions
 ---
@@ -28,6 +28,6 @@ Explain each of the following terms
 
 Answer the following questions:
  * What's the difference between a circuit switched and a packet switched network?
- * How have open standards helped the Internet develop?
+ * How have open standards helped Internet develop?
  * What is net neutrality and why is it important?
 

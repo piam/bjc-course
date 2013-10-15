@@ -8,11 +8,11 @@ laburl: 02-internet-activity
 ---
 
 
-Internet Activity
+Lab: Internet Activity
 ===========================
-This activity is a followup of How the Internet works. Create a single written document (such as Microsoft Word) that answers the questions below. Work by yourself or with a partner to answer these questions. 
+This activity is a follow up of, How the Internet works. Create a single written document (such as Microsoft Word) that answers the questions below. Work by yourself or with a partner to answer these questions. 
 
-The purpose is to try to understand something about what the Internet is and explore a few examples of how you can using computation and computational thinking in ways related to the Internet.
+The purpose is to try to understand something about what the Internet is and explore a few examples of how you can use computation and computational thinking in ways related to the Internet.
 
 There are four general parts to this: a map of the internet, understanding that the Internet is a network of autonomous systems (regional networks), thinking about IP addresses and DNS --- the Domain Name System, and tracking how packets travel on the Internet.
 
@@ -24,7 +24,7 @@ First let’s look at a few examples to get the conversation started. Here’s a
 
 Click around, zoom, and in general play with this for a couple of minutes.
 
-*Task: Add a question or observation you have about the map. There can be more than one.*
+*Task: Mention a question or observation you have about the map. There can be more than one.*
 
 There are other maps of the Internet.
 
@@ -38,9 +38,9 @@ There are other maps of the Internet.
 
 Autonomous Systems (10-15 minutes)
 ----------------------------------
-Conventionally the Internet is often referred to as a “network of networks”. A slightly different view is that the Internet is a network of autonomous systems that communicate with each other using the Border Gateway Protocol (BGP). Let’s find out something about autonomous systems in this activity.
+Conventionally the Internet is often referred to as a “network of networks”. A slightly different view is that the Internet is a network of autonomous systems that communicate with each other using the [Border Gateway Protocol (BGP)](http://docwiki.cisco.com/wiki/Border_Gateway_Protocol). Let’s find out something about autonomous systems in this activity.
 
-*Task: Answer the three questions about Autonomous Systems*
+*Task: Answer following three questions about Autonomous Systems*
 
  * How many autonomous systems (AS) are there today on the Internet?
  * What is the AS number of Duke University?
@@ -54,7 +54,7 @@ An IP address identifies a machine/device connected to the Internet; it’s a 32
 
 You can use [http://www.kloth.net/services/nslookup.php](http://www.kloth.net/services/nslookup.php) or [http://www.kloth.net/services/dig.php](http://www.kloth.net/services/dig.php) to answer these questions, there are other services as well that wrap dig and nslookup in a website. For geolocation of an IP address you can try [http://geomaplookup.net/](http://geomaplookup.net/) or [http://www.infosniper.net/](http://www.infosniper.net/)
 
-*Task: Enter answers to the following four questions*
+*Task: Answer following four questions*
 
  * What is the domain name registered to 65.39.205.54?
  * What is the IP address associated with girlswhocode.com?
@@ -117,13 +117,13 @@ traceroute to 152.3.250.1 (152.3.250.1), 30 hops max, 72 byte packets
 
 Your task is to pick 3 cities/locations from [http://traceroute.org](http://traceroute.org) and use tools to find the number of hops to either your machine (sometimes that’s the default) or to Duke’s nameserver which is 152.3.250.1 --- if you have a choice of how to connect, use traceroute. Many of the links at traceroute.org don’t work, click around as needed.
 
-*Task: Enter the three cities and the number of hops*
+*Task: Mention the three cities/locations, you have chosen and the number of hops*
 
  
 
 Reflection on these Internet Tools
 ----------------------------------
- * What impact has the Internet had on solving problems and gathering information?
+ * What impact has the Internet had, on solving problems and gathering information?
  * What problems has the Internet created? What are we doing to address these problems?
 
 

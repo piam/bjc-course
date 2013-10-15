@@ -10,29 +10,32 @@ laburl: 01-how-the-internet-works
 
 Lab: How the Internet Works
 ===========================
-Key Concept A. The Internet is a network of autonomous systems.
+* Key Concept: The Internet is a network of autonomous systems.
 
-Learning Objective 24: The student can explain the abstractions in the Internet and how the Internet functions.
+Learning Objectives
+-------------------
+This task addresses the following CS Principles Learning Objectives:
 
- * 24a. Explanation of how the Internet connects devices and networks all over the world.
- * 24b. Explanation of how the Internet and the systems built on it facilitate collaboration.
- * 24c. Description of evolving standards that the Internet is built on, including those for addresses and names.
- * 24d. Identification of abstractions in the Internet and how the Internet functions.
+ * 2. The student can explain the abstractions in the Internet and how the Internet functions.
+ * 2a. Explanation of how the Internet connects devices and networks all over the world.
+ * 2b. Explanation of how the Internet and the systems built on it facilitate collaboration.
+ * 2c. Description of evolving standards that the Internet is built on, including those for addresses and names.
+ * 2d. Identification of abstractions in the Internet and how the Internet functions.
 
 Let's Watch the Internet
 ------------------------
-Cnet provides a tool that measures the bandwidth of your Internet connection. [Bandwidth](http://en.wikipedia.org/wiki/Bandwidth_%28computing%29) is the amount of data that can be transferred over your connection per unit time. It is usually measured in kilobits per second (Kbps), thousands of bits per second, or Millibits per second (Mbps), millions of bits per second.
+[CNET](http://reviews.cnet.com/internet-speed-test/) provides a tool that measures the bandwidth of your Internet connection. [Bandwidth](http://en.wikipedia.org/wiki/Bandwidth_%28computing%29) is the amount of data that can be transferred over your connection per unit time. It is usually measured in kilobits per second (Kbps), thousands of bits per second, or Megabits per second (Mbps), millions of bits per second.
 
 [Akamai](http://en.wikipedia.org/wiki/Akamai_Technologies) provides some nice [visualization tools](http://www.akamai.com/html/technology/visualizing_akamai.html).
 
 There are a couple of command-line tools that we can use to watch packets traveling on the Internet. But first you have to find the command line on your system:
 
- * Find the Terminal or Konsole program on your workstations. 
+ * Find the Terminal or console program on your workstations. 
  * (Linux Users: Look under System) 
  * (Mac Users: Open Applications &lt; Utilities &lt; Terminal) 
  * (Windows User: Open the Command Prompt)
 
-[Traceroute](http://en.wikipedia.org/wiki/Traceroute) is a network diagnostic tool that lets you display the path that your packets take across the Internet.
+[Traceroute](http://en.wikipedia.org/wiki/Traceroute) is a network diagnostic tool that lets you display the path that your packets take across the Internet. (On Windows system, use [tracert](http://ccie-or-null.net/2011/08/30/the-different-between-tracert-and-traceroute/) instead)
 
 $ traceroute google.com
 
@@ -96,15 +99,15 @@ PING google.com (74.125.239.14): 56 data bytes
 
 Internet Infrastructure
 -----------------------
-The Internet is a network of independent networks -- independent in the sense that the local networks use [different protocols](http://sumansinformationtechnology.blogspot.com/2010/01/what-is-internet.html) to transmit data among their computers.
+The Internet is a network of independent networks -- independent in the sense that the local networks use [different protocols](http://docwiki.cisco.com/wiki/Introduction_to_LAN_Protocols) to transmit data among their computers.
 
 Routers running the [Internet Protocol (IP)](http://en.wikipedia.org/wiki/Internet_Protocol) connect the different local networks together, creating the Internet. The IP takes care of routing data through the Internet and translates data from a local protocol (such as Ethernet) to IP and vice versa.
 
-**Analogy**: You can think of the local networks as different countries where the citizens are connected by different languages. The IP is like a translater that translates from French to English.
+**Analogy**: You can think of the local networks as different countries where the citizens are connected by different languages. The IP is like a translator that translates from French to English.
 
 Example
 -------
-Suppose you type the URL of your school’s home page into your browser.  may seem like your browser (the client) is directly connected to my web page (on the server), as in the top half of the [following diagram](http://en.wikipedia.org/wiki/File:IP_stack_connections.svg).
+Suppose you type the URL of your school’s home page into your browser. It may seem like your browser (the client) is directly connected to the web page (on the server), as in the top half of the [following diagram](http://en.wikipedia.org/wiki/File:IP_stack_connections.svg).
 
 But your request and the server's response travel through several Internet abstraction layers as shown in the bottom half of this diagram.
 
@@ -116,7 +119,7 @@ Tracing the Data Flow
 At the **application layer**:
 
  * Your browser uses the [HyperText Transfer Protocol (HTTP)](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) protocol, the primary World Wide Web (WWW) protocol.
- * The HTTP protocol requests a translation of the host name portion of the URL www.cs.trincoll.edu into an [IP Address](http://turing.cs.trincoll.edu/~ram/cpsc110/inclass/internet/) of the server that stores my home page from a [Domain Name System (DNS)](http://en.wikipedia.org/wiki/Domain_Name_System) server.
+ * The HTTP protocol requests a translation of the host name portion of the URL - www.cs.trincoll.edu, into [IP Address](http://turing.cs.trincoll.edu/~ram/cpsc110/inclass/internet/) of the server that stores the home page, from a [Domain Name System (DNS)](http://en.wikipedia.org/wiki/Domain_Name_System) server.
 
 There are many other application layer protocols, including:
  * [File Transfer Protocol (FTP)](http://en.wikipedia.org/wiki/File_Transfer_Protocol)
@@ -126,15 +129,15 @@ There are many other application layer protocols, including:
 
 At the **transport layer**:
 
- * The [Transmission Control Protocol (TCP)](http://en.wikipedia.org/wiki/Transmission_Control_Protocol) to is used to insure a reliable, ordered delivery of a stream of data from your browser to the trincoll.edu server.
+ * The [Transmission Control Protocol (TCP)](http://en.wikipedia.org/wiki/Transmission_Control_Protocol) ensures a reliable, ordered delivery of a stream of data, from your browser to the trincoll.edu server.
 
 At the **internet layer**:
 
- * The [Internet Protocol (IP)](http://turing.cs.trincoll.edu/~ram/cpsc110/inclass/internet/) is used to transmit 1500 byte packets of data through the interet. Each packet is sent separately from the client to the server.
+ * The [Internet Protocol (IP)](http://turing.cs.trincoll.edu/~ram/cpsc110/inclass/internet/) transmits 1500 byte packets of data through the internet. Each packet is sent separately from the client to the server.
 
 At the link layer, the **hardware layer**.
 
-Various protocols are used to transmit the data across different local area networks. Some of the protocols include:
+Various protocols are used to transmit data across different local area networks. Some of the protocols are:
  * [Ethernet](http://en.wikipedia.org/wiki/Transmission_Control_Protocol)
  * [Digital Subscriber Line (DSL)](http://en.wikipedia.org/wiki/Digital_subscriber_line)
  * [Point-to-Point (PPP)](http://en.wikipedia.org/wiki/Point-to-Point_Protocol)
@@ -144,15 +147,15 @@ Various protocols are used to transmit the data across different local area netw
 
 Packet Switching
 ----------------
-The Internet (the IP) is based on [packet switching](http://en.wikipedia.org/wiki/Packet_Switching). Data are broken into 1500 byte blocks (8 bits per byte), which are transmitted from router to router through the Internet.
+The Internet (implemented by Internet Protocol) is based on [packet switching](http://en.wikipedia.org/wiki/Packet_Switching). Data is broken into 1500 byte blocks (8 bits per byte), which are transmitted from router to router through the Internet.
 
 This contrasts with **circuit switching**, the technology that land-line telephones used to use, in which a continuous circuit was set up through switches from one end of the call to the other.
 
 IP Addresses
 ------------
-An [IPv4 address](http://en.wikipedia.org/wiki/IP_address) uses a 32-bit IP address, broken into 4 8-bit segments each represented by a decimal number. An IPv6 address uses a 128-bit address, broken into 8 16-bit segments represented as Hexadecimal numbers:
+An [IPv4 address](http://en.wikipedia.org/wiki/IP_address) uses a 32-bit IP address, broken into 4 8-bit segments each represented by a decimal number. An IPv6 address uses a 128-bit address, broken into 8 16-bit segments represented as Hexadecimal numbers.
 
-**Question**: Why do you think Hex is used in IPv6 instead of decimal?
+**Question**: Why do you think Hexadecimal representation is used in IPv6 instead of decimal?
 
 Domain Names
 ------------
@@ -181,7 +184,7 @@ In this example, three look-ups are need before the IP address is resolved.
 
 The World Wide Web
 ------------------
-The World Wide Web (WWW) is not a network -- technically speaking. It is a system of interlinked [hypertext documents](http://turing.cs.trincoll.edu/~ram/cpsc110/inclass/internet/http://turing.cs.trincoll.edu/~ram/cpsc110/inclass/internet/) that can be accessed via the Internet.
+The World Wide Web (WWW) is not a network -- technically speaking. It is a system of interlinked [hypertext documents](http://turing.cs.trincoll.edu/~ram/cpsc110/inclass/internet/) that can be accessed via the Internet.
 
 The Web is a service governed by the [HyperText Transfer Protocol (HTTP)](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) protocol.
 

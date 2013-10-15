@@ -12,25 +12,25 @@ Unit 10: Wonderful World of the Web
 
 Learning Objectives
 -------------------
- * 27: The student can explain the abstractions in the Internet and how the Internet functions.
- * 28: The student can explain characteristics of the Internet and the systems built on it.
- * 29: The student can analyze how characteristics of the Internet and systems built on it influence their use.
- * 30: The student can connect the concern of cybersecurity with the Internet and systems built on it.
- * 31: The student can analyze how computing affects communication, interaction, and cognition.
- * 33: The student can connect computing with innovations in other fields.
- * 34: The student can analyze the beneficial and harmful effects of computing.
- * 35: The student can connect computing within economic, social, and cultural contexts.
+ * 1: The student can explain the abstractions in the Internet and how the Internet functions.
+ * 2: The student can explain characteristics of the Internet and the systems built on it.
+ * 3: The student can analyze how characteristics of the Internet and systems built on it influence their use.
+ * 4: The student can connect the concern of cybersecurity with the Internet and systems built on it.
+ * 5: The student can analyze how computing affects communication, interaction, and cognition.
+ * 6: The student can connect computing with innovations in other fields.
+ * 7: The student can analyze the beneficial and harmful effects of computing.
+ * 8: The student can connect computing within economic, social, and cultural contexts.
 
 
 Readings/Lectures
 -----------------
  * Blown to Bits: [Appendix]({{ site.baseurl}}curriculum/10-internet/readings/btb-appendix.pdf)
- * Reading 10.01: [How Google Works]({{ site.baseurl}}curriculum/10-internet/readings/01-how-google-works)
- * Reading 10.02: [Life Before Search]({{ site.baseurl}}curriculum/10-internet/readings/02-life-before-search)
+ * Reading 10.01: [Life Before Search]({{ site.baseurl}}curriculum/10-internet/readings/01-life-before-search)
+ * Reading 10.02: [How Google Works]({{ site.baseurl}}curriculum/10-internet/readings/02-how-google-works)
  * Reading 10.03: [Search Takes a Team]({{ site.baseurl}}curriculum/10-internet/readings/03-search-takes-a-team)
  * Reading 10.04: [Blown to Bits Appendix Questions]({{ site.baseurl}}curriculum/10-internet/readings/04-bits-questions)
 
-External Resources
+Extra Resources
  * [The Rise of Human-Computer Cooperation](http://www.ted.com/talks/shyam_sankar_the_rise_of_human_computer_cooperation.html) - TED Talk
  * [Packet Switching Demo](http://www.pbs.org/opb/nerds2.0.1/geek_glossary/packet_switching_flash.html) - PBS
  * [Warriors of the Net Video](http://www.teachertube.com/viewVideo.php?video_id=23140)

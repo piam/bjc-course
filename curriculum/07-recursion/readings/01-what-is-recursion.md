@@ -97,7 +97,7 @@ The Koch Snowflake is a famous fractal. How is it made? It starts with an equila
 
 ![Example](what-is-3.png)
 
-
+These fractals look really complicated to draw manually. But by using recursion we can achieve these impressive images very easily. Recursion when understood can make programming very easy in appropriate scenarios.
 Let’s look at another example of recursion.
 
 Recursion to Draw a Tree
@@ -126,5 +126,8 @@ We can use variables to make the drawing relative to previous settings. This is 
 
 ![Example](what-is-8.png)
 
+The Base Case
+------------------
+All recursive programs should have a base case. A base case is a condition on which the recursion should stop. If there is no base case then a recursive function will call itself indefinitely.
 *Material from UC Berkeley*
 
