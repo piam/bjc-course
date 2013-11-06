@@ -13,16 +13,11 @@ Unit 1: Welcome to Visual Programming
 
 Learning Objectives
 -------------------
- * 1: The student can use computing tools and techniques to create artifacts.
- * 4: The student can use programming as a creative tool.
- * 5: The student can describe the combination of abstractions used to represent data.
- * 6: The student can explain how binary sequences are used to represent digital data.
- * 7: The student can develop an abstraction.
- * 9: The student can use models and simulations to raise and answer questions.
- * 28: The student can analyze how computing affects communication, interaction, and cognition.
- * 29: The student can connect computing with innovations in other fields.
- * 30: The student can analyze the beneficial and harmful effects of computing.
- * 31: The student can connect computing within economic, social, and cultural contexts.
+* 1.1.1: … use computing tools and techniques to create artifacts.
+* 1.1.2: … collaborate in the creation of computational artifacts.
+* 1.1.3: … analyze computational artifacts.
+* 1.2.1: … use computing tools and techniques for creative expression.
+* 1.3.1: … use programming as a creative tool.
 
 
 
