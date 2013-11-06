@@ -13,16 +13,16 @@ Unit 1: Welcome to Visual Programming
 
 Learning Objectives
 -------------------
- * 1.1.1: use computing tools and techniques to create artifacts.
- * 1.1.2: collaborate in the creation of computational artifacts.
- * 1.1.3: analyze computational artifacts.
- * 1.2.1: use computing tools and techniques for creative expression.
- * 1.3.1: use programming as a creative tool.
- * 2.1.1: describe the combination of abstractions used to represent data.
- * 2.1.2: explain how binary sequences are used to represent digital data.
- * 2.2.1: develop an abstraction.
- * 2.2.2: use multiple levels of abstraction in computation.
- * 2.3.1: use models and simulations to raise and answer questions.
+ * Objective 1.1.1: use computing tools and techniques to create artifacts.
+ * Objective 1.1.2: collaborate in the creation of computational artifacts.
+ * Objective 1.1.3: analyze computational artifacts.
+ * Objective 1.2.1: use computing tools and techniques for creative expression.
+ * Objective 1.3.1: use programming as a creative tool.
+ * Objective 2.1.1: describe the combination of abstractions used to represent data.
+ * Objective 2.1.2: explain how binary sequences are used to represent digital data.
+ * Objective 2.2.1: develop an abstraction.
+ * Objective 2.2.2: use multiple levels of abstraction in computation.
+ * Objective 2.3.1: use models and simulations to raise and answer questions.
 
 
 
