@@ -12,16 +12,20 @@ Unit 2: Loops and Variables
 
 Learning Objectives
 -------------------
- * 1: The student can use computing tools and techniques to create artifacts
- * 3: The student can use computing tools and techniques for creative expression.
- * 4: The student can use programming as a creative tool.
- * 9: The student can use models and simulations to raise and answer questions.
- * 15: The student can develop an algorithm.
- * 16: The student can express an algorithm in a language.
- * 28: The student can analyze how computing affects communication, interaction, and cognition.
- * 29: The student can connect computing with innovations in other fields.
- * 30: The student can analyze the beneficial and harmful effects of computing.
- * 31: The student can connect computing within economic, social, and cultural contexts.
+ * Objective 1.1.1: … use computing tools and techniques to create artifacts.
+ * Objective 1.1.2: … collaborate in the creation of computational artifacts.
+ * Objective 1.1.3: … analyze computational artifacts.
+ * Objective 1.2.1: … use computing tools and techniques for creative expression.
+ * Objective 1.3.1: … use programming as a creative tool.
+ * Objective 4.1.1: … develop an algorithm designed to be implemented to run on a computer.
+ * Objective 4.2.1: … express an algorithm in a language.
+ * Objective 4.3.1: … appropriately connect problems and potential algorithmic solutions.
+ * Objective4.4.1: … evaluate algorithms analytically and empirically.
+ * Objective 7.1.1: … analyze how computing affects communication, interaction, and cognition.
+ * Objective 7.1.2: … collaborate as part of a process that scales. 
+ * Objective 7.2.1: .. connect computing with innovations in other fields.
+ * Objective 7.3.1: … analyze the beneficial and harmful effects of computing.
+ * Objective 7.4.1: … connect computing within economic, social, and cultural contexts.
 
 
 Readings/Lectures
