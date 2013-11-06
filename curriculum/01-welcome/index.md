@@ -24,7 +24,7 @@ Learning Objectives
  * 2.2.2: use multiple levels of abstraction in computation.
  * 2.3.1: use models and simulations to raise and answer questions.
 
-
+oi
 
 Readings/Lectures
 -----------------
