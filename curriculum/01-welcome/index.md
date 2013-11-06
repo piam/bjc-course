@@ -20,7 +20,7 @@ Learning Objectives
 * 1.3.1: use programming as a creative tool.
 * 2.1.1: describe the combination of abstractions used to represent data.
 * 2.1.2: explain how binary sequences are used to represent digital data.
-* 221: develop an abstraction.
+* 2.2.1: develop an abstraction.
 * 2.2.2: use multiple levels of abstraction in computation.
 * 2.3.1: use models and simulations to raise and answer questions.
 
