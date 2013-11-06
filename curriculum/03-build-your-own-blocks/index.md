@@ -13,11 +13,6 @@ Unit 3: Loops and Variables
 
 Learning Objectives
 -------------------
- * 4: The student can use programming as a creative tool.
- * 20: The student can use abstractions (procedures) to manage complexity in a program.
- * Objective 1.1.1: … use computing tools and techniques to create artifacts.
- * Objective 1.1.2: … collaborate in the creation of computational artifacts.
- * Objective 1.1.3: … analyze computational artifacts.
  * Objective 1.2.1: … use computing tools and techniques for creative expression.
  * Objective 1.3.1: … use programming as a creative tool.
  * Objective 5.2.1: … use abstraction to manage complexity in programs.
