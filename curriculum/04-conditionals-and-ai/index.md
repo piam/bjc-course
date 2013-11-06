@@ -12,17 +12,20 @@ Unit 4: Conditionals and Artificial Intelligence
 
 Learning Objectives
 -------------------
- * 1: The student can use computing tools and techniques to create artifacts
- * 3: The student can use computing tools and techniques for creative expression.
- * 4: The student can use programming as a creative tool.
- * 16: The student can express an algorithm in a language.
- * 17: The student can appropriately connect problems and potential algorithmic solutions.
- * 19: The student can explain how programs implement algorithms.
- * 22: The student can develop a correct program.
- * 23: The student can employ appropriate mathematical and logical concepts in programming.
- * 30: The student can analyze the beneficial and harmful effects of computing.
- * 31: The student can connect computing within economic, social, and cultural contexts.
-
+ * Objective 1.1.1: … use computing tools and techniques to create artifacts.
+ * Objective 1.1.2: … collaborate in the creation of computational artifacts.
+ * Objective 1.2.1: … use computing tools and techniques for creative expression.
+ * Objective 1.3.1: … use programming as a creative tool.
+ * Objective 4.1.1: … develop an algorithm designed to be implemented to run on a computer.
+ * Objective 4.2.1: … express an algorithm in a language.
+ * Objective 4.3.1: … appropriately connect problems and potential algorithmic solutions.
+ * Objective 4.4.1: … evaluate algorithms analytically and empirically.
+ * Objective 5.1.1: … explain how programs implement algorithms.
+ * Objective 5.3.1: … evaluate a program for correctness.
+ * Objective 5.3.2: … develop a correct program.
+ * Objective 5.4.1: … employ appropriate mathematical and logical concepts in programming.
+ * Objective 7.3.1: … analyze the beneficial and harmful effects of computing.
+ * Objective 7.4.1: … connect computing within economic, social, and cultural contexts.
 
 Readings/Lectures
 -----------------
