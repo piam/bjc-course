@@ -12,10 +12,9 @@ Unit 7: Recursion - It's not a bad word!
 
 Learning Objectives
 -------------------
- * 1: The student can use computing tools and techniques to create artifacts.
- * 4: The student can use programming as a creative tool.
- * 20: The programs can use abstraction (procedures) to manage complexity in a program.
-
+ * Objective 1.1.1: ...can use computing tools and techniques to create artifacts.
+ * Objective 1.3.1: ...can use programming as a creative tool.
+ * Objective 5.2.1: ...use abstraction to manage complexity in programs.
 
 Readings/Lectures
 -----------------
