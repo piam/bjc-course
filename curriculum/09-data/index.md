@@ -12,14 +12,15 @@ Unit 9: Data, Data, Everywhere
 
 Learning Objectives
 -------------------
- * 1: The student can use computing tools and techniques to create artifacts.
- * 2: The student can collaborate in the creation of computational artifacts.
- * 10: The student can use models and simulations to raise and answer questions.
- * The student can use computers to process information to gain insight and knowledge.
- * The student can communicate how computer programs are used to process information to gain insight and knowledge.
- * The student can use computing to facilitate exploration and the discovery of connections in information.
- * The student can use large datasets to explore and discover information and knowledge.
- * The student can analyze the considerations involved in the computational manipulation of information.
+* Objective 1.1.1: … use computing tools and techniques to create artifacts.
+* Objective 1.3.1: … use programming as a creative tool.
+* Objective 2.3.1: … use models and simulations to raise and answer questions.
+* Objective 3.1.1: … use computers to process information to gain insight and knowledge.
+* Objective 3.1.2: … collaborate when processing information to gain insight and knowledge.
+* Objective 3.1.3: … communicate insight and knowledge gained from using computer programs to process information.
+* Objective 3.2.1: … use computing to facilitate exploration and the discovery of connections in information.
+* Objective 3.2.2: … use large data sets to explore and discover information and knowledge.
+* Objective 3.3.1: … analyze the considerations involved in the computational manipulation of information.
 
 
 Readings/Lectures
