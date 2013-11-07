@@ -13,13 +13,12 @@ Searching and Sorting Algorithm
 
 Learning Objectives
 -------------------
- * 1: The student can use computing tools and techniques to create artifacts.
- * 4: The student can use programming as a creative tool.
- * 15: The student can develop an algorithm.
- * 16: The student can express an algorithm in a language.
- * 17: The student can appropriately connect problems and potential algorithmic solutions.
- * 18: The student can evaluate algorithms analytically and empirically.
-
+ * Objective 1.1.1: … use computing tools and techniques to create artifacts.
+ * Objective 1.3.1: … use programming as a creative tool.
+ * Objective 4.1.1: … develop an algorithm designed to be implemented to run on a computer.
+ * Objective 4.2.1: … express an algorithm in a language.
+ * Objective 4.3.1: … appropriately connect problems and potential algorithmic solutions.
+ * Objective 4.4.1: … evaluate algorithms analytically and empirically.
 
 Readings/Lectures
 -----------------
