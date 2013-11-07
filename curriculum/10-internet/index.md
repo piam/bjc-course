@@ -12,15 +12,15 @@ Unit 10: Wonderful World of the Web
 
 Learning Objectives
 -------------------
- * 1: The student can explain the abstractions in the Internet and how the Internet functions.
- * 2: The student can explain characteristics of the Internet and the systems built on it.
- * 3: The student can analyze how characteristics of the Internet and systems built on it influence their use.
- * 4: The student can connect the concern of cybersecurity with the Internet and systems built on it.
- * 5: The student can analyze how computing affects communication, interaction, and cognition.
- * 6: The student can connect computing with innovations in other fields.
- * 7: The student can analyze the beneficial and harmful effects of computing.
- * 8: The student can connect computing within economic, social, and cultural contexts.
-
+* Objective 6.1.1: … explain the abstractions in the Internet and how the Internet functions.
+* Objective 6.2.1: … explain characteristics of the Internet and the systems built on it.
+* Objective 6.2.2: … analyze how characteristics of the Internet and systems built on it influence their use.
+* Objective 6.3.1: … connect the concern of cybersecurity with the Internet and the systems built on it.
+* Objective 7.1.1: … analyze how computing affects communication, interaction, and cognition.
+* Objective 7.1.2: … collaborate as part of a process that scales. 
+* Objective 7.2.1: .. connect computing with innovations in other fields.
+* Objective 7.3.1: … analyze the beneficial and harmful effects of computing.
+* Objective 7.4.1: … connect computing within economic, social, and cultural contexts.
 
 Readings/Lectures
 -----------------
