@@ -45,3 +45,4 @@ Labs/Exercises
  * [Resource Pack for All Snap Labs]({{ site.baseurl}}curriculum/01-welcome/labs/snap-media.zip)
 
 
+![collegeboard logo](http://bjc-nc.github.io/bjc-course/img/cb.png)
