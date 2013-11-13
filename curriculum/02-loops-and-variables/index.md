@@ -46,3 +46,4 @@ Labs/Exercises
  * Lab 2.03: [Repeat Until Practice Worksheet]({{ site.baseurl}}curriculum/02-loops-and-variables/labs/03-practice-repeat-until.pdf)
  * Lab 2.04: [Regular Figures Worksheet]({{ site.baseurl}}curriculum/02-loops-and-variables/labs/04-regular-figures-activity.pdf)
 
+![collegeboard logo](http://bjc-nc.github.io/bjc-course/img/cb.png)
