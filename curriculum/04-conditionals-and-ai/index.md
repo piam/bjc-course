@@ -48,4 +48,4 @@ Labs/Exercises
 --------------
  * Lab 4.01: [Random Numbers and Conditionals: Guessing Game]({{ site.baseurl}}curriculum/04-conditionals-and-ai/labs/01-random-numbers-and-conditionals)
 
-
+![collegeboard logo](http://bjc-nc.github.io/bjc-course/img/cb.png)
