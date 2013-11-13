@@ -31,3 +31,4 @@ Labs/Exercises
  * Lab 3.01: [Build your own blocks]({{ site.baseurl}}curriculum/03-build-your-own-blocks/labs/01-build-your-own-blocks)
  * Lab 3.02: [Project: Brick Wall]({{ site.baseurl}}curriculum/03-build-your-own-blocks/labs/02-brick-wall-project)
 
+![collegeboard logo](http://bjc-nc.github.io/bjc-course/img/cb.png)
