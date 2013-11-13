@@ -33,3 +33,4 @@ Labs/Exercises
  * Lab 7.01: [Make a Recursive Tree]({{ site.baseurl}}curriculum/07-recursion/labs/01-make-a-recursive-tree)
  * Lab 7.02: [Recursive Bunnies]({{ site.baseurl}}curriculum/07-recursion/labs/02-recursive-bunnies)
 
+![collegeboard logo](http://bjc-nc.github.io/bjc-course/img/cb.png)
