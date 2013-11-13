@@ -36,5 +36,5 @@ Labs/Exercises
  * Lab 8.01: [Encryption and Decryption]({{ site.baseurl}}curriculum/08-cloud-computing/labs/01-encryption-decryption)
  * Project 8.02: [Encryption Project]({{ site.baseurl}}curriculum/08-cloud-computing/labs/02-encryption-project)
  
-
+![collegeboard logo](http://bjc-nc.github.io/bjc-course/img/cb.png)
  
