@@ -48,4 +48,4 @@ Resources for Project
  * [Census Data](https://www.census.gov/main/www/cen2000.html)
  * [KDnuggets](http://www.kdnuggets.com/datasets/)
  
-
+![collegeboard logo](http://bjc-nc.github.io/bjc-course/img/cb.png)
