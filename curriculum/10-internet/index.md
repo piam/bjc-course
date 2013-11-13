@@ -42,3 +42,4 @@ Labs/Exercises
  * Lab 10.02: [Internet Activity]({{ site.baseurl}}curriculum/10-internet/labs/02-internet-activity)
  * Portfolio Project 10.03: [Internet Portfolio Project]({{ site.baseurl}}curriculum/10-internet/labs/03-internet-portfolio-project)
  
+![collegeboard logo](http://bjc-nc.github.io/bjc-course/img/cb.png)
