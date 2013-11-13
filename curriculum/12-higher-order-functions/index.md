@@ -31,7 +31,7 @@ Labs/Exercises
 --------------
  * Lab 12.01: [Higher Order Functions Exercise]({{ site.baseurl}}curriculum/12-higher-order-functions/labs/01-higher-order-functions-exercises)
 
- 
+ ![collegeboard logo](http://bjc-nc.github.io/bjc-course/img/cb.png)
 
  
 
