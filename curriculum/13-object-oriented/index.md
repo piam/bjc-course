@@ -42,3 +42,4 @@ Sprites and Resources
  * [Resources for 13.02]({{ site.baseurl}}curriculum/13-object-oriented/labs/first-game.zip)
  * [Resources for 13.03]({{ site.baseurl}}curriculum/13-object-oriented/labs/maze-game.zip)
  
+![collegeboard logo](http://bjc-nc.github.io/bjc-course/img/cb.png)
