@@ -38,4 +38,5 @@ Labs/Exercises
  * Activity 6.02: [Searching (non Video-) Game]({{ site.baseurl}}curriculum/06-searching-sorting/labs/02-searching-game)
  * Lab 6.03: [Update the Guessing Game]({{ site.baseurl}}curriculum/06-searching-sorting/labs/03-update-guessing-game)
 
+![collegeboard logo](http://bjc-nc.github.io/bjc-course/img/cb.png)
 
