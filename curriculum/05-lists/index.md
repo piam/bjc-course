@@ -34,6 +34,6 @@ Labs/Exercises
 --------------
  * Lab 5.01: [Lab 4.01 with Lists]({{ site.baseurl}}curriculum/05-lists/labs/01-guessing-game-with-lists)
 
-
+![collegeboard logo](http://bjc-nc.github.io/bjc-course/img/cb.png)
 
 
