@@ -33,4 +33,4 @@ Labs/Exercises
  * Lab 7.01: [Make a Recursive Tree]({{ site.baseurl}}curriculum/07-recursion/labs/01-make-a-recursive-tree)
  * Lab 7.02: [Recursive Bunnies]({{ site.baseurl}}curriculum/07-recursion/labs/02-recursive-bunnies)
 
-![collegeboard logo](http://bjc-nc.github.io/bjc-course/img/cb.png)
+*Learning objectives © 2013 The College Board. All rights reserved. Computer Science: Principles is a pilot course under development. It is not an official Advanced Placement course currently being offered by the College Board. This document is based upon work supported by the National Science Foundation, grant CNS‐0938336. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.*
