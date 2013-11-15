@@ -23,6 +23,7 @@ The word "algorithm" is arguably one of the nerdiest words ever emitted from a h
 * Salesman often have scripts to follow when making a sales call. The scripts describe how to open the conversation (and possibly more) in order to increase the odds of gaining a client.
 * Subway Sandwich Artists have a series of signs stuck to the inside of the counter that prompt the employees with what should be said.
 * Do-It-Yourself projects all come with some sort of instructions. Directions, such as those for assembling a piece of furniture or a Lego kit, are algorithms.
+
 Computer science algorithms are conceptual solutions to a problem (such as sorting a list), whereas the implementation of an algorithm is the actual code that brings the solution to life. The implementations themselves can typically be written in almost any programming language and run on any computer; the concepts behind the algorithm are not affected by these types of conditions, in the same way that the outcome of a well-written recipe should (hopefully) not be affected by the cook or kitchen.
 
 Trash or Treasure?
