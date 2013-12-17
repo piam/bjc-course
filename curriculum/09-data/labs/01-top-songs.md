@@ -11,12 +11,6 @@ laburl: 01-top-songs
 Lab: Top Songs
 ==============
 
-
-Evidence for Learning Objective 13: Student work is characterized by:
-
- * Use of large datasets to extract information and knowledge.
- * Explanation of how large datasets can facilitate exploration and discovery.
-
 Rolling Stone created a list of the top 500 songs of all time. We've created a .csv file of these files. This file, as well as others you will need, is attached.
 
 Task 1
