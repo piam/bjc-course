@@ -6,17 +6,16 @@ uniturl: 08-cloud-computing
 ---
 
 
-Unit 8: In the Clouds
+Unit 8: In the Clouds: Cloud Computing, Security & Encryption
 ========================================
-### Cloud Computing, Security & Encryption
 
 
 Learning Objectives
 -------------------
-* Objective 1.1.1: … use computing tools and techniques to create artifacts.
-* Objective 1.3.1: … use programming as a creative tool.
-* Objective 2.1.1: … describe the combination of abstractions used to represent data.
-* Objective 2.3.1: … use models and simulations to raise and answer questions.
+ * Objective 1.1.1: … use computing tools and techniques to create artifacts.
+ * Objective 1.3.1: … use programming as a creative tool.
+ * Objective 2.1.1: … describe the combination of abstractions used to represent data.
+ * Objective 2.3.1: … use models and simulations to raise and answer questions.
 
 Readings/Lectures
 -----------------
@@ -24,7 +23,7 @@ Readings/Lectures
  * Worksheet 8.02: [Hand Biometrics]({{ site.baseurl}}curriculum/08-cloud-computing/readings/02-hand-biometrics-worksheet.pdf)
  
 External Resources
-
+-----------------
  * [The History of Encryption](http://visual.ly/history-encryption)
  * [The Enigma War, 1939-1942](http://www.turing.org.uk/scrapbook/ww2.html)
  * [Who was Alan Turing?](http://www.cs4fn.org/magazine/magazine14.php)
