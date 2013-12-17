@@ -12,8 +12,16 @@ Unit 5: What's in a List
 
 Learning Objectives
 -------------------
-
-
+ * Objective 1.1.1: … use computing tools and techniques to create artifacts.
+ * Objective 1.2.1: … use computing tools and techniques for creative expression.
+ * Objective 1.3.1: … use programming as a creative tool.
+ * Objective 4.2.1: … express an algorithm in a language.
+ * Objective 5.3.1: … evaluate a program for correctness.
+ * Objective 5.3.2: … develop a correct program.
+ * Objective 5.4.1: … employ appropriate mathematical and logical concepts in programming.
+ * Objective 7.1.1: … analyze how computing affects communication, interaction, and cognition.
+ * Objective 7.3.1: … analyze the beneficial and harmful effects of computing.
+ * Objective 7.4.1: … connect computing within economic, social, and cultural contexts.
 
 Readings/Lectures
 -----------------
