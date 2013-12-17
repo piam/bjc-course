@@ -7,7 +7,6 @@ uniturl: 10-internet
 
 Unit 10: Wonderful World of the Web
 ===================================
-### The Internet as a System
 
 
 Learning Objectives
