@@ -42,5 +42,5 @@ Labs/Exercises
  * Lab 1.04: [Game Controls]({{ site.baseurl}}curriculum/01-welcome/labs/04-game-controls)
  * [Resource Pack for All Snap Labs]({{ site.baseurl}}curriculum/01-welcome/labs/snap-media.zip)
 
----
-*Learning objectives © 2013 The College Board. All rights reserved. Computer Science: Principles is a pilot course under development. It is not an official Advanced Placement course currently being offered by the College Board. This document is based upon work supported by the National Science Foundation, grant CNS‐0938336. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.*
+----------
+Learning Objectives © 2013 The College Board. All rights reserved. Computer Science: Principles is a pilot course under development. It is not an official Advanced Placement course currently being offered by the College Board. This document is based upon work supported by the National Science Foundation, grant CNS‐0938336. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
