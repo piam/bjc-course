@@ -11,7 +11,6 @@ laburl: 01-top-songs
 Lab: Top Songs
 ==============
 
-**Learning Objective 13**: The student can use large datasets to explore and discover information and knowledge. [P3]
 
 Evidence for Learning Objective 13: Student work is characterized by:
 
