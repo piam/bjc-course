@@ -8,7 +8,6 @@ uniturl: 01-welcome
 
 Unit 1: Welcome to Visual Programming
 ======================================
-### Broadcast, Animations, and Music! 
 
 
 Learning Objectives
@@ -32,10 +31,8 @@ Readings/Lectures
  * Reading 1.03: [Binary and Hexadecimal Numbers]({{ site.baseurl }}curriculum/01-welcome/readings/03-binary-and-hexadecimal)
  
 External Resources
- 
+-----------------
  * Lecture Video: [Binary Hex Decimal](http://www.screencast.com/t/c2tp610y1tx6)
- * [Why software is eating the world](http://online.wsj.com/article/SB10001424053111903480904576512250915629460.html) (Wall Street Journal) (DEAD LINK)
-
 
 Labs/Exercises
 --------------
