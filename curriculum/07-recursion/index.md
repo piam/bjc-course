@@ -22,7 +22,7 @@ Readings/Lectures
  * Reading 7.02: [Recursion in a Nutshell]({{ site.baseurl}}curriculum/07-recursion/readings/02-recursion-in-a-nutshell)
  
 External Resources
-
+--------------
  * [Berkeley Lecture on Recursion](https://coursesharing.org/courses/6/lectures/17)
  * [Koch's Snowflake, Explained](http://math.rice.edu/~lanius/frac/koch.html)
  * [Snowflake BYOB File]({{ site.baseurl}}curriculum/07-recursion/code/snowflake.ypr)
