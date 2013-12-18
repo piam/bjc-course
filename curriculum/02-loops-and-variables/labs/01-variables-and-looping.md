@@ -137,30 +137,6 @@ code below.
 ![Looping Example](lab-loop-4.png)
 
 
-Drawing Tools
--------------
-There are multiple blocks that can be used to draw. By combining blocks from the Pen palette with
-blocks from the Motion palette, you can draw pictures. Your sprite needs to face in the direction you
-want the line to be drawn so you will need the point in direction () block.
 
-![Looping Example](lab-blocks-1.png)
-
-
-Try it! Drawing shapes
-----------------------
-Look at the following scripts to draw a square. The first script has repetitive
-code. In the second script, the repeating code has been replaced by using a loop.
-
-Note: By using the ```pen down``` block your sprite will draw for you.
-
-![Looping Example](lab-blocks-2.png)
-
-
-Exercise: Draw a Squaril
-------------------------
-Make a new variable Length with a looping structure to draw the "Squiral" (Square + Spiral) below. Note
-that the length the sprite moves is updating by a constant amount.
-
-![Looping Example](lab-blocks-3.png)
 
 
