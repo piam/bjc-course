@@ -41,10 +41,13 @@ Readings/Lectures
 
 Labs/Exercises
 --------------
- * Lab 2.01: [Variables and Looping]({{ site.baseurl}}curriculum/02-loops-and-variables/labs/01-variables-and-looping)
- * Lab 2.02: [Position on the Stage]({{ site.baseurl}}curriculum/02-loops-and-variables/labs/02-position-on-the-stage)
+ * Lab 2.01: [Variables]({{ site.baseurl}}curriculum/02-loops-and-variables/labs/01-variables)
+ * Lab 2.02: [Looping]({{ site.baseurl}}curriculum/02-loops-and-variables/labs/02-looping)
  * Lab 2.03: [Repeat Until Practice Worksheet]({{ site.baseurl}}curriculum/02-loops-and-variables/labs/03-practice-repeat-until.pdf)
  * Lab 2.04: [Regular Figures Worksheet]({{ site.baseurl}}curriculum/02-loops-and-variables/labs/04-regular-figures-activity.pdf)
+ * Lab 2.05: [Drawing Tools]({{ site.baseurl}}curriculum/02-loops-and-variables/labs/05-drawing-tools)
+ * Lab 2.06: [Position on the Stage]({{ site.baseurl}}curriculum/02-loops-and-variables/labs/06-position-on-the-stage)
+ * Lab 2.07: [Draw A Picture]({{ site.baseurl}}curriculum/02-loops-and-variables/labs/07-draw-a-picture)
 
 ---
 *Learning objectives © 2013 The College Board. All rights reserved. Computer Science: Principles is a pilot course under development. It is not an official Advanced Placement course currently being offered by the College Board. This document is based upon work supported by the National Science Foundation, grant CNS‐0938336. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.*
