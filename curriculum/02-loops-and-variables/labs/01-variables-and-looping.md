@@ -73,69 +73,77 @@ like a change block.
 ![Variable Prompt](lab-variables-5.png)
 
 
+Script Variables
+-----------
 
-Looping Blocks
---------------
-There are times when you will want blocks to repeat. Instead of duplicating blocks
-and ending up with a long script that might be confusing, there are looping control
-blocks that you can wrap around the script you want to repeat.
+Sometimes you need a variable in your script, but you don’t want it to step through consecutive integer values as in the for block. A more general way to handle variables uses the block
 
- * ```forever``` Loops until the program ends. This is basically an *infinite loop*
-   as it goes on forever.
- * ```repeat ()``` Loops the specified number of times.
- * ```repeat until &lt; &gt;``` Repeat until the condition is *True*.
- 
-For the ```repeat until &lt; &gt;``` you will use a predicate block that returns
-true or false. These blocks have pointed ends and can be found in the Operators
-palette.
+![script variable](scriptvar.png)
 
-![Predicates](lab-reporters-1.png)
+to create a variable, and the block
 
-Other helpful blocks include the operator blocks.
+![set](set.png)
+
+to give that variable a value. Both of these blocks are in the Variables palette. Here’s an example:
+
+![script variable](randompoly.png)
+
+The script variables block creates a variable called sides (click on the orange "a" to change the name) that can be used throughout this script. (Each time you click the green flag, a new variable is created, and it exists only during that time through the script.) The set block says what value the variable should have. In this case, Snap! will pick a random integer value between 3 and 10 (inclusive). (The pick random block is in the Operators palette; note that we changed the first input from 1 to 3.) The script will draw a regular polygon with that number of sides. The value of sides is used twice, first in the repeat block to say how many times the move-and-turn combination should be done, and again in computing the angle through which to turn for each side.
+
+Try running the script (by clicking the green flag) several times to see what shapes it draws.
+
+We needed the script variable in this script because the randomly chosen number is used twice. If it had been used only once, we could have put the pick random block directly in the script, like this:
+
+![repeat-random](repeat-random.png)
+
+Self-test question: Try to explain before you run the script below what could go wrong if we just put the pick random block in the script twice:
+
+![question](bad-random-poly.png)
+
+Another place where script variables can be useful is in a program that interacts with the user.
+
+![converse](converse.png)
+
+This script uses several blocks we haven’t used before. The ask and wait command and the answer reporter are in the Sensing palette. Join is in Operators. If you run the script you should be able to figure out what they do.
+
+Note that this script has two script variables. The script variables block has a little right-facing arrowhead at the end:
+
+![new block](arrowhead.png)
+
+If you click the arrowhead, a second orange variable oval will appear. Also, there will be left- and right-facing arrowheads. You can click these to adjust the number of variables you need.
+
+The join block also has arrowheads to control the number of input slots it has. In the text string inputs, both in join and in the ask blocks, the pale brown raised dots represent spaces. The brown dots don’t appear in the text on the stage when the script is run. They’re in the input slots so that you can easily see if there are multiple spaces in a row:
+
+![block](multispace.png)
+
+and also so that you can distinguish between a completely empty input slot and one that has a space in it:
+
+![space](emptyspace.png)
+
+Test yourself: Actually, that conversation script could have been made using just one variable. Which one, and how would you do it?
 
 
-<img src="lab-reporters-2.png" align="right" />
+Global Variables
+---------------
+Sometimes it's not good enough to remember a value inside one script. Instead, you need the value available everywhere in your project. The classic example is the score in a video game; even when no script is running, the score should be remembered.
 
-Operators
----------
-Click the Operators tab to display a new palette of blocks. You can use
-these blocks to perform mathematic operations to modify a numeric variable.
+There was a time, in the early history of programming languages, when all variables were global. This led to a lot of bugs, because different parts of the program would use the same name for different purposes and erase each others' saved values. So don't use global variables as your first choice; think whether a script variable or a for block (which makes a variable local to just that block) would work instead.
 
-You have blocks to add, subtract, multiple and divide. You also have a
-mod block that does remainder division as well as a round block and a
-square root block.
+To make a global variable, you must go to the Variables palette and click on the Make a variable button (not a block -- you can't put it into a script!):
 
-NOTE: To see what any block does, right click on a block in the palette
-and select help. A new window will open that will explain what that block does.
+![makevar](makeavar.png)
 
+You will be prompted to give your variable a name. After you do that, you'll see an orange variable oval in the Variables palette:
 
-Looping Examples
-----------------
-![Looping Example](lab-loop-1.png)
+![myvar](myvar.png)
 
-### Repeat Until
-Let’s look at the "repeat until" block a bit closer. Just like REPEAT, it will do everything inside the C-
-shaped block a certain number of times. However before it starts the loop each time, it checks to see if
-the condition (x > 5) is true. When this is condition is true, it will not repeat again.
+This can be dragged into scripts just like the orange variable ovals in the for block and the script variables block.
 
-![Looping Example](lab-loop-2.png)
+The checkbox to the left of the variable block determines whether or not the value of the variable is displayed on the stage. The variable watcher (which is what that display is called) can be useful for debugging, or can be displayed permanently so that the user of your project can see the score, or whatever you have in the variable. By right-clicking on the watcher, you can change the format in which it appears on the screen.
 
-It can be really helpful to keep track of what the variable X is at each point to help us understand how
-this new piece works.
+Try this: Experiment with using a slider watcher to change the value of a numeric variable.
 
- * In the right column we keep track of the value of x.
- * In the diagram below we draw a horizontal line every time we start the loop.
-   Here we labeled each line "Top of loop" and "Bottom of loop" but we could just
-   use the horizontal line to keep track of this information.
- * Within each loop the variable x increases by 1, so we write down the new value for x.
-
-![Looping Example](lab-loop-3.png)
-
-Try to use a chart like the one above to keep track of what happens in the complicated "repeat until"
-code below.
-
-![Looping Example](lab-loop-4.png)
-
+When you make a global variable, you also get a "Delete a variable" button that can be used for the obvious purpose.
 
 
 
