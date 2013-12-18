@@ -6,7 +6,7 @@ uniturl: 03-build-your-own-blocks
 ---
 
 
-Unit 3: Loops and Variables
+Unit 3: Build Your Own Blocks
 ======================================
 ### Procedural Abstraction
 

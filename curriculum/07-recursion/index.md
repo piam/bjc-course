@@ -6,7 +6,7 @@ uniturl: 07-recursion
 ---
 
 
-Unit 7: Recursion - It's not a bad word!
+Unit 7: Recursion
 ========================================
 
 
@@ -18,7 +18,7 @@ Learning Objectives
 
 Readings/Lectures
 -----------------
- * Reading 7.01: [All Algorithms are Not Equal]({{ site.baseurl}}curriculum/07-recursion/readings/01-what-is-recursion)
+ * Reading 7.01: [What Is Recursion?]({{ site.baseurl}}curriculum/07-recursion/readings/01-what-is-recursion)
  * Reading 7.02: [Recursion in a Nutshell]({{ site.baseurl}}curriculum/07-recursion/readings/02-recursion-in-a-nutshell)
  
 External Resources
