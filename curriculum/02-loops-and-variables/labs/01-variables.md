@@ -4,11 +4,11 @@ title: Variables and Looping
 unit: 2
 uniturl: 02-loops-and-variables
 lab: 1
-laburl: 01-variables-and-looping
+laburl: 01-variables
 ---
 
 
-Lab: Variables and looping
+Lab: Variables
 ==========================
 Let's open up SNAP at [http://snap.berkeley.edu/run](http://snap.berkeley.edu/run)
 
