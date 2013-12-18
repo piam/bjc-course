@@ -4,7 +4,7 @@ title: Position on the Stage
 unit: 2
 uniturl: 02-loops-and-variables
 lab: 2
-laburl: 05-position-on-the-stage
+laburl: 06-position-on-the-stage
 ---
 
 
