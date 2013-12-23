@@ -5,20 +5,20 @@ unit: 13
 uniturl: 13-object-oriented
 ---
 
-Unit 13: Object Oriented Programming with Game Maker
+Unit 13 Object Oriented Programming with Game Maker
 ====================================================
 
 Learning Objectives
 -------------------
-* Objective 1.1.1: … use computing tools and techniques to create artifacts.
-* Objective 1.1.2: … collaborate in the creation of computational artifacts.
-* Objective 1.1.3: … analyze computational artifacts.
-* Objective 1.2.1: … use computing tools and techniques for creative expression.
-* Objective 1.3.1: … use programming as a creative tool.
-* Objective 4.1.1: … develop an algorithm designed to be implemented to run on a computer.
-* Objective 4.2.1: … express an algorithm in a language.
-* Objective 4.3.1: … appropriately connect problems and potential algorithmic solutions.
-* Objective 4.4.1: … evaluate algorithms analytically and empirically.
+* Objective 1.1.1 … use computing tools and techniques to create artifacts.
+* Objective 1.1.2 … collaborate in the creation of computational artifacts.
+* Objective 1.1.3 … analyze computational artifacts.
+* Objective 1.2.1 … use computing tools and techniques for creative expression.
+* Objective 1.3.1 … use programming as a creative tool.
+* Objective 4.1.1 … develop an algorithm designed to be implemented to run on a computer.
+* Objective 4.2.1 … express an algorithm in a language.
+* Objective 4.3.1 … appropriately connect problems and potential algorithmic solutions.
+* Objective 4.4.1 … evaluate algorithms analytically and empirically.
 
 Download
 --------
@@ -34,9 +34,9 @@ Readings/Lectures
 
 Labs/Exercises
 --------------
- * Tutorial 13.01: [Designing Games]({{ site.baseurl}}curriculum/13-object-oriented/labs/01-designing-games.pdf)
- * Tutorial 13.02: [Your first game]({{ site.baseurl}}curriculum/13-object-oriented/labs/02-your-first-game.pdf)
- * Tutorial 13.03: [Maze game]({{ site.baseurl}}curriculum/13-object-oriented/labs/03-maze-game.pdf)
+ * Tutorial 13.01 [Designing Games]({{ site.baseurl}}curriculum/13-object-oriented/labs/01-designing-games.pdf)
+ * Tutorial 13.02 [Your first game]({{ site.baseurl}}curriculum/13-object-oriented/labs/02-your-first-game.pdf)
+ * Tutorial 13.03 [Maze game]({{ site.baseurl}}curriculum/13-object-oriented/labs/03-maze-game.pdf)
 
 Sprites and Resources
  * [Resources for 13.02]({{ site.baseurl}}curriculum/13-object-oriented/labs/first-game.zip)
