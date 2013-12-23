@@ -6,7 +6,7 @@ uniturl: 10-internet
 ---
 
 
-Unit 10: Wonderful World of the Web
+Unit 10 Wonderful World of the Web
 ===================================
 
 
