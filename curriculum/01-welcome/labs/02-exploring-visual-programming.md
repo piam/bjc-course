@@ -7,7 +7,7 @@ lab: 2
 laburl: 02-exploring-visual-programming
 ---
 
-Lab: Welcome to Visual Programming
+Lab- Welcome to Visual Programming
 ==================================
 Let's open up SNAP at [http://snap.berkeley.edu/run](http://snap.berkeley.edu/run)
 
@@ -70,7 +70,7 @@ result. Do this for each block.
 
 
 
-Meowing: One at a Time or in Unison?
+Meowing- One at a Time or in Unison?
 ------------------------------------
 With this brief introduction to the scratch interface, we begin to examine how
 sprites and blocks interact and affect one another. For example, the "play sound"
