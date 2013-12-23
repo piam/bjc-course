@@ -6,7 +6,7 @@ uniturl: 01-welcome
 ---
 
 
-Unit 1: Welcome to Visual Programming
+Unit 1 Welcome to Visual Programming
 ======================================
 
 
