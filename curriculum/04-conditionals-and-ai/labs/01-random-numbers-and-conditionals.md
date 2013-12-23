@@ -8,7 +8,7 @@ laburl: 01-random-numbers-and-conditionals
 ---
 
 
-Lab: Random Numbers and Conditionals
+Lab- Random Numbers and Conditionals
 ====================================
 In this lab you will create a guessing game. Look at the script below. The
 computer chooses a random number and then asks the player to guess the random number.
