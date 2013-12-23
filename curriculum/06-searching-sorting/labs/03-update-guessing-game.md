@@ -8,7 +8,7 @@ laburl: 03-update-guessing-game
 ---
 
 
-Lab: Add Binary Search to the Guessing Game
+Lab- Add Binary Search to the Guessing Game
 ===========================================
 Using the starting code provided in lab 5.01, upload your expanded guessing game.
 
