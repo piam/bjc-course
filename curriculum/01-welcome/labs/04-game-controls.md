@@ -7,7 +7,7 @@ lab: 4
 laburl: 04-game-controls
 ---
 
-Lab: Welcome to Visual Programming
+Lab- Welcome to Visual Programming
 ==================================
 
 Moving with the Arrow Keys
