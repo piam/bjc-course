@@ -8,7 +8,7 @@ laburl: 02-internet-activity
 ---
 
 
-Lab: Internet Activity
+Lab Internet Activity
 ===========================
 This activity is a follow up of, How the Internet works. Create a single written document (such as Microsoft Word) that answers the questions below. Work by yourself or with a partner to answer these questions. 
 
