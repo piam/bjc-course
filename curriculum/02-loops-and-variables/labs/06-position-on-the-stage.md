@@ -8,7 +8,7 @@ laburl: 06-position-on-the-stage
 ---
 
 
-Exercise: Position on the stage
+Exercise- Position on the stage
 ===============================
 The sprite occupies a point(x,y) on the stage corresponding to the x- and y-
 axis. Here's a picture:
