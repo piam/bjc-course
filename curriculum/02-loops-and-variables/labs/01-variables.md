@@ -8,7 +8,7 @@ laburl: 01-variables
 ---
 
 
-Lab: Variables
+Lab- Variables
 ==========================
 Let's open up SNAP at [http://snap.berkeley.edu/run](http://snap.berkeley.edu/run)
 
