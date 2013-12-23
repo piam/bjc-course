@@ -8,7 +8,7 @@ laburl: 07-draw-a-picture
 ---
 
 
-Exercise: Draw a picture
+Exercise- Draw a picture
 ========================
 Create something (anything!) beautiful with the drawing tools. For instance, we
 made the following image: 
