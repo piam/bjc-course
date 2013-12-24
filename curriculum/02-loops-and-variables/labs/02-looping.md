@@ -99,7 +99,7 @@ But now try this:
 
 Note that we changed the name of the variable, by clicking on the orange oval without dragging it. This shape is called a "squiral" — a square spiral. Do you see why it spirals outward? The length of the move varies between repetitions. If we wanted to create this shape without using for, the script would look like this:
 
-![unroll squiral](unroll-squiral.png]
+![unroll](unroll-squiral.png)
 
 By the way, try changing the turning angle from 90 to 92. It makes a beautiful picture! Then play around with the numbers and see how close you can come to a smooth spiral:
 

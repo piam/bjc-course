@@ -8,7 +8,7 @@ laburl: 01-guessing-game-with-lists
 ---
 
 
-Lab: Guessing Game version 2.0
+Lab- Guessing Game version 2.0
 ==============================
 The Number Guessing Game that you created last week had you utilize IF statements and random
 number generators. This week, you will expand upon that game and make it smarter! The goal of this

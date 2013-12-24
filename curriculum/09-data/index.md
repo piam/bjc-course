@@ -6,21 +6,21 @@ uniturl: 09-data
 ---
 
 
-Unit 9: Data, Data, Everywhere
+Unit 9 Data, Data, Everywhere
 =============================
 
 
 Learning Objectives
 -------------------
-* Objective 1.1.1: … use computing tools and techniques to create artifacts.
-* Objective 1.3.1: … use programming as a creative tool.
-* Objective 2.3.1: … use models and simulations to raise and answer questions.
-* Objective 3.1.1: … use computers to process information to gain insight and knowledge.
-* Objective 3.1.2: … collaborate when processing information to gain insight and knowledge.
-* Objective 3.1.3: … communicate insight and knowledge gained from using computer programs to process information.
-* Objective 3.2.1: … use computing to facilitate exploration and the discovery of connections in information.
-* Objective 3.2.2: … use large data sets to explore and discover information and knowledge.
-* Objective 3.3.1: … analyze the considerations involved in the computational manipulation of information.
+* Objective 1.1.1 … use computing tools and techniques to create artifacts.
+* Objective 1.3.1 … use programming as a creative tool.
+* Objective 2.3.1 … use models and simulations to raise and answer questions.
+* Objective 3.1.1 … use computers to process information to gain insight and knowledge.
+* Objective 3.1.2 … collaborate when processing information to gain insight and knowledge.
+* Objective 3.1.3 … communicate insight and knowledge gained from using computer programs to process information.
+* Objective 3.2.1 … use computing to facilitate exploration and the discovery of connections in information.
+* Objective 3.2.2 … use large data sets to explore and discover information and knowledge.
+* Objective 3.3.1 … analyze the considerations involved in the computational manipulation of information.
 
 
 Readings/Lectures
@@ -39,8 +39,8 @@ External Resources
 Labs/Exercises
 --------------
 
- * Lab 9.01: [Top Songs]({{ site.baseurl}}curriculum/09-data/labs/01-top-songs)
- * Portfolio Project 9.02: [Data Portfolio Project]({{ site.baseurl}}curriculum/09-data/labs/02-data-portfolio-project)
+ * Lab 9.01 [Top Songs]({{ site.baseurl}}curriculum/09-data/labs/01-top-songs)
+ * Portfolio Project 9.02 [Data Portfolio Project]({{ site.baseurl}}curriculum/09-data/labs/02-data-portfolio-project)
 
 Resources for Project
  * [Data Sets](http://archive.ics.uci.edu/ml/datasets.html)

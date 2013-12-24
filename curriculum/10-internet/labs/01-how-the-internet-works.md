@@ -8,7 +8,7 @@ laburl: 01-how-the-internet-works
 ---
 
 
-Lab: How the Internet Works
+Lab- How the Internet Works
 ===========================
 * Key Concept: The Internet is a network of autonomous systems.
 

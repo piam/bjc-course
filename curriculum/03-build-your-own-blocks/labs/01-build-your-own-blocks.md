@@ -8,7 +8,7 @@ laburl: 01-build-your-own-blocks
 ---
 
 
-Lab: Build Your Own Blocks
+Lab- Build Your Own Blocks
 ==========================
 Let's open up SNAP at [http://snap.berkeley.edu/run](http://snap.berkeley.edu/run)
 
@@ -19,7 +19,7 @@ would prove useful if we could create new blocks.
 
 
 
-Make Your Own Block: A Tutorial
+Make Your Own Block- A Tutorial
 -------------------------------
 We are going to teach the computer how to draw a square using a block named
 ```draw square```. Please follow the steps below:
@@ -275,7 +275,7 @@ We've seen a lot of different types of variables.
 ![Dialog](lab-block-36.png)
 
 
-Try It!: Simplifying a tic-tac-toe board drawer using functions
+Try It! Simplifying a tic-tac-toe board drawer using functions
 ---------------------------------------------------------------
 In the previous lab, we used a ```repeat``` block to avoid duplicating code. Similarly,
 we can use a function to avoid duplicating code. Below is some code to draw a

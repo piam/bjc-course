@@ -8,7 +8,7 @@ laburl: 02-brick-wall-project
 ---
 
 
-Project: Brick Wall
+Project- Brick Wall
 ===================
 Let's open up SNAP at [http://snap.berkeley.edu/run](http://snap.berkeley.edu/run)
 
