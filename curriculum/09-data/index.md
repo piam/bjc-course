@@ -50,10 +50,10 @@ Labs/Exercises
 --------------
  * Lab 9.01 [Top Songs]({{ site.baseurl}}curriculum/09-data/labs/01-top-songs)
  * Portfolio Project 9.02 [Data Portfolio Project]({{ site.baseurl}}curriculum/09-data/labs/02-data-portfolio-project)
- * Lab 9.03 [SPAM vs HAM activity – sorting 500 text messages in Snap!](http://beautyjoy.github.io/bjc-r/topic/topic.html?topic=misc/data.topic)
- * Lab 9.04 [Activity to develop Data and Internet]
- * Lab 9.05 [Lesson Plan for Teaching Internet Routing]
- * Lab 9.06 [Pseudocode activities and conventions]
+ * Lab 9.03 [SPAM vs HAM activity – sorting 500 text messages in Snap!]({{ site.baseurl}}curriculum/09-data/labs/03-SPAM-vs-HAM)
+ * Lab 9.04 [Activity to develop Data and Internet]({{ site.baseurl}}curriculum/09-data/labs/04-data-and-internet)
+ * Lab 9.05 [Lesson Plan for Teaching Internet Routing]({{ site.baseurl}}curriculum/09-data/labs/05-internet-routing)
+ * Lab 9.06 [Pseudocode activities and conventions]({{ site.baseurl}}curriculum/09-data/labs/06-pseudocode)
 
 
 Resources for Project
