@@ -28,6 +28,9 @@ Learning Objectives
 Readings/Lectures
 -----------------
  * Lecture Slides 5.01 [Lists]({{ site.baseurl}}curriculum/05-lists/readings/01-lists-slides.pdf)
+ * [Introduction to Lists 5.02]({{ site.baseurl}}curriculum/05-lists/readings/02-introduction-to-lists.md)
+ * [List and Higher Order Functions 5.03]({{ site.baseurl}}curriculum/05-lists/readings/03-higher-order-functions-lists.md)
+ * [Mutating (Changing) Lists 5.04]({{ site.baseurl}}curriculum/05-lists/readings/03-mutating-lists.md)
 
 
 Labs/Exercises

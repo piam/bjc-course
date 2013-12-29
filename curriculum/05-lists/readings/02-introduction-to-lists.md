@@ -194,83 +194,34 @@ We should try out the average block
 
 Is that the answer you'd expect?
 
+When you Really Have to Loop
+----
+Consider the following problem-
 
-Composing Higher Order Functions to Solve More Complicated Problems
-------
+Write a predicate increasing? that takes a list of numbers as input, and outputs true if the numbers are in increasing order (equal neighbors are okay), or false otherwise.
 
-Suppose we want the squares of all the items of a list of numbers. That's a straightforward map problem
+![increasing](increasing-list-true-report.png)
 
-![map](mapsq.png)
+![increasing](increasing-list-false-report.png)
 
-Now suppose instead that we want to select the odd numbers from a list of numbers. It's a little tricky figuring out how to tell if a number is odd, but apart from that it's a straightforward keep problem
+Because this is a predicate, it's tempting to try to make it use keep
 
-![keep](keepodds.png)
+![wanabe](wannabe-increasing.png)
 
-But what if we want the squares of the odd numbers? This is neither a simple map nor a simple keep, but combines aspects of both. And we can solve the problem by using the value reported by the keep as the list input to map
+But map, keep, and combine work when each item in a list can be considered independently of the others. In this problem we have to consider each item in relation to the ones that have come before it: "Is this number at least as big as the ones we've already seen?"
 
-![mapsq](sq-odds.png)
+To do this, we need to write a loop. The loop needs to go through the lists items, from left to right, and keep track of the last item that it saw. But, as with map, we don't need to keep track of the specific number of where we are in the list (e.g., the third position, the first position, etc.) Those index numbers have nothing to do with the problem we're trying to solve. The solution is to use the for each item block, this way
 
-Don't be confused about which inputs do and don't have rings. It's the square function and the are-you-odd? function that we use as the first input to each higher order function. But, even though keep itself is a function, it's the list reported by keep that we're using as the second input to map.
+![increasing](increasing.png)
 
+Like the functions used as input to map and friends, the script inside the C-shaped slot of for each item interprets empty input slots (in the < and set blocks) as placeholders into which an item of the list will be entered. For each item promises to go through the list starting with item 1 and continuing in sequence to the end of the list. We use a script variable minimum to remember the most recent item's value, which is the minimum allowable value for the next item. If any item is smaller than that remembered value, increasing? reports false. If we make it to the end of the list without violating that requirement, then increasing? reports true.
 
-We're building up to one the great beautiful procedures you'll see in this course: We want to take a phrase, such as "Beauty and Joy of Computing," and report its acronym, the word BJC. You've explored two of the pieces of this problem in previous activities: 
-- Select only the words with five or more letters.
-- Make a list of the first letters of the words. 
-Review those activities if you don't remember how to solve those problems.
-But there are two more steps, one at the beginning of the problem and one at the end, both related to the fact that people (the users of your program) want to see words and phrases in the form of text strings, but as you've seen, it's much easier to compute functions of those words and sentences if we have them in the form of lists, so we can use the higher order functions you're learning.
+Note that the for each item block has the word "item" in a round orange block. It's a variable, and you can drag it into the script that goes inside the C-slot, instead of using an empty input to represent the list item
 
-To translate from a text string to a list of words, Snap! provides the reporter sentence->list (pronounced "sentence to list") that takes a text string as input and reports a list of words
+![increasing](increasing-item.png)
+You can work with the above script here.
 
-![stol](stol-bjc.png)
-
-As usual, you see only the first three list elements in the speech balloon, but you're told at the bottom that the length of the list is 5, as it should be for the five words in the given phrase.
-Once we have the list, we can use the tools we've already built to get a list of the first letters of the long words. What we want, though, is a single word as the reported value. We can use one of the higher order functions to join the letters into a string.
-
-Try this: Should we use map, keep, or combine for this purpose?
-Here's the final result
-
-![acronym](acronym.png)
-
-![badacro](bad-bjc.png)
-
-Oops! The word "Joy" is shorter than five letters, but it's still an important word in the acronym. We need a better algorithm.
-
-*Try this*
-Modify the acronym block so that, instead of keeping long words, it keeps words that start with a capital letter. (Hint: Experiment with the unicode of block.)
-
-![bjc](good-bjc.png)
-
-![byob](byob-acro.png)
-
-More on Composition of Higher Order Functions
--------
-
-![hof](fixed-acronym.png)
-
-This is the corrected version of acronym that checks for words starting with a capital letter. Isn't it beautiful? It does a complicated job, so there's a lot packed in there, but think how much worse it would be if we didn't have lists to help organize such tasks. You'd take the text string phrase and write a loop to go through it, character by character, looking for spaces as word separators. Then you'd have to build up the result string, adding one letter at a time.
-
-With map, keep, and combine, you can operate on the items of a list all at once. You don't have to think, "Find the first letter of the first word and operate on it, then increase the loop index until you find a space, then skip over any extra spaces that might be next to it, then remember the position of the beginning of the second word" and so on. You can think, "give me the first letters of all the words." 
-
-(Instead, all that ugliness about looking for spaces is hidden inside the sentence->list block, where everyone writing an application about sentences can use it without having to reinvent it. This is another example of abstraction, which we mentioned right at the beginning as one of the central ideas of the course and of computer science in general.)
-
-*Try this*
-
-- Write a max block that takes two numbers as inputs and reports the bigger one (either of them, if they're equal). Use it, and the list tools, to find the length of the longest word of a sentence.
-
-- Using that length to help, write a block that reports the longest word of a sentence (or the first word of that length, if there's a tie).
-
-- Write a word->list block that takes a word of text as input, and reports a list in which each item is a single letter from the word. To do this, you'll have to use a loop, along with the add to list block:
-
-![partial](partial-world-list.png)
-
-- Imagine that you're writing a program to play Hangman. The program has thought of a secret word, and the user is trying to guess it. Write a display word block that takes two inputs, the secret word and a list of the letters guessed by the user so far. It should say the letters of the secret word, spaced out, with underscore characters replacing the letters not yet guessed
-
-![hang](hang.png)
-
-(Use your word->list block on the secret word to get started.)
-
-- Write a reporter exaggerate that takes a sentence as input and reports an exaggerated version:
-
-![exaggerate](exaggerate.png)
-
-It should replace "good" with "great," "bad" with "terrible," "like" with "love," etc. And it should replace every number with twice the number.
+*Try these*
+ * Display a longish list using time instead of space on the screen by saying each item for two seconds.
+ * Write an expand reporter that takes a sentence as input, and reports a sentence that's the same except that each number in the input is replaced by that many copies of the following word
+![sheloves](expand-she-loves-you3-yeah-with-report.png)
