@@ -37,7 +37,7 @@ the first parameter is the note that should be played, represented as a number. 
 half-steps, but when you click on the number to change the note you get a picture of a keyboard. The following 
 picture shows four notes labeled with their names (C, D, E, and G) and the corresponding number values.
 
-<img src="keyboard.png">
+![keyboard](keyboard.png)
 
 These four notes are all the notes used in the song “Mary Had a Little Lamb” - you can make that song by 
 playing the following notes: E, D, C, D, E, E, E, (pause), D, D, D, (pause), E, G, G, (pause), E, D, C, D, 
