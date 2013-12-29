@@ -58,7 +58,7 @@ Use the item any feature to make a noun phrase by choosing a random article, a r
 
 Because of the random item choices, we get a different result each time we call noun phrase
 
-![nounphrase](nounphrase-calls.png)
+![nounphrase](nouphrase-calls.png)
 
 *Try this*
 
@@ -101,7 +101,7 @@ Here are some more examples of using map to compute some function of every item 
 
 ![ex2](ywd.png)
 
-![ex3](swuares.png)
+![ex3](squares.png)
 
 In that third example, there are two empty boxes in the function, so it's ☐×☐, which squares each number.
 
@@ -113,7 +113,59 @@ In the last activity we made a list of Beatles
 
 Use map and this list to get a list of just the first names of the Beatles.
 
+--------
 ![thebeatles](jpgr.png)
 
 A function that, like map, takes another function as an input is called a higher order function. In the next two activities you'll meet two more higher order functions.
+
+Choosing Some Items From a List
+--------
+
+You've probably played Geography, the game in which one player says a place name and the next player has to name another place whose first letter is the last letter of the previous place- Newark, Kentucky, Yonkers, San Francisco, Oklahoma. Have you ever gotten stuck on the letter "A"? Oklahoma, Alabama, Asia, Alaska, America, Alameda... and so on, forever.
+
+How many states start and end with the same letter? To find out, we first need a list of all the states
+
+![states](states.png)
+
+Now we want to select a subset of the states, namely the ones whose first and last letters are the same. Here's the block we use for that
+
+![predblock](keepblock.png)
+
+Like map, the keep block has a function as its first input. Notice, though, that this grey ring's inner boundary is hexagonal. This lets you know that you should use a predicate function, which means a function that reports true or false.
+
+We want to know whether two things are equal
+
+![equal](equalblock.png)
+
+The first letter of a word is letter number 1
+
+![firstletter](firstletterblock.png)
+
+(Note that we've deleted the word "world" that Snap! provides as a default value, a hint about what kind of input is expected. The input slot must be empty for our function-input notation to work.)
+
+Finding the last letter is a little trickier; you find the length of the text and use that number to select which letter you want
+
+![letterwanted](lastletterblock.png)
+
+Putting all these pieces together will give us the answer we want
+
+![keepsuchthat](geography.png)
+
+You can see from the "length: 4" in the result that there are four such states. The one you can't see in this picture is Ohio.
+
+But if you're playing Geography, the question you really want answered is "Which states start with such-and-such a letter?" You can define a block that takes a letter as input and gives the answer to that question
+
+![statestart](state-starting.png)
+
+![pstates](p-states.png)
+
+![sstates](s-states.png)
+
+*Try this*
+
+Write an expression that will select all the words of at least five letters from a list. For example, if the words in the list are being, for, the, benefit, of, mister, and kite, then your block should choose the words being, benefit, and mister.
+
+Write an expression that takes a list of mixed words and numbers, and selects just the numbers, (Hint: Look for is in the Operators palette.)
+
+Write an expression that selects from a list of words the ones that start with a vowel. (Hint: Use contains in the Variables palette.)
 
