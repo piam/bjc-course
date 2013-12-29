@@ -73,7 +73,7 @@ With map, keep, and combine, you can operate on the items of a list all at once.
 
 - Write a word->list block that takes a word of text as input, and reports a list in which each item is a single letter from the word. To do this, you'll have to use a loop, along with the add to list block:
 
-![partial](partial-world-list.png)
+![partial](partial-word-list.png)
 
 - Imagine that you're writing a program to play Hangman. The program has thought of a secret word, and the user is trying to guess it. Write a display word block that takes two inputs, the secret word and a list of the letters guessed by the user so far. It should say the letters of the secret word, spaced out, with underscore characters replacing the letters not yet guessed
 
