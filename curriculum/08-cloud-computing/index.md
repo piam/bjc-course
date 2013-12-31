@@ -5,7 +5,7 @@ unit: 8
 uniturl: 08-cloud-computing
 ---
 
-Unit 8 In the Clouds
+Unit 8 Distributed Computing-  In the Clouds
 ======================================
 ###Cloud Computing, Security & Encryption
 
