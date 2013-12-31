@@ -44,3 +44,5 @@ Another way to think about it -- what if the original list were of length 1? The
 Here is the most important part of this, so read the following over a few times so you understand: Thanks to Abstraction, running a MapReduce on your computer should be indistinguishable from running MapReduce on a cluster of a million computers (except hopefully the latter is faster). You do not need to worry about that when you are writing your MapReduce code. So for this lab, we are going to make sure you understand how to write MapReduce programs for one computer, and later when Snap! allows us to easily support automated, distributed computing, the internals of MapReduce will change to send your program to a cluster, but your programs will not have to!
 
 How does it work? It is exactly as we describe -- we send the results of mapping over a list to a reducer (block interface and definition shown below).
+
+![mapred](mapreduce_snap.png)
