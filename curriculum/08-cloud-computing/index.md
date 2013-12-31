@@ -12,15 +12,15 @@ Unit 8 Distributed Computing-  In the Clouds
 
 Learning Objectives
 -------------------
- * Objective 1.1.1: … use computing tools and techniques to create artifacts.
- * Objective 1.3.1: … use programming as a creative tool.
- * Objective 2.1.1: … describe the combination of abstractions used to represent data.
- * Objective 2.3.1: … use models and simulations to raise and answer questions.
+ * Objective 1.1.1 … use computing tools and techniques to create artifacts.
+ * Objective 1.3.1 … use programming as a creative tool.
+ * Objective 2.1.1 … describe the combination of abstractions used to represent data.
+ * Objective 2.3.1 … use models and simulations to raise and answer questions.
 
 Readings/Lectures
 -------------------
- * Reading 8.01: What is Cloud Computing?
- * Worksheet 8.02: Hand Biometrics
+ * Reading 8.01 [What is Cloud Computing?]({{ site.baseurl}}curriculum/08-cloud-computing/readings/01-what-is-cloud-computing) 
+ * Worksheet 8.02 [Hand Biometrics]({{ site.baseurl}}curriculum/08-cloud-computing/readings/02-hand-biometrics-worksheet) 
 
 External Resources
 -------------------
@@ -32,8 +32,8 @@ External Resources
 
 Labs/Exercises
 -------------------
- * Lab 8.01- [Encryption and Decryption]({{ site.baseurl}}curriculum/01-welcome/labs/01-encryption-decryption) 
- * Project 8.02 [Encryption Project] ({{ site.baseurl}}curriculum/01-welcome/labs/02-encryption-project) 
+ * Lab 8.01- [Encryption and Decryption]({{ site.baseurl}}curriculum/08-cloud-computing/labs/01-encryption-decryption) 
+ * Project 8.02 [Encryption Project]({{ site.baseurl}}curriculum/08-cloud-computing/labs/02-encryption-project) 
 
 
 ----------
