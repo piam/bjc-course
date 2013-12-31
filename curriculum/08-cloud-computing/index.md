@@ -20,7 +20,8 @@ Learning Objectives
 Readings/Lectures
 -------------------
  * Reading 8.01 [What is Cloud Computing?]({{ site.baseurl}}curriculum/08-cloud-computing/readings/01-what-is-cloud-computing) 
- * Worksheet 8.02 [Hand Biometrics]({{ site.baseurl}}curriculum/08-cloud-computing/readings/02-hand-biometrics-worksheet) 
+ * Reading 8.02 [The MapReduce Distributed Computing Pattern]({{ site.baseurl}}curriculum/08-cloud-computing/readings/02-mapreduce) 
+ * Worksheet 8.03 [Hand Biometrics]({{ site.baseurl}}curriculum/08-cloud-computing/readings/02-hand-biometrics-worksheet) 
 
 External Resources
 -------------------
