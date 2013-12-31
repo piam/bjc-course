@@ -13,7 +13,7 @@ Table of Contents
  * Unit 5 [What's in a List?]( {{ site.baseurl }}curriculum/05-lists/ )
  * Unit 6 [Where did I put it?]( {{ site.baseurl }}curriculum/06-searching-sorting/ )
  * Unit 7 [Algorithms]( {{ site.baseurl }}curriculum/07-recursion/ )
- * Unit 8 [In the Clouds]( {{ site.baseurl }}curriculum/08-cloud-computing/ )
+ * Unit 8 [Distributed Computing: In the Clouds]( {{ site.baseurl }}curriculum/08-cloud-computing/ )
  * Unit 9 [Data Data Everywhere]( {{ site.baseurl }}curriculum/09-data/ )
  * Unit 10 [The Wonderful World of the Web]( {{ site.baseurl }}curriculum/10-internet/ )
  * Unit 11 [Game Development]( {{ site.baseurl }}curriculum/11-game-development/ )
