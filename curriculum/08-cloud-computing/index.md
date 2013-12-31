@@ -35,6 +35,7 @@ Labs/Exercises
 -------------------
  * Lab 8.01- [Encryption and Decryption]({{ site.baseurl}}curriculum/08-cloud-computing/labs/01-encryption-decryption) 
  * Project 8.02 [Encryption Project]({{ site.baseurl}}curriculum/08-cloud-computing/labs/02-encryption-project) 
+ * Lab 8.03 [Solving Problems With MapReduce]({{ site.baseurl}}curriculum/08-cloud-computing/labs/03-mapreduce-lab) 
 
 
 ----------
