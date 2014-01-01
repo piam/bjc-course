@@ -3,8 +3,8 @@ layout: page
 title: Algorithm Analysis
 unit: 6
 uniturl: 06-searching-sorting
-reading: 2
-readingurl: 02-algorithm-analysis
+reading: 3
+readingurl: 03-algorithm-analysis
 ---
 
 
