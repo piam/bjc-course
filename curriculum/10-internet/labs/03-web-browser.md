@@ -35,20 +35,23 @@ telnet inst.eecs.berkeley.edu 80
 
 You should now see a response that looks like this:
 
-*Trying 128.32.42.199...
+```
+Trying 128.32.42.199...
 Connected to inst.eecs.berkeley.edu.
-Escape character is '^]'.*
+Escape character is '^]'.
+```
 
 with a blinking cursor below. Congratulations! You just established a connection to the institute's web server!
 
 Now all you have to do is instruct the webserver to fetch the website. Since telnet does not know about http, we need to speak the protocol ourselves. the command for getting a webpage is GET followed by a path. Let's try it, enter the following: 
 
-*GET /*
+`GET /`
 
 You should now see a response that looks like this
 
-*...]
-    377 & 378 Cory Hall, 333 Soda Hall
+```
+...]
+   377 378 Cory Hall, 333 Soda Hall
     University of California
     Berkeley  CA  94720-1770
     </DIV>
@@ -60,7 +63,8 @@ You should now see a response that looks like this
 
 </BODY>
 </HTML>
-Connection closed by foreign host.*
+`Connection closed by foreign host.
+```
 
 Congratulations, you just downloaded the page for http://inst.eecs.berkeley.edu/! 
 
@@ -68,8 +72,8 @@ Now-
 Download the webpage that you are currnelty looking at (this page).
 Take a moment to discuss with your peers the technical changes between the historical video and today.
  
-Again, after all this work: Let's finish with another fun one. Enter:
+Again, after all this work: Let's finish with another fun one. Enter-
 
    *telnet towel.blinkenlights.nl*
 
-Don't watch to the end though, since there is more work to do in this lab...
+Don't watch to the end though, it's long!
