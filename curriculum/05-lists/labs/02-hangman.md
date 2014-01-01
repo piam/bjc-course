@@ -9,17 +9,7 @@ laburl: 02-hangman
 
 Hangman
 ===
-Your Mission
-
 The goal of this homework assignment is to create a simple version of Hangman.
-
-Your Timeline
-
-This assignment is due on at the end of the Algorithms topic.
-
-Additional Details
-
-This is a single-player game.
 
 The player specifies the length of the word they'd like the use, and the computer picks a random word of the chosen length.from a list. The player then guesses a letter that they think may appear in the word. The computer checks whether the letter appears in the word and either reveals all instances of it (if it exists) or takes away one point from the player's lives. The computer then displays (somehow) the progress that the player has made towards guessing the word. The game continues until either all of the letters have been guessed (and the player wins) or all of the player's lives are used up (and the player loses). In either case, the computer should announce this event and the game should end.
 
