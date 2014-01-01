@@ -7,7 +7,7 @@ lab: 4
 laburl: 04-algorithms-snap
 ---
 
-Using the ]framework provided](http://snap.berkeley.edu/snapsource/snap.html#open:http://bjc.berkeley.edu/bjc-r/cur/programming/algorithms/../../../prog/algorithms/algorithms-framework.xml), implement a Snap block in the Unsorted sprite that finds a number in a list of 
+Using the [framework provided](http://snap.berkeley.edu/snapsource/snap.html#open:http://bjc.berkeley.edu/bjc-r/cur/programming/algorithms/../../../prog/algorithms/algorithms-framework.xml), implement a Snap block in the Unsorted sprite that finds a number in a list of 
 unsorted numbers using the strategy that we discussed. The block should accept the target number (the "needle") 
 and a full list of numbers (the "haystack") as arguments, and return the index of the number's position in the list. 
 What was the strategy we discussed for unsorted lists, and how could you implement it? Two empty blocks are provided 
