@@ -6,9 +6,8 @@ uniturl: 06-searching-sorting
 ---
 
 
-Unit 6 Where did I put it?
+Unit 6 Searching and Sorting- An Intro to Algorithms
 ===========================
-Searching and Sorting Algorithm
 
 
 Learning Objectives
