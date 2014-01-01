@@ -6,7 +6,7 @@ uniturl: 07-recursion
 ---
 
 
-Unit 7- Algorithms
+Unit 7- Recursion
 ========================================
 
 
