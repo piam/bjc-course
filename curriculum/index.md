@@ -11,7 +11,7 @@ Table of Contents
  * Unit 3 [Build Your Own Blocks!]( {{ site.baseurl }}curriculum/03-build-your-own-blocks/ )
  * Unit 4 [Conditionals & Artificial Intelligence]( {{ site.baseurl }}curriculum/04-conditionals-and-ai/ )
  * Unit 5 [What's in a List?]( {{ site.baseurl }}curriculum/05-lists/ )
- * Unit 6 [Where did I put it?]( {{ site.baseurl }}curriculum/06-searching-sorting/ )
+ * Unit 6 [Where did I put it? Searching and Sorting]( {{ site.baseurl }}curriculum/06-searching-sorting/ )
  * Unit 7 [Algorithms]( {{ site.baseurl }}curriculum/07-recursion/ )
  * Unit 8 [Distributed Computing: In the Clouds]( {{ site.baseurl }}curriculum/08-cloud-computing/ )
  * Unit 9 [Data Data Everywhere]( {{ site.baseurl }}curriculum/09-data/ )
