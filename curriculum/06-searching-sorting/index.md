@@ -37,6 +37,7 @@ Labs/Exercises
  * Activity 6.01 [Searching Activity]({{ site.baseurl}}curriculum/06-searching-sorting/labs/01-searching-activity)
  * Activity 6.02 [Searching (non Video-) Game]({{ site.baseurl}}curriculum/06-searching-sorting/labs/02-searching-game)
  * Lab 6.03 [Update the Guessing Game]({{ site.baseurl}}curriculum/06-searching-sorting/labs/03-update-guessing-game)
+ * Lab 6.04 [Algorithms in Snap]({{ site.baseurl}}curriculum/06-searching-sorting/labs/04-algorithms-snap)
 
 ---
 *Learning objectives © 2013 The College Board. All rights reserved. Computer Science: Principles is a pilot course under development. It is not an official Advanced Placement course currently being offered by the College Board. This document is based upon work supported by the National Science Foundation, grant CNS‐0938336. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.*
