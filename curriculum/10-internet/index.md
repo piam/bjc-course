@@ -40,5 +40,7 @@ Labs/Exercises
 --------------
  * Lab 10.01 [How the Internet Works]({{ site.baseurl}}curriculum/10-internet/labs/01-how-the-internet-works)
  * Lab 10.02 [Internet Activity]({{ site.baseurl}}curriculum/10-internet/labs/02-internet-activity)
+ * Lab 10.03 [How A Web Browser Works]({{ site.baseurl}}curriculum/10-internet/labs/03-web-browser)
+ * Lab 10.04 [Internet & Privacy]({{ site.baseurl}}curriculum/10-internet/labs/04-internet-privacy)
  * Portfolio Project 10.03 [Internet Portfolio Project]({{ site.baseurl}}curriculum/10-internet/labs/03-internet-portfolio-project)
  
