@@ -10,7 +10,7 @@ laburl: 02-recursive-bunnies
 
 Recursive Bunnies
 =================
-Use BYOB to create a recursive procedure to count the number of bunny ears given a number of bunnies entered. Use the Factorial or OddNumSum program as a guide. Remember, there are two ears per bunny (unless you have “different” bunnies).
+Use Snap to create a recursive procedure to count the number of bunny ears given a number of bunnies entered. Use the Factorial or OddNumSum program as a guide. Remember, there are two ears per bunny (unless you have “different” bunnies).
 
 Your code MUST be recursive - You should have a function (block) to count the ears that calls itself!
 
@@ -35,9 +35,4 @@ For example: I have 5 total bunnies. This means that bunnies #1, 3, and 5 have 3
 By the way, you can have 2 recursive calls inside your script as long as there is conditional execution. In other words, If _____________ do the recursive call this way Else do the recursive call that way.
 
 
-Turn in Your Work
------------------
- * Create a page titled "Recursive Bunnies" under your Classwork category and describe your logic in creating your recursive procedure.
- * Upload your Recursive Bunnies file (.ypr)
- * Add the Screenshots to a Word doc with your description. Submit on Moodle.
 
