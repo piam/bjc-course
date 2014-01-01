@@ -3,8 +3,8 @@ layout: page
 title: All algorithms are not equal
 unit: 6
 uniturl: 06-searching-sorting
-reading: 1
-readingurl: 01-all-algorithms-are-not-equal
+reading: 2
+readingurl: 02-all-algorithms-are-not-equal
 ---
 
 
