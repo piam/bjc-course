@@ -28,8 +28,8 @@ Readings/Lectures
  * Lecture Slides 11.01 [Video Games]({{ site.baseurl}}curriculum/11-game-development/readings/Game_Development_Slides.pdf)
  * Reading 11.02 [Fundamentals of Game Design]({{ site.baseurl}}curriculum/11-game-development/readings/02-fundamentals-of-game-design)
  * Reading 11.03 [Game Design Principles]({{ site.baseurl}}curriculum/11-game-development/readings/03-game-design-principles)
- * Tutorial 11.04 [Designing Games]({{ site.baseurl}}curriculum/11-game-development/readings/01-designing-games.pdf)
- * Tutorial 11.05 [Your first game]({{ site.baseurl}}curriculum/11-game-development/readings/02-your-first-game.pdf)
+ * Tutorial 11.04 [Designing Games]({{ site.baseurl}}curriculum/11-game-development/readings/04-designing-games.pdf)
+ * Tutorial 11.05 [Your first game]({{ site.baseurl}}curriculum/11-game-development/readings/05-your-first-game.pdf)
  * Reading 11.06 [How Do I Get Started Programming Games?](http://www.gamasutra.com/blogs/TommyRefenes/20130107/184432/)
  * [Official Game Maker Tutorial](http://sandbox.yoyogames.com/make/tutorials)
 
