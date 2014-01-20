@@ -30,7 +30,7 @@ Readings/Lectures
  * Lecture Slides 5.01 [Lists]({{ site.baseurl}}curriculum/05-lists/readings/01-lists-slides.pdf)
  * Reading 5.02 [Introduction to Lists]({{ site.baseurl}}curriculum/05-lists/readings/02-introduction-to-lists)
  * Reading 5.03 [List and Higher Order Functions]({{ site.baseurl}}curriculum/05-lists/readings/03-higher-order-functions-lists)
- * Reading 5.04 [Mutating (Changing) Lists]({{ site.baseurl}}curriculum/05-lists/readings/03-mutating-lists)
+ * Reading 5.04 [Mutating (Changing) Lists]({{ site.baseurl}}curriculum/05-lists/readings/04-mutating-lists)
 
 
 Labs/Exercises
