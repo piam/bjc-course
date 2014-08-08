@@ -46,7 +46,7 @@ External Links
 
 Labs/Exercises
 --------------
- * Lab 4.01 [Random Numbers and Conditionals: Guessing Game]({{ site.baseurl}}curriculum/04-conditionals-and-ai/labs/01-random-numbers-and-conditionals)
+ * Lab 4.01 [Random Numbers and Conditionals: Guessing Game]({{ site.baseurl}}curriculum/04-conditionals-and-ai/labs/lab3.docx) ([Slides]({{ site.baseurl}}curriculum/04-conditionals-and-ai/labs/lab3.pptx))
 
 ---
 *Learning objectives © 2013 The College Board. All rights reserved. Computer Science: Principles is a pilot course under development. It is not an official Advanced Placement course currently being offered by the College Board. This document is based upon work supported by the National Science Foundation, grant CNS‐0938336. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.*

@@ -22,7 +22,7 @@ Learning Objectives
  * Objective 4.3.1 … appropriately connect problems and potential algorithmic solutions.
  * Objective4.4.1 … evaluate algorithms analytically and empirically.
  * Objective 7.1.1 … analyze how computing affects communication, interaction, and cognition.
- * Objective 7.1.2 … collaborate as part of a process that scales. 
+ * Objective 7.1.2 … collaborate as part of a process that scales.
  * Objective 7.2.1 .. connect computing with innovations in other fields.
  * Objective 7.3.1 … analyze the beneficial and harmful effects of computing.
  * Objective 7.4.1 … connect computing within economic, social, and cultural contexts.
@@ -37,15 +37,12 @@ Readings/Lectures
  * Lecture Slides 2.04 [Loops and Variables]({{ site.baseurl}}curriculum/02-loops-and-variables/readings/04-loops-variables-slides.pdf)
  * Lecture Video 2.05 [Variables]({{ site.baseurl}}curriculum/02-loops-and-variables/readings/05-looping-byob-video.mp4)
  * Lecture Video 2.06 [Looping]({{ site.baseurl}}curriculum/02-loops-and-variables/readings/06-variables-byob-video.mp4)
- 
+
 
 Labs/Exercises
 --------------
- * Lab 2.01 [Variables]({{ site.baseurl}}curriculum/02-loops-and-variables/labs/01-variables)
- * Lab 2.02 [Looping]({{ site.baseurl}}curriculum/02-loops-and-variables/labs/02-looping)
  * Lab 2.03 [Repeat Until Practice Worksheet]({{ site.baseurl}}curriculum/02-loops-and-variables/labs/03-practice-repeat-until.pdf)
  * Lab 2.04 [Regular Figures Worksheet]({{ site.baseurl}}curriculum/02-loops-and-variables/labs/04-regular-figures-activity.pdf)
- * Lab 2.05 [Drawing Tools]({{ site.baseurl}}curriculum/02-loops-and-variables/labs/05-drawing-tools)
  * Lab 2.06 [Position on the Stage]({{ site.baseurl}}curriculum/02-loops-and-variables/labs/06-position-on-the-stage)
 
 ---

@@ -29,7 +29,7 @@ Readings/Lectures
  * Reading 1.01- [What is Abstraction?]({{ site.baseurl }}curriculum/01-welcome/readings/01-what-is-abstraction)
  * Reading 1.02- [More on Abstraction]({{ site.baseurl }}curriculum/01-welcome/readings/02-more-on-abstraction)
  * Reading 1.03- [Binary and Hexadecimal Numbers]({{ site.baseurl }}curriculum/01-welcome/readings/03-binary-and-hexadecimal)
- 
+
 External Resources
 -----------------
  * Lecture Video- [Binary Hex Decimal](http://www.screencast.com/t/c2tp610y1tx6)
@@ -37,7 +37,7 @@ External Resources
 Labs/Exercises
 --------------
  * Lab 1.01- [Conversion Exercise]({{ site.baseurl }}curriculum/01-welcome/labs/01-conversion)
- * Lab 1.02- [Welcome to Visual Programming]({{ site.baseurl }}curriculum/01-welcome/labs/02-exploring-visual-programming)
+ * Lab 1.02- [Welcome to Visual Programming]({{ site.baseurl }}curriculum/01-welcome/labs/lab1.docx)
  * Lab 1.03- [Lights, Camera, Action]({{ site.baseurl}}curriculum/01-welcome/labs/03-lights-camera-action)
  * Lab 1.04- [Game Controls]({{ site.baseurl}}curriculum/01-welcome/labs/04-game-controls)
  * [Resource Pack for All Snap Labs]({{ site.baseurl}}curriculum/01-welcome/labs/snap-media.zip)

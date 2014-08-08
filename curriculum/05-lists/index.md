@@ -35,10 +35,7 @@ Readings/Lectures
 
 Labs/Exercises
 --------------
- * Lab 5.01 [Lists]({{ site.baseurl}}curriculum/05-lists/labs/01-guessing-game-with-lists)
- * Lab 5.02 [Hangman]({{ site.baseurl}}curriculum/05-lists/labs/02-hangman)
+ * Lab 5.02 [Hangman]({{ site.baseurl}}curriculum/05-lists/labs/02-hangman) ([Slides]({{ site.baseurl}}curriculum/05-lists/labs/lab4.pptx))
 
 ---
 *Learning objectives © 2013 The College Board. All rights reserved. Computer Science: Principles is a pilot course under development. It is not an official Advanced Placement course currently being offered by the College Board. This document is based upon work supported by the National Science Foundation, grant CNS‐0938336. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.*
-
-
