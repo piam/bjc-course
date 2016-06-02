@@ -7,12 +7,12 @@ reading: 2
 readingurl: 02-introduction-to-lists
 ---
 
-Introduction to Lists
+Introduction to 3D-Models
 ========
 
-Look in the Variables palette below the orange variable-related blocks for a bunch of red blocks. These blocks are about lists. A list is a way to combine several values into one grouped value.
+In order to Print out an object in 3D we first need to create a model of the object we want to print. For this we are going to use [link](http://beetleblocks.com/run/).
 
-The first red block is the list block, used to create a list
+This is a program much link Snap that you used in Lab's one and two. When beetleblocks open it will start with a tutorial, run through tutorial 1, but dont do tutorial 2!
 
 ![list](listblock.png)
 
