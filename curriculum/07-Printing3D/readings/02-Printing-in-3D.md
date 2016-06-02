@@ -93,19 +93,47 @@ Note: Keep in mind that we are less inclined to print anything that is too large
 When 3D printing we would want our object to lay flat so lets rotate our object.
 
 Click your object then clik "Rotate" twice so the menu comes up. Use the +90 degrees button to rotate it down.
-![list](roatate.PNG)
+
+![list](rotate.PNG)
+
+Now that your object is flat let's place it on the printing bed.
+
+With your object selected click Move and click the "On Platform" button.
+
+![list](on_platform.PNG)
+
+Optional: if you have too many overhangs add Supports
+
+Some times we build objects that have spaces between them or overhangs, when we 3D print however we need a stable platform to build on. To address this we try to avoid overhangs and empty space, but failing that you can always add supports.
+
+If you need supports click the Supports button
+
+![list](supports.PNG)
+
+Then select Support Options and pick Treelike.
+
+![list](support_options.PNG)
+
+Now click Auto Supports to fill them in, then hit the back button.
+
+![list](auto_support.PNG)
 
 
-Place your object flat by selecting your object and click Move then "on platform" to lay it down
+Let's Print!
 
- Hint: if you have too many overhangs add Supports
-  Some times we build objects that have spaces between them or overhangs, when we 3D print however we need a stable platform to build on. To address this we try to avoid overhangs and empty space, but failing that you can always add supports.
-  1. Click Supports
-  2. Click Support Options
-  3. Select Treelike
-  4. Click Auto Supports.
-  5. If you want to make a change (rotation/scale/move) just click Clear Supports and try again.
-  
-Click Print to make your .g File that you will send to your TA along with your .stl file for printing!
+Hit the Print button at the top of the screen.
 
+Make sure the following settings are set this way unless your TA says otherwise:
+Machine Type: FlashForge Dreamer
+Material Right: PLA
+Material Left: PLA
 
+Resolution: Standard
+
+Under More Options -> Temperature
+Right Extruder: 200
+Platform: 50
+
+![list](print_settings.PNG)
+
+Now just send your newly created .g file and your .stl file to your TA via email and they will start printing it!
