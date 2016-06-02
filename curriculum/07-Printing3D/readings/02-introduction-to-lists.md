@@ -10,21 +10,22 @@ readingurl: 02-introduction-to-lists
 Introduction to 3D-Models
 ========
 
-In order to Print out an object in 3D we first need to create a model of the object we want to print. For this we are going to use [link](http://beetleblocks.com/run/).
+In order to Print out an object in 3D we first need to create a model of the object we want to print. For this we are going to use [BeetleBlocks](http://beetleblocks.com/run/).
 
-This is a program much link Snap that you used in Lab's one and two. When beetleblocks open it will start with a tutorial, run through tutorial 1, but dont do tutorial 2!
+This is a program much like Snap! that you used in Lab's one and two. 
 
-![list](listblock.png)
+When beetleblocks opens it will start with a tutorial, run through tutorial 1, but dont do tutorial 2!
 
-Drag a list block into the scripting area to experiment with.
-This block uses a Snap! feature you've seen once before, in the join block: a variadic input. This means that, even though you see one input slot in the block, you can give it any number of inputs. The left and right arrowheads at the end of the block are used to delete or add input slots:
+![list](bb1.PNG)
 
-![list](variadic.png)
+At this point you should have an image that looks like this:
+![list](bb2.PNG)
 
 Like any reporter block, the list block can be dragged into an input slot of another block
 
-![list](saylist.png)
-
+![list](bb3.PNG)
+![list](bb4.PNG)
+![list](Colour.PNG)
 The grey rounded rectangle with red rounded rectangles inside it is the visual representation of a list. Each red rectangle is one list item.
 
 The list picture has several extra widgets: a + button, the downarrow, and so on. When a list value is seen in a variable watcher, you can use these controls to modify the contents of the list directly. But we're not doing that for a while, so for now just focus on the values in the red rectangles.
