@@ -35,23 +35,42 @@ Let's make your model more interesting by adding some more spheres and some colo
 
 Our repeat loop is currently running 10 times and rotating in the z-axis by 36 degrees.Let's change that to repeat 36 times and set the z-axis roation to 10.
 
-![list](more_spheres.PNG)
+![list](circle_spheres.PNG)
 
 Congratulations, you now have a connected ring of spheres, but let's make it stronger and prettier. 
 
 Edit the move block value from 0.5 to be 0.3 to have your spheres will overlap making a stronger structure.
 
-Let's also add some colour, from the Color menu on the top left drag over the "change hue by " block and place it anywhere into your repat block.
+Let's also add some color.
+From the Color menu on the top left drag over the "change hue by " block and place it anywhere into your repat block.
 
 You should now have an object that looks like this:
 
 ![list](complete.PNG)
 
-What Good are Lists?
-------
-Let's say you're writing a program to generate English sentences. Your starting point might be various lists of words
+Don't forget to save what you have so you can always come back to it!
 
-![list](wordlists.png)
+Make your own 3D Model to print!
+------
+By now you have a feel for what you can do in BeetleBlocks, so it's time to make your own object to 3D print.
+
+Feel free to modify your tutorial or explore some example projects and modify something that you like! 
+
+![list](more_examples_highlight.png)
+
+While you can spend all day playing with BeetleBlocks, make sure you leave 20 minutes in order to make your model print ready!
+
+Let's 3D Print!
+------
+
+Once you are ready to print your object we need to download it as an STL file and get it ready to be printed.
+
+From the drop down Select "Download 3D model as..." and select STL.
+
+![list](download_stl.PNG)
+
+
+
 
 You could build up a sentence out of phrases. For example, to make a noun phrase, you want to pick one item from the articles list, one from the adjectives list, and one from the nouns list.
 
