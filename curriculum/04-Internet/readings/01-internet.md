@@ -35,17 +35,17 @@ This will show you the route from a computer (by default in Washington) to anoth
 
 Below we have a list of interesting servers from all over the world. Pick one or use your of your own choice by copy/pasting it into the input field at the top of the page and hit start. Make sure to try at least one server with interesting suffixes like .br, .au, or .tw.
 
-*ct.cs.ubc.ca (Vancouver, Canada)
-*www.mars.dti.ne.jp (Japan, Tokyo)
-*mpi-sb.mpg.de (Germany)
-*www.univ-paris1.fr (France)
-*lanczos.maths.tcd.ie (Ireland)
-*ida.liu.se (Sweden)
-*alunos.ufv.br (Brazil)
-*www.unb.br (Brazil)
-*www.unsw.edu.au (Australia)
-*mail.iis.sinica.edu.tw (Taiwan)
-*rrzmta2.rz.uni-regensburg.de (Germany)
+* ct.cs.ubc.ca (Vancouver, Canada)
+* www.mars.dti.ne.jp (Japan, Tokyo)
+* mpi-sb.mpg.de (Germany)
+* www.univ-paris1.fr (France)
+* lanczos.maths.tcd.ie (Ireland)
+* ida.liu.se (Sweden)
+* alunos.ufv.br (Brazil)
+* www.unb.br (Brazil)
+* www.unsw.edu.au (Australia)
+* mail.iis.sinica.edu.tw (Taiwan)
+* rrzmta2.rz.uni-regensburg.de (Germany)
 
 The green line you see is the route your packet takes to get to your server!
 
