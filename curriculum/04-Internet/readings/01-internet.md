@@ -59,7 +59,8 @@ For each hop along the way that we have data for, we are shown the three times, 
 Notice that the RTT numbers are not the same, can you imagine why the time for a packet to get there and back would vary?
 
 Answer:
-!One reason could be that the network maybe more or less congested, much like a traffic jam.
+
+! One reason could be that the network maybe more or less congested, much like a traffic jam.
 
 Show your TA:
 
