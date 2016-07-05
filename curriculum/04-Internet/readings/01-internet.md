@@ -60,7 +60,7 @@ Notice that the RTT numbers are not the same, can you imagine why the time for a
 
 Answer:
 
-! One reason could be that the network maybe more or less congested, much like a traffic jam.
+>! One reason could be that the network maybe more or less congested, much like a traffic jam.
 
 Show your TA:
 
