@@ -14,8 +14,11 @@ Fun with the Internet
 Learning Goals:
 ---------------
 Use visual tools to better understand what happens under the hood when we load a webpage.
+
 +See on a map at a high level how a packet is routed and forwarded.
+
 +See a visual representation of all the assets that a webpage requests/loads
+
 Compare packet speed (light speed) to page loading speed (seconds) and be able to explain the descrepency
 
 The Big Question this lab asks/answers:
@@ -25,6 +28,7 @@ If packets of information move at the speed of light what are some reasons that 
 Visualizing Internet Routes
 ---------------------------
 Point your browser to this [internet route visualizing tool](http://www.monitis.com/traceroute/).
+
 This will show you the route from a computer (by default in Washington) to another computer someplace in the world that you choose. 
 
 ![trace_route](trace_route.png)
@@ -57,7 +61,7 @@ Show your TA:
 1. A server that you found that is the furthest away in distance
 2. A server that you found that is the most hops away (can you get one longer than 20 hops?)
 3. Be able to explain why the times there and back can vary.
-5. Try to find a server that is the most hops away! Can you get one longer than 22?
+4. Try to find a server that is the most hops away! Can you get one longer than 22?
 
 Page Load Analysis
 ------------------
