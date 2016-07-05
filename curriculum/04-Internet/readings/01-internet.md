@@ -8,20 +8,19 @@ readingurl: 01-internet
 ---
 
 
-Fun with the Internet?
+Fun with the Internet
 =========================================
 
-Tools:
-------
-http://www.monitis.com/traceroute/ (server in US/Europe/Asia)
-http://en.dnstools.ch/ (done from a server in europe, shows command line)
-http://www.yougetsignal.com/tools/visual-tracert/ (Can trace from host machine, shows miles traveled, but is ugliest)
+Learning Goals:
+---------------
+Use visual tools to better understand what happens under the hood when we load a webpage.
++See on a map at a high level how a packet is routed and forwarded.
++See a visual representation of all the assets that a webpage requests/loads
+Compare packet speed (light speed) to page loading speed (seconds) and be able to explain the descrepency
 
-
-Ideas (pre-reading, or watch a youtube video?):
-------
-What is a packet? 
-What is a route?
+The Big Question this lab asks/answers:
+---------------------------------------
+If packets of information move at the speed of light what are some reasons that web pages can take a measurable amount of time to load?
 
 Visualizing Internet Routes
 ---------------------------
