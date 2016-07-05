@@ -9,7 +9,14 @@ readingurl: 02-Printing-In-3D
 
 Introduction to 3D-Models
 ========
+Learning Goals
+------
+  * Be able to list some of the limitations of 3D printing
+  * Be able to Name some benefits and uses for 3D printing
+  * When given a block of code, be able to describe, at a high level, what the block is trying to do.
 
+Start Lab
+------
 In order to print an object in 3D, we first need to create a model of what we want to print. For this, we are going to use [BeetleBlocks](http://beetleblocks.com/run/).
 
 This is a program much like Snap! that you used in labs one and two. 
