@@ -50,11 +50,11 @@ Below we have a list of interesting servers from all over the world. Pick one or
 The green line you see is the route your packet takes to get to your server!
 
 Now let's take a look at some of the data about it's trip, scroll down until you see a list of hops along with some times in ms.
-Note that if traceroute can't find any data it will display a * for that hop.
+Note that if traceroute can't find any data it will display a * or n/a for that hop, also if it doesnt have an estimate of the round trip for the packet it will display a * or 0 ms for the time.
 
 ![trace_info](route_table.png)
 
-For each hop along the way that we have data for, we are shown the three times, each is the delay in ms that a packet takes to that router and back (known as RTT).
+For each hop along the way that we have data for, we are shown the three times, each is the delay in ms that a packet takes to that router and back (known as RTT). A time of 0ms or * is means traceroute didn't have a estimate for that hop.
 
 Notice that the RTT numbers are not the same, can you imagine why the time for a packet to get there and back would vary?
 
