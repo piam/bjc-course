@@ -62,6 +62,7 @@ Answer:
 !One reason could be that the network maybe more or less congested, much like a traffic jam.
 
 Show your TA:
+
 1. A server that you found that is the furthest away in distance
 2. A server that you found that is the most hops away (can you get one longer than 20 hops?)
 3. Be able to explain why the times there and back can vary.
