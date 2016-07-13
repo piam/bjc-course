@@ -13,11 +13,13 @@ Image Processing Lab
 Tools
 -----
 Online image editor of choice: https://pixlr.com/editor/ **Requires Flash**
+
 Find CC images: https://search.creativecommons.org/
 
 Learning Goals:
 ---------------
 + Be able to explain at a high level how a filter works 
+
 + Be able to explain loss of information in terms of filters
 
 Part 1: Desaturate an image
