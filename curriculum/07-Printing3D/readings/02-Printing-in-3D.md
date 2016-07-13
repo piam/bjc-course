@@ -11,9 +11,9 @@ Introduction to 3D-Models
 ========
 Learning Goals
 ------
-  * Be able to list some of the limitations of 3D printing
-  * Be able to Name some benefits and uses for 3D printing
-  * When given a block of code, be able to describe, at a high level, what the block is trying to do.
+  * List some of the limitations of 3D printing
+  * Name some benefits and uses for 3D printing
+  * When given a block of code, describe what the block is trying to do.
 
 Start Lab
 ------
