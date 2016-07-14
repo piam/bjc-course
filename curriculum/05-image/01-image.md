@@ -136,6 +136,9 @@ Lossless
 
 Take a look at this image that is saved as a TIFF vs PNG
 
+We will talk about a lossless compression technique in class, and here we are going to use one!
+
+Trying saying your image as a png and compare it to the ....
 
 Exam Question: Is it possible to have a compression algorithm that doesn't lose any information?
 
