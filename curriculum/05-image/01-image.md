@@ -13,7 +13,7 @@ Image Processing Lab
 **Notes**
 
 Remove BMP format since it's a propietary MS format.
-refer to this [document](http://users.wfu.edu/matthews/misc/graphics/formats/formats.html) to pick the correct format a remember to site it.
+refer to this [document](http://users.wfu.edu/matthews/misc/graphics/formats/formats.html) to pick the correct format and remember to cite it.
 
 Tools
 -----
