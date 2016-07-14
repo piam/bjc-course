@@ -78,7 +78,7 @@ Right click on your image and select view details. Let's take note of the number
 
 ![image_details](image_details.png)
 
-Activity: Estimate file size from it's pixels
+Activity: Estimate file size from its pixels
 ---------------------------------------------
 
 	1. How many pixels wide/high is your image
@@ -123,7 +123,7 @@ What size are the images?
 
 (more blocky, more blurry == smaller)
 
-Notice anything about but depth?
+Notice anything about bit depth?
 
 (32>16>8)
 
@@ -139,6 +139,10 @@ Take a look at this image that is saved as a TIFF vs PNG
 We will talk about a lossless compression technique in class, and here we are going to use one!
 
 Trying saying your image as a png and compare it to the ....
+
+
+Find onine diff tool, and saves back and forth bmp -> jpg -> bmp make sure there is a high level
+
 
 Exam Question: Is it possible to have a compression algorithm that doesn't lose any information?
 
