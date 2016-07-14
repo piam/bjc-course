@@ -1,4 +1,5 @@
-yout: page
+---
+layout: page
 title: Imaging Lab
 unit: 5
 uniturl: 05-image
