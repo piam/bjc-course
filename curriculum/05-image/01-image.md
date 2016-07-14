@@ -9,6 +9,10 @@ laburl: 01-image
 Image Processing Lab
 ====================
 
+**Notes**
+
+Remove BMP format since it's a propietary MS format.
+refer to this [document](http://users.wfu.edu/matthews/misc/graphics/formats/formats.html) to pick the correct format a remember to site it.
 
 Tools
 -----
@@ -25,14 +29,7 @@ Learning Goals:
 Part 1: Desaturate an image
 ---------------------------
 
-Let's start by finding an image that you want to desaturate, we suggest something colourful.
-
-Try using this [search tool](https://search.creativecommons.org/) to find creative commons images
-
-![cc_search](cc.png)
-
-
-Once you have your image of choice copy the url into your clipboard.
+During the Prelab, you found an image you wanted to work with, if not just use this [image](https://upload.wikimedia.org/wikipedia/commons/2/2f/There%27s_a_party%3F.jpg).
 
 ![image_url](img_url.png)
 
@@ -106,10 +103,41 @@ Now let's calculate how many Bytes our image should be and see if it matches!
 3,871,488 pixels * 3 Bytes/Pixel = 11,614,464 Bytes, or 11.6 Million Bytes which is approx 11 MegaBytes. There are some extra bytes being used to identify the type of file and we are usually shown a approx size)	
 Where you able to approximate the size of your image based on it's pixels and pixel depth?
 
-Optional Section:
-=================
-
-Is it possible to represent an image exactly with fewer bytes? Is this true of all images? lossless encoding... where doesn't this work (101 lab does this).
+Part 3: Compression
+===================
 
 
+Lossy
+-----
 
+Look at [images](https://en.wikipedia.org/wiki/File:Quality_comparison_jpg_vs_saveforweb.jpg), and see if you can detect the difference!
+
+Firts visual, then image size as done in Part 2
+
+What do you see?
+
+(blocky, blurry, and fairly close jpg links)
+
+What size are the images?
+
+(more blocky, more blurry == smaller)
+
+Notice anything about but depth?
+
+(32>16>8)
+
+[either show same pixels then less bit depth or same bit depth less pixels] **I prefer less bit depth**
+
+
+
+Lossless
+--------
+
+Take a look at this image that is saved as a TIFF vs PNG
+
+
+Exam Question: Is it possible to have a compression algorithm that doesn't lose any information?
+
+
+***Credit to: 
+://docs.google.com/file/d/0B3EdcN2RueUhbVd5WXY2c2ZnY2c/edits it possible to represent an image exactly with fewer bytes? Is this true of all images? lossless encoding... where doesn't this work (101 lab does this).
