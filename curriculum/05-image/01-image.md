@@ -117,11 +117,13 @@ To start we will save it as a JPG with high compression. JPG's use a form of com
 
 Go to File -> Save.. and select JPG from the format. You should see a "quality" bar, this decides how much information to keep. It should be set to 80% by default let's set it to 1% and save it locally.
 
+![save_low_quality](low_quality_jpg.png)
+
 **Note we can't view this file in pixlr correctly, it needs to be viewed locally**
 
-![low_quality_jpg](desaturated_jpg_1.jpg)
-
 Now lets open the file locally on your computer and take a look at it! 
+
+![low_quality_jpg](desaturated_jpg_1.jpg)
 
 Do you notice any loss of visual information?
 
