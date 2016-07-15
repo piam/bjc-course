@@ -60,11 +60,11 @@ You should now have an image that has for the most part lost all of it's color, 
 
 ![final_image](final_image.png) 
 
-Now save your image as a BMP, by going to File -> Save.. and selcting the format BMP.
+Now save your image as a PNG, by going to File -> Save.. and selcting the format BMP.
 
-![save_bmp](save_bmp.png)
+![save_png](save_png.png)
 
-Questions:
+Question:
 ----------
 If you where given this image, do you think you can go back to the original fully coloured image?
 
@@ -107,13 +107,35 @@ Where you able to approximate the size of your image based on it's pixels and pi
 Part 3: Compression
 ===================
 
+**Note we can't view the files in pixlr it needs to be viewed locally**
 
-Lossy
+In [pixlr]() or your favorite image editing software open your desaturated image and lets save it as another file format.
+
+To start we will save it as a JPG with high compression. JPG's use a form of compression that is considered Lossy, meaning data is thrown away. Let's see if we can spot the missing Data!
+
+Go to File -> Save.. and select JPG from the format. You should see a "quality" bar, this decides how much information to keep. It should be set to 80% by default let's set it to 1% and save it locally.
+
+![low_quality_jpg](desaturated_jpg_1.jpg)
+
+Now lets open the file locally on your computer and take a look at it! 
+
+Do you notice any loss of visual information?
+How about the file size how much smaller is it?
+
+
+
+
+old version
+-----------
+
+
+lossy
 -----
+
 
 Look at [images](https://en.wikipedia.org/wiki/File:Quality_comparison_jpg_vs_saveforweb.jpg), and see if you can detect the difference!
 
-Firts visual, then image size as done in Part 2
+First visual, then image size as done in Part 2
 
 What do you see?
 
