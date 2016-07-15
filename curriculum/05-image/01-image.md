@@ -107,7 +107,9 @@ Where you able to approximate the size of your image based on it's pixels and pi
 Part 3: Compression
 ===================
 
-**Note we can't view the files in pixlr it needs to be viewed locally**
+
+Lossy
+-----
 
 In [pixlr]() or your favorite image editing software open your desaturated image and lets save it as another file format.
 
@@ -115,12 +117,24 @@ To start we will save it as a JPG with high compression. JPG's use a form of com
 
 Go to File -> Save.. and select JPG from the format. You should see a "quality" bar, this decides how much information to keep. It should be set to 80% by default let's set it to 1% and save it locally.
 
+**Note we can't view this file in pixlr correctly, it needs to be viewed locally**
+
 ![low_quality_jpg](desaturated_jpg_1.jpg)
 
 Now lets open the file locally on your computer and take a look at it! 
 
 Do you notice any loss of visual information?
+
 How about the file size how much smaller is it?
+
+Of course you can use lossy compression in such a way that the loss in image quality isn't that obvious to the human eye, such as these [images](https://en.wikipedia.org/wiki/File:Quality_comparison_jpg_vs_saveforweb.jpg)
+
+Lossless
+--------
+
+Another form of compression is called lossless, you will see a lossless compression algorithim in class.
+
+here we will simply compare two files, one a Tiff that uses no compression and one a png, that uses lossles compression.
 
 
 
@@ -133,7 +147,7 @@ lossy
 -----
 
 
-Look at [images](https://en.wikipedia.org/wiki/File:Quality_comparison_jpg_vs_saveforweb.jpg), and see if you can detect the difference!
+Look at these [images](https://en.wikipedia.org/wiki/File:Quality_comparison_jpg_vs_saveforweb.jpg), and see if you can detect the difference!
 
 First visual, then image size as done in Part 2
 
@@ -151,6 +165,12 @@ Notice anything about bit depth?
 
 [either show same pixels then less bit depth or same bit depth less pixels] **I prefer less bit depth**
 
+
+OR
+
+Save your original image as a low quality jpg, and notice the visual artifacts. Welcome to lossy compression.
+
+Now save your file (which was a TIFF) as a PNG, notice the difference is size (possibly run a diff, but most onlie diff tools I used crash at files sizes over a meg). The PNG is smaller but visually identical point out that the visuals look the same..) <-How do we prove this?
 
 
 Lossless
