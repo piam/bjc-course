@@ -81,16 +81,42 @@ Create an Account (CS and Piazza)
   * Use "CPSC 101 Lab 0" as your subject header.
 11. If you could not get your CS department email to properly forward to your personal email, contact them from your personal email. Mention that you could not get your CS account to work, and contact the help desk to assist you with any problems you are encountering.
 
+Create a Text File
+-----------
+A file is a collection of bytes stored as an individual entity. All data on disk is stored as a file with an assigned file name that is unique within the folder (directory) it resides in. Different types of files are used for different purposes. A text file is a file that contains only characters meant for displaying and formatting text.
 
+**Deliverable**: Type the following information about yourself into the document:
+  * Name
+  * Hobbies & Interests
+  * Intended major
 
-![simple_site](simple_site.png)
+You can choose to use your own computer or use the lab computers. If you are using a Mac, you can create a text file using TextEdit.
 
-Take a look at the Domain column (3rd from the left) - that is where we are requesting our data from.
-This means that the data or packets will need to travel from that server to us along a route, which you have seen before.
-On the right hand side, you can see how long it took for that request to be fullfilled.
+**If you are using the lab computers:**  
+1. Use Notepad++ to create a text file.  Open Notepad++ by clicking on Start --> All Programs --> Notepad++ --> Notepad++.
+2. Once you type in the information, click *File* from the menu bar, choose *Save* or *Save as*,
+Next choose disk/drive Z in the left half of the *Save in* box, click on the button labeled *New Folder*, type in *lab0* and then press enter. The window should now look as follows:
 
-Try looking at a few sites with your partner and then show your TA the following:
+![saveaswindow](saveas.png)
 
-1. A website that loaded the most amount of different domains (can you get more than 5?)
-2. A website that had the fastest total loadtime (can you get faster than 200ms?)
-3. An explanation of what factors make a website slow to load
+3. Double-click on the folder called "lab0" and type lab0.txt as your File name. Then click Save.
+4. Close the file by choosing File -> Exit, if it asks "Do you want to save changes?" Click Yes.
+5. Find the "Home Directory" icon on the desktop. Double click on it, find Disk Z, double click on it, and then make sure there is a folder "lab0" that has a file lab0.txt in it (this file may simply show up as "lab0", with type "Text Document"). If not, you need to create the file again.  *IMPORTANT*: Please note Disk Z represents the storage space you are allocated with the creation of your computer science account. Aside from what you place in this space, administrative files will also exist (which you should not remove/alter).
+ 
+Web Handin
+-----------
+You will use the CS department's web handin tool to hand in your text file. To do so, you will need your CS ID from the "Create an Account (CS and Piazza)" section. 
+
+1. Zip the text file that you created in the previous section.
+  * If you are using the lab computers, navigate to the lab0 folder that you created in the previous section. Right click the folder and 
+  * On a Mac
+    * Create a new folder by clicking Shift + Command + N simutaneously.
+    * Drag your text file into the folder.
+    * Right click the folder and click "Compress"
+2. Go to the [web handin tool](https://my.cs.ubc.ca/docs/hand-in) and log in with your CWL (not your CS ID).
+3. Click on “Run Hand-In”.
+4. Log in with your CS ID.  Course : cs100  Assignment: lab0
+5. Click the “Choose File” button next to “Assignment Zipfile” and in the window that follows, navigate to where your zipfile is, and click “Ok”. 
+6. Click “Hand-In Assignment” .
+
+![handinwindow](webhandin.png)
