@@ -62,7 +62,7 @@ By now, you have a feel for what you can do in BeetleBlocks, so it's time to mak
 
 Feel free to modify your tutorial or explore some example projects and modify something that you like! 
 
-![list](more_examples_highlight.PNG)
+![list](more_examples_highlight.png)
 
 While you can spend all day playing with BeetleBlocks, make sure you leave 20 minutes in order to make your model print ready!
 
