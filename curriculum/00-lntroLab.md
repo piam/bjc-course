@@ -115,7 +115,9 @@ You will use the CS department's web handin tool to hand in your text file. To d
     * Right click the folder and click "Compress"
 2. Go to the [web handin tool](https://my.cs.ubc.ca/docs/hand-in) and log in with your CWL (not your CS ID).
 3. Click on “Run Hand-In”.
-4. Log in with your CS ID.  Course : cs100  Assignment: lab0
+4. Log in with your CS ID.  
+Course : cs100  
+Assignment: lab0
 5. Click the “Choose File” button next to “Assignment Zipfile” and in the window that follows, navigate to where your zipfile is, and click “Ok”. 
 6. Click “Hand-In Assignment” .
 
