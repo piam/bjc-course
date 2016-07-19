@@ -21,7 +21,7 @@ In order to print an object in 3D, we first need to create a model of what we wa
 
 This is a program much like Snap! that you used in labs one and two. 
 
-When Beetleblocks opens, it will start with a tutorial. Go through tutorial 1, but dont do tutorial 2!
+When Beetleblocks opens, it will start with a tutorial. Go through tutorial 1, but don't do tutorial 2!
 
 If tutorial 1 doesn't automatically open, click the drop down on the top left and select "Open" from the list.
 
