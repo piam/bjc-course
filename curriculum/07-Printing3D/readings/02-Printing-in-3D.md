@@ -77,21 +77,21 @@ From the drop down Select "Download 3D model as..." and select STL.
 
 Open FlashPrint and click the "Load" button. Navigate to your .stl file tht you downloaded. 
 
-![list](ff_load.PNG)
+![list](ff_load.png)
 
 Once you open the .stl file, a dialogue box will ask you if you want to put it on the platform. Click "Yes".
 
-![list](platform.PNG)
+![list](platform.png)
 
 If you cannot see your object, don't panic! The object may be too small to see. You can fix this by clicking on your object, and then clicking on the "Scale" button (located on the left side) twice until a menu opens.
 
-![list](scale.PNG)
+![list](scale.png)
 
 You can make object larger by increasing the dimension of any of the axes. As long as the "Uniform Scaling" box is checked, you can safely increase any of the axes without distorting your model.
 
 Change any of the X,Y, or Z dimensions to around 20mm. You should not be able to see your object!
 
-![list](larger.PNG)
+![list](larger.png)
 
 Note: Keep in mind that we are less inclined to print anything that is too large and will take hours to print, so if you scale something too large, the TA may re-scale it down.
 
@@ -99,13 +99,13 @@ When 3D printing, we wabt our object to lay flat so let's rotate our object.
 
 Click your object and then click "Rotate" twice so the menu comes up. Use the +90 degrees button to rotate it downwards.
 
-![list](rotate.PNG)
+![list](rotate.png)
 
 Now that your object is flat, let's place it on the printing bed.
 
 With your object selected, click "Move" and then click the "On Platform" button.
 
-![list](on_platform.PNG)
+![list](on_platform.png)
 
 Optional: if you have too many overhangs, add supports.
 
@@ -113,20 +113,22 @@ Sometimes, we build objects that have spaces between them or portions that overh
 
 If you need supports, click the "Supports" button.
 
-![list](supports.PNG)
+![list](supports.png)
 
 Then, select "Support Options" and pick "Treelike".
 
-![list](support_options.PNG)
+![list](support_options.png)
 
 Now, click "Auto Supports" to fill them in, and then hit the "Back" button.
 
-![list](auto_support.PNG)
+![list](auto_support.png)
 
 
 Let's Print!
 
 Hit the Print button at the top of the screen.
+
+![list](print.png)
 
 Make sure the following settings are set this way unless your TA says otherwise:
 Machine Type: FlashForge Dreamer
@@ -139,6 +141,6 @@ Under More Options -> Temperature
 Right Extruder: 200
 Platform: 50
 
-![list](print_settings.PNG)
+![list](print_settings.png)
 
 Now, send your newly created .g file and your .stl file to your TA via email and they will start printing it!
