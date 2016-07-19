@@ -121,4 +121,4 @@ Assignment: lab0
 5. Click the “Choose File” button next to “Assignment Zipfile” and in the window that follows, navigate to where your zipfile is, and click “Ok”. 
 6. Click “Hand-In Assignment” .
 
-![handinwindow](webhandin.png)
+![handinwindow](handin.png)
