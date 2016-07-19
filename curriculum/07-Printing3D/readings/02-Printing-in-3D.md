@@ -17,13 +17,13 @@ Learning Goals
 
 Start Lab
 ------
-In order to print an object in 3D, we first need to create a model of what we want to print. For this, we are going to use [BeetleBlocks](http://beetleblocks.com/run/).
+In order to print an object in 3D, we first need to create a model of what we want to print. For this, we are going to use [BeetleBlocks](http://beetleblocks.com/run/). This is a program much like Snap! that you used in labs one and two. 
 
-This is a program much like Snap! that you used in labs one and two. 
+When Beetleblocks opens, it will start with a brief tutorial on how to use it. Feel free to click through the tutorial or just click "Quit".
 
-When Beetleblocks opens, it will start with a tutorial. Go through tutorial 1, but don't do tutorial 2!
+![list](launch_tutorial.png)
 
-If tutorial 1 doesn't automatically open, click the drop down on the top left and select "Open" from the list.
+We will be going through Tutorial 1 so click the drop down on the top left and select "Open" from the list.
 
 ![list](open.PNG)
 
@@ -31,7 +31,7 @@ Now, click "Examples" from the left side of the "Open Project" box and select "T
 
 ![list](Tutorial.PNG)
 
-By the end of Tutorial 1, you should have an object that looks like this:
+Follow the instructions in Tutorial 1 and drag the appropriate blocks into the window. By the end of Tutorial 1, you should have an object that looks like this:
 
 ![list](bb2.PNG)
 
@@ -69,7 +69,7 @@ While you can spend all day playing with BeetleBlocks, make sure you leave 20 mi
 Let's 3D Print!
 ------
 
-Once you are ready to print your object, we need to download it as an STL file and get it ready to be printed.
+Once you are ready to print your object, we need to download it as an STL file and get it ready to be printed. You can either use FlashPrint on the lab computers or download it from [here](http://www.flashforge-usa.com/support/downloads/).
 
 From the drop down Select "Download 3D model as..." and select STL.
 
