@@ -95,7 +95,7 @@ Change any of the X,Y, or Z dimensions to around 20mm. You should not be able to
 
 Note: Keep in mind that we are less inclined to print anything that is too large and will take hours to print, so if you scale something too large, the TA may re-scale it down.
 
-When 3D printing, we wabt our object to lay flat so let's rotate our object.
+When 3D printing, we want our object to lay flat so let's rotate our object.
 
 Click your object and then click "Rotate" twice so the menu comes up. Use the +90 degrees button to rotate it downwards.
 
