@@ -10,10 +10,9 @@ laburl: 01-image
 Image Processing Lab
 ====================
 
-**Notes**
-
-Remove BMP format since it's a propietary MS format.
-refer to this [document](http://users.wfu.edu/matthews/misc/graphics/formats/formats.html) to pick the correct format and remember to cite it.
+**Problems: LG.1 talks about filters, desaturation isn't called a filter in pixlr**
+**Background info: pixels in RGB colour images are represented as a 3x1 vector, each value ranging 0-255**
+**one way a filter would work is to "flatten" these values into a 1x1 grayscale vector where the value is in triplicate, ie 10-10-10 **
 
 Tools
 -----
@@ -62,7 +61,7 @@ You should now have an image that has for the most part lost all of it's color, 
 
 Now save your image as a PNG, by going to File -> Save.. and selcting the format BMP.
 
-![save_png](save_png.png)
+![save_tiff](save_tiff.png)
 
 Question:
 ----------
@@ -111,7 +110,7 @@ Part 3: Compression
 Lossy
 -----
 
-In [pixlr]() or your favorite image editing software open your desaturated image and lets save it as another file format.
+In [pixlr](https://pixlr.com/editor/) or your favorite image editing software open your desaturated image and lets save it as another file format.
 
 To start we will save it as a JPG with high compression. JPG's use a form of compression that is considered Lossy, meaning data is thrown away. Let's see if we can spot the missing Data!
 
@@ -122,6 +121,7 @@ Go to File -> Save.. and select JPG from the format. You should see a "quality" 
 **Note we can't view this file in pixlr correctly, it needs to be viewed locally**
 
 Now lets open the file locally on your computer and take a look at it! 
+Make sure you are viewing the file in a different application than pixlr as pixlr.
 
 ![low_quality_jpg](desaturated_jpg_1.jpg)
 
