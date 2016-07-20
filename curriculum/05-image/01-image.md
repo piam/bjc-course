@@ -137,7 +137,7 @@ here we will simply compare two files, one a Tiff that uses no compression and o
 
 Open you .tiff image again, and lets save it as a .png file.
 
-![save_png](save_png)
+![save_png](save_png.png)
 
 It's hard to see but the image quality is exactly the same, take a look at the file size, which is smaller the .tiff or the .png?
 
