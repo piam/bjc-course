@@ -10,9 +10,6 @@ laburl: 01-image
 Image Processing Lab
 ====================
 
-**Problems: LG.1 talks about filters, desaturation isn't called a filter in pixlr**
-**Background info: pixels in RGB colour images are represented as a 3x1 vector, each value ranging 0-255**
-**one way a filter would work is to "flatten" these values into a 1x1 grayscale vector where the value is in triplicate, ie 10-10-10 **
 
 Tools
 -----
@@ -106,7 +103,6 @@ Where you able to approximate the size of your image based on it's pixels and pi
 Part 3: Compression
 ===================
 
-
 Lossy
 -----
 
@@ -121,13 +117,14 @@ Go to File -> Save.. and select JPG from the format. You should see a "quality" 
 **Note we can't view this file in pixlr correctly, it needs to be viewed locally**
 
 Now lets open the file locally on your computer and take a look at it! 
-Make sure you are viewing the file in a different application than pixlr as pixlr.
+Make sure you are viewing the file in a different application than pixlr.
 
 ![low_quality_jpg](desaturated_jpg_1.jpg)
 
 Do you notice any loss of visual information?
 
-How about the file size how much smaller is it?
+How about the file size how many times smaller is it than your original uncompressed tiff file?
+
 
 Of course you can use lossy compression in such a way that the loss in image quality isn't that obvious to the human eye, such as these [images](https://en.wikipedia.org/wiki/File:Quality_comparison_jpg_vs_saveforweb.jpg)
 
@@ -138,58 +135,11 @@ Another form of compression is called lossless, you will see a lossless compress
 
 here we will simply compare two files, one a Tiff that uses no compression and one a png, that uses lossles compression.
 
+Open you .tiff image again, and lets save it as a .png file.
 
+![save_png](save_png)
 
+It's hard to see but the image quality is exactly the same, take a look at the file size, which is smaller the .tiff or the .png?
 
-old version
------------
+Question: Is it possible to have a compression algorithm that doesn't lose any information?
 
-
-lossy
------
-
-
-Look at these [images](https://en.wikipedia.org/wiki/File:Quality_comparison_jpg_vs_saveforweb.jpg), and see if you can detect the difference!
-
-First visual, then image size as done in Part 2
-
-What do you see?
-
-(blocky, blurry, and fairly close jpg links)
-
-What size are the images?
-
-(more blocky, more blurry == smaller)
-
-Notice anything about bit depth?
-
-(32>16>8)
-
-[either show same pixels then less bit depth or same bit depth less pixels] **I prefer less bit depth**
-
-
-OR
-
-Save your original image as a low quality jpg, and notice the visual artifacts. Welcome to lossy compression.
-
-Now save your file (which was a TIFF) as a PNG, notice the difference is size (possibly run a diff, but most onlie diff tools I used crash at files sizes over a meg). The PNG is smaller but visually identical point out that the visuals look the same..) <-How do we prove this?
-
-
-Lossless
---------
-
-Take a look at this image that is saved as a TIFF vs PNG
-
-We will talk about a lossless compression technique in class, and here we are going to use one!
-
-Trying saying your image as a png and compare it to the ....
-
-
-Find onine diff tool, and saves back and forth bmp -> jpg -> bmp make sure there is a high level
-
-
-Exam Question: Is it possible to have a compression algorithm that doesn't lose any information?
-
-
-***Credit to: 
-://docs.google.com/file/d/0B3EdcN2RueUhbVd5WXY2c2ZnY2c/edits it possible to represent an image exactly with fewer bytes? Is this true of all images? lossless encoding... where doesn't this work (101 lab does this).
