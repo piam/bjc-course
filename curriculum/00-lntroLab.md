@@ -93,7 +93,9 @@ A file is a collection of bytes stored as an individual entity. All data on disk
 You can choose to use your own computer or use the lab computers. If you are using a Mac, you can create a text file using TextEdit.
 
 **If you are using the lab computers:**  
+
 1. Use Notepad++ to create a text file.  Open Notepad++ by clicking on Start --> All Programs --> Notepad++ --> Notepad++.
+
 2. Once you type in the information, click *File* from the menu bar, choose *Save* or *Save as*,
 Next choose disk/drive Z in the left half of the *Save in* box, click on the button labeled *New Folder*, type in *lab0* and then press enter. The window should now look as follows:
 
