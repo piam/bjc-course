@@ -3,8 +3,8 @@ Welcome to CPSC 100!
 
 Learning Goals
 ---------------
-  * Learning how to make a post on Piazza
-  * Familiarizing yourself with CS Web Handin 
+  * Learn how to make a post on Piazza
+  * Familiarize yourself with CS Web Handin 
 
 Before the Lab
 -----------
