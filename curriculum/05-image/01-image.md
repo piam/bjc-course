@@ -13,34 +13,32 @@ Image Processing Lab
 
 Tools
 -----
-Online image editor of choice: https://pixlr.com/editor/ **Requires Flash**
-
-Find CC images: https://search.creativecommons.org/
+ * Online image editor of choice: https://pixlr.com/editor/ **Requires Flash**
+ * Find CC images: https://search.creativecommons.org/
 
 Learning Goals:
 ---------------
-+ Be able to explain at a high level how a filter works 
-
-+ Be able to explain loss of information in terms of filters
+ * Explain, at a high level, how a filter works 
+ * Explain loss of information in terms of filters
 
 Part 1: Desaturate an image
 ---------------------------
 
-During the Prelab, you found an image you wanted to work with, if not just use this [image](https://upload.wikimedia.org/wikipedia/commons/2/2f/There%27s_a_party%3F.jpg).
+During the Prelab, you found an image you wanted to work with. If not, use this [image](https://upload.wikimedia.org/wikipedia/commons/2/2f/There%27s_a_party%3F.jpg). Copy the URL of the image you will be using by right clicking the picture and selecting "Copy Image Address".
 
 ![image_url](img_url.png)
 
-Now point your browser to [pixlr](https://pixlr.com/editor/) the image editing tool we are going to use.
+Now, point your browser to [Pixlr](https://pixlr.com/editor/), the image editing tool we are going to use.
 
-Click the Load image from url option that pops up or goto File -> Open image Url and copy/paste your url
+Click the "Open Image From URL" option in the box that appears when you first load the page or go to "File" -> "Open image URL". Paste your image's URL into the text box.
 
 ![open_pixlr](pixlr.png)
 
-While we can easily apply a filter to the entire image, let's instead use the lasso to pick a part of the image to desaturate for contrast.
+While we can easily apply a filter to the entire image, let's try only desaturating a part of the image for contrast.
 
 Select the lasso tool from the left bar, and trace around one object in your image that you *don't* want to apply the filter too.
 
-Now right click inside the selection and select the image and invert the lasso 
+Now, right click inside the selection and select "Invert Selection". 
 
 ![select_invert](invert.png)
 
@@ -52,27 +50,36 @@ From the Adjustment menu, select Desaturate.
 
 ![desaturate](desaturate.png)
 
-You should now have an image that has for the most part lost all of it's color, expect where you left it!
+You should now have an image that has, for the most part, lost all of its color, expect where the area you used the lasso tool to select!
 
 ![final_image](final_image.png) 
 
-Now save your image as a PNG, by going to File -> Save.. and selcting the format BMP.
+Save your file by going to "File" -> "Save" and selcting the format TIFF.
 
 ![save_tiff](save_tiff.png)
 
 Question:
 ----------
-If you where given this image, do you think you can go back to the original fully coloured image?
+If you were given this image, do you think you can go back to the original fully coloured image?
 
 
 Part 2: Image Size
 ------------------
 
-Let's take a look at the properities of your BMP image and try to understand what the approximate size of our image is.
+Let's take a look at the properities of your TIFF image and try to understand what the approximate size of our image is.
 
-Right click on your image and select view details. Let's take note of the number of pixels (width/height) and the Bit Depth, and see if we can work out the size of the file.
+** For Windows/lab machines:**
+Right click on your image and select "View Details". 
 
 ![image_details](image_details.png)
+
+** For Macs:**
+Open up your image using the Preview app. Go to "Tools" -> "Show Inspector" (or press command + i) and click on the second tab in the window that appears.
+
+![mac_image_details](mac_image_details.png)
+
+Let's take note of the number of pixels (width/height) and the bit depth, and see if we can work out the size of the file.
+
 
 Activity: Estimate file size from its pixels
 ---------------------------------------------
@@ -85,20 +92,19 @@ Activity: Estimate file size from its pixels
 
 	4. What should the Approximate total size of the image be?
 
-In our example our image is 2272 pixels wide and 1704 pixels high.
+In our example, our image is 2272 pixels wide and 1704 pixels high. That means there are 2272 * 1704 = 3,871,488  pixels in our image.
 
-That means there are 2272 * 1704 = 3,871,488  pixels in our image.
+Now, let's consider how many bits it take to represent a pixel!
 
-Now lets consider how many bits it take to represent a pixel!
+From our image details, we see that our bit depth is 8. This means that each pixel is represented by 8 bits.
 
-We see in our image details that our Bit depth is 24, this means that each pixel is represented by 24 bits.
+We know that every 8 bits is 1 Byte, so each pixel is 1 Byte. 
 
-We know that every 8 bits is 1 Byte, so each pixel is 3 Bytes. 
+Let's calculate how many Bytes our image should be to see if it matches!
 
-Now let's calculate how many Bytes our image should be and see if it matches!
+3,871,488 pixels * 3 Bytes/Pixel = 11,614,464 Bytes, or 11.6 Million Bytes which is approx 11 MegaBytes. There are some extra bytes being used to identify the type of file and we are usually shown a approx size).
 
-3,871,488 pixels * 3 Bytes/Pixel = 11,614,464 Bytes, or 11.6 Million Bytes which is approx 11 MegaBytes. There are some extra bytes being used to identify the type of file and we are usually shown a approx size)	
-Where you able to approximate the size of your image based on it's pixels and pixel depth?
+Were you able to approximate the size of your image based on its pixels and pixel depth?
 
 Part 3: Compression
 ===================
@@ -106,40 +112,37 @@ Part 3: Compression
 Lossy
 -----
 
-In [pixlr](https://pixlr.com/editor/) or your favorite image editing software open your desaturated image and lets save it as another file format.
+Open your desaturated image in [Pixlr](https://pixlr.com/editor/) (or your favorite image editing software) and save it as another file format (e.g., jpg).
 
-To start we will save it as a JPG with high compression. JPG's use a form of compression that is considered Lossy, meaning data is thrown away. Let's see if we can spot the missing Data!
+To start, we will save it as a JPG with high compression. JPG's use a form of compression that is considered lossy meaning data is thrown away. Let's see if we can spot the missing data!
 
-Go to File -> Save.. and select JPG from the format. You should see a "quality" bar, this decides how much information to keep. It should be set to 80% by default let's set it to 1% and save it locally.
+Go to "File" -> "Save" and select JPG from the format. You should see a "quality" bar. This decides how much information to keep. It should be set to 80% by default but let's set it to 1% and save it locally.
 
 ![save_low_quality](low_quality_jpg.png)
 
-**Note we can't view this file in pixlr correctly, it needs to be viewed locally**
+**Note we can't view this file in Pixlr correctly, it needs to be viewed locally.**
 
-Now lets open the file locally on your computer and take a look at it! 
-Make sure you are viewing the file in a different application than pixlr.
+Open the file locally double clicking your saved picture or by using any photo-viewing software that is not Pixlr.
 
 ![low_quality_jpg](desaturated_jpg_1.jpg)
 
 Do you notice any loss of visual information?
 
-How about the file size how many times smaller is it than your original uncompressed tiff file?
+How about the file size? How many times smaller is it than your original uncompressed TIFF file?
 
-
-Of course you can use lossy compression in such a way that the loss in image quality isn't that obvious to the human eye, such as these [images](https://en.wikipedia.org/wiki/File:Quality_comparison_jpg_vs_saveforweb.jpg)
+Of course, you can use lossy compression in such a way that the loss in image quality isn't that obvious to the human eye. These [images](https://en.wikipedia.org/wiki/File:Quality_comparison_jpg_vs_saveforweb.jpg) are a great example!
 
 Lossless
 --------
 
-Another form of compression is called lossless, you will see a lossless compression algorithim in class.
+Another form of compression is called lossless. You will see a lossless compression algorithim in class.
 
-here we will simply compare two files, one a Tiff that uses no compression and one a png, that uses lossles compression.
+Here, we will simply compare two files, a TIFF that uses no compression and a PNG that uses lossless compression.
 
-Open you .tiff image again, and lets save it as a .png file.
+Open your TIFF image again, and save it as a .png file.
 
 ![save_png](save_png.png)
 
-It's hard to see but the image quality is exactly the same, take a look at the file size, which is smaller the .tiff or the .png?
+It's hard to see but the image quality is exactly the same. Take a look at the file size: which is smaller the TIFF or the PNG?
 
 Question: Is it possible to have a compression algorithm that doesn't lose any information?
-
