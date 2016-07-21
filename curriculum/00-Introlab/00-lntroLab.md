@@ -123,4 +123,4 @@ Assignment: lab0-(put your lab section here (i.e., L1A, L1B, L1C, L1D, or L1E)
 5. Click the “Choose File” button next to “Assignment Zipfile” and in the window that follows, navigate to where your zipfile is, and click “Ok”. 
 6. Click “Hand-In Assignment” .
 
-![handinwindow](handin.png)
+![handinwindow](handin1.png)
