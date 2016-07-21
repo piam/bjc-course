@@ -32,7 +32,7 @@ Now, point your browser to [Pixlr](https://pixlr.com/editor/), the image editing
 
 Click the "Open Image From URL" option in the box that appears when you first load the page or go to "File" -> "Open image URL". Paste your image's URL into the text box.
 
-![open_pixlr](pixlr.png)
+![open_pixlr](pixlr1.png)
 
 While we can easily apply a filter to the entire image, let's try only desaturating a part of the image for contrast.
 
