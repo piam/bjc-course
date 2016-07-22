@@ -68,12 +68,12 @@ Part 2: Image Size
 
 Let's take a look at the properities of your TIFF image and try to understand what the approximate size of our image is.
 
-** For Windows/lab machines:**
+**For Windows/lab machines:**
 Right click on your image and select "View Details". 
 
 ![image_details](image_details.png)
 
-** For Macs:**
+**For Macs:**
 Open up your image using the Preview app. Go to "Tools" -> "Show Inspector" (or press command + i) and click on the second tab in the window that appears.
 
 ![mac_image_details](mac_image_details.png)
@@ -96,7 +96,7 @@ In our example, our image is 2272 pixels wide and 1704 pixels high. That means t
 
 Now, let's consider how many bits it take to represent a pixel!
 
-From our image details, we see that our bit depth is 8. This means that each pixel is represented by 8 bits.
+From our image details, we see that our bit depth is 24. This means that each pixel is represented by 24 bits. If you have a Mac, you will notice that the details window says "Depth 8". It means that 8 bits is used to represent each of the RGB channels in the picture (i.e., 8 bits are used to represent red, 8 bits for green, and 8 bits for blue). The total bit depth per pixel is still 24. 
 
 We know that every 8 bits is 1 Byte, so each pixel is 1 Byte. 
 
