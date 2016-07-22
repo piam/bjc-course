@@ -71,7 +71,7 @@ Let's take a look at the properities of your TIFF image and try to understand wh
 **For Windows/lab machines:**
 Right click on your image and select "View Details". 
 
-![image_details](image_details.png)
+![image_details](details2.png) ![image_details2](details_tiff.png)
 
 **For Macs:**
 Open up your image using the Preview app. Go to "Tools" -> "Show Inspector" (or press command + i) and click on the second tab in the window that appears.
