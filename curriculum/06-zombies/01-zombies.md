@@ -175,7 +175,9 @@ It’s really hard to see anything with so much data. When working with large da
 
 * Go back to your original spreedsheet and sort InfectionDate A-->Z (by sheet)
 
-* Now lets just pick the earliest PatientID's who where addmited on the 28th and 29th
+* Now lets just pick the earliest PatientID's who where addmited on the ??th and ??th
+
+**Note: we do a lot of dta cleaning and none of it will matter if they just jump to this step. We have to add 1 person to this date range for each type of data clean we do (location out of bounds, age>125, infection date too early)
  
 
 **(By the end of the lab, they should have a group of people who they suspect patient zero is. We need those PIDs for next week)**
