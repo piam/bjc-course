@@ -7,19 +7,13 @@ lab: 1
 laburl: 01-zombies.md
 ---
 
->! This is a spoiler
-
-! This is a spoiler
-
-
-
 Learning Goals
 --------------
 
 * Practical skills
 
 + Learn how to write filters in spreadsheets
-+ Handling data in an optimal way for cleaning purposes
++ Clean data before analyzing it
 + Get experience with visualizing data using spreadsheets and maps
 + Creating/refining heuristics for working with data
 
@@ -34,8 +28,8 @@ Software Needed
 ---------------
 
 Google spreadsheet (or any spreadsheet application that allows saving in CSV format)
-Google maps (still need Google account)
-Email
+Google maps (requires a Google account)
+At least one Gmail account per pair
 
 The Big Question
 ----------------
@@ -50,60 +44,142 @@ A mysterious virus has recently started spreading across the Lower Mainland. Inf
 
 Infections are increasing exponentially with each passing day and the Centre for Disease Control (CDC) is desperately trying to control this massive outbreak. The CDC has given you a list of individuals who have been hospitalized with this mysterious virus. You are the research scientists assigned to this case and your mission is to figure out who the very first infected patient is and determine how the virus was spread into the community.
 
-* Download the list of hospitalizations [here]()**Link Needed**.
+
+Download the Outbreak data
+--------------------------
+
+* Download the list of hospitalizations [here]()**Link Needed**. It is a csv file that Excel or Google Spreadsheets will easily recognize.
 * Go to [Google SpreadSheets](https://docs.google.com/spreadsheets/). For remainder of the lab, you will need to have access to a Google account (remember, you can always make a Google account with false information!).
 
-Using Google SpreadSheets
+Setting up Google SpreadSheets
 -------------------------
-**We ask questions and dont give answers, let's change the style, by asking the question then having a spoiler that you hover over for the answer. This way we can encourage discussion between the partner**
 
-![GoogleSpreadSheet](GoogleSpreadSheets.png)_
+![GoogleSpreadSheet](GoogleSpreadSheets.png)
 
-1. Make sure you are logged into a Google account and Go to [Google SpreadSheets](https://docs.google.com/spreadsheets/)
-2. Click on the box with a + labelled Blank under "Start a new spreadsheet."
-3. In your new spreadsheet, click on File -> Open -> Upload to upload the list from step 1.
-3.5 **Give the sheet a new name**
-4. To help us explore our data, we want to freeze the first row with our column headers while we scroll through the rest of the data. Click on View -> Freeze -> 1 Row.
+* From [Google SpreadSheets](https://docs.google.com/spreadsheets/) click on the box with a + labelled Blank under "Start a new spreadsheet."
+
+![drag and drop file](DragDropFile.png)
+
+* In your new spreadsheet, click on File -> Open -> Upload to upload the list from step 1.
+
+![freeze the row](FreezeRow.png)
+
+* To help us explore our data, we want to freeze the first row of our column headers se we scroll through the rest of the data. **Select the first row** and **Click on View -> Freeze -> 1 Row** to Freeze it.
 
 Let’s explore our data.
 -----------------------
 
-6. Do all the data values make sense?
-Answer: Did you notice a few people who where much older than a 100?
-8. What should we do with the rows that have values that are suspicious? If we remove them, what do we risk?
-Answer: It could be that patient 0's data get erased, perhaps if we had time we would look at multiple data sources and try to collaborate our data. But for this lab we will fearlessly delete data points that are wrong!
-9. Is it possible to manually go through each and every entry to check for irregularities? 
-Answer: Maybe but it would take a little bit of time and we could make mistakes and miss things
-What if our data set was twice as big? 
-Answer: Less likely
-Or 4 times or 8 times larger?
-Answer: At this rate we will quickly scale outside our ability to read all the values in a lifetime
-10. What are some methods to quickly clean irregular values out of our data?
-Answer: We can imagine defining a range and pulling any data outside this range out. There rae multiple ways of doing this, simply sorting the data and looking at it's highest and lowest values is a strategy we can use.
-11. Since there are so many rows in the data, we don’t want to manually go through each row to look at the age of the patient. Let’s sort all the rows by age so that the oldest people are at the top of our document.
-12. Click on any cell in Age column of the spreadsheet. Click on Data-> Sort Sheet by Column C, Z-->A.
-13. The very oldest patients are now at the top of our spreadsheet. Delete any rows with ages that don’t make sense.
-Hint: You should have found atleast **X patients** that should be removed.
-14. Look at the Hospitalization Date column and sort the rows to see if there are any irregular dates. Remember to sort by both oldest to newest and newest to oldest.
+* Let's start by getting to know our data; read all the coloumn names and get a sense of what our data is about. After reading the column names can describe the data you are lookig at?
+
+!Answer: This is a list of PatientID's w/ Age, Gender information, followed by their date of hospitilization and the latitude and logitude of their School, Work and Home (if they have one).
+
+Clean the data.
+---------------
+
+* Before we plot this data on a map and try to make sense of it we first have to clean the data. Do all the data values make sense? Are they withing bounds that you would expect?
+
+Answer: There are a few people who where much older than a 100, this maybe an error.
+
+* If we had the time/resrouces we could flag all the rows we find suspicious and compare them to other data sources to see if we can find/fix the error. However in our case we suggest you simple remove any rows that have obvious errors.
+
+* Is it possible to manually go through each and every entry to check for irregularities?
+ 
+!Answer: Maybe but it would take a little bit of time and we could make mistakes and miss things
+
+* What if our data set was twice as big? 
+
+!Answer: Less likely
+
+* What if our data set was 4 times or 8 times larger?
+
+!Answer: At this rate we will quickly scale outside our ability to read all the values in a lifetime
+
+* We are going to try use a simple method to quickly clean the data, there are multiple ways of doing this we will use the simplest of sorting the data and looking at the highest/lowest values to take out outliers that seem implausable.
+
+![sortByAge](sortAge.png)
+
+* Click on any cell in Age column of the spreadsheet. Click on Data-> Sort Sheet by Column C, Z-->A. **Do not Sort range, as that will only sort your column and not all the rows associated with that age**
+
+* The very oldest patients are now at the top of our spreadsheet. Delete any rows with ages that don’t make sense by shift clicking all the row numbers you dont want and selecting "Delete rows x-y" where x-y is your selectd range.
+Hint: You may have found around a dozen people whose ages where suspicious and could be removed.
+
+* Let's try the same thing with the "Infection Date". Sort Sheet by Column D, Z-->A and A-->Z. Do you see anything interesting?
+
+!Answer: We have some dates from 2013/2014 which is well before the infection break out, those rows can be removed.
+
+**Note: I can't find this bad data, did we add it? remember our data is year-month-day**
 
 Plotting data onto Google My Maps
 -------
 
-1. Given so much data, it can be useful to show the data in a visual form to help see any underlying patterns. Let’s visualize our data using My Maps.
-2. Go to [Google My Maps](https://www.google.com/mymaps).
+* Given so much data, it can be useful to show the data in a visual form to help see any underlying patterns. Let’s visualize our data using My Maps.
+
+* Point your brosweres at [Google's My Maps](https://www.google.com/mymaps).
 
 ![GoogleMyMaps](GoogleMyMaps.png) 
-3. Click on “+ Create a New Map”.
-4. Under “Untitled Layer”, click on “Import”. In the window that follows, click on Google Drive, Recent and then choose the Google Sheet that has your data in it.
-5. When asked which columns to use to position your landmarks, choose Home Address, Work Address, and School Address. 
-6. Use Patient ID as the column to title the markers with.
 
-[Mess of data](MessOfData.png)
+* Click on “+ Create a New Map”.
 
+* Under “Untitled Layer”, click on “Import”. In the window that follows, click on Google Drive, Recent and then choose the Google Sheet that has your data in it.
+
+![myMapsLandmarks](home.png)
+
+* When asked which columns to use to position your landmarks, choose Home Address, Work Address, or School Address. 
+If prompet to select latitude vs longitude in a popup select the corresponding option to the name, ie: Home_Latitude is Latitude.
+
+![markerTitle](markerTitle.png)
+
+* When prompted to Choose a column to title your markers, Use **Patient ID**
+
+* repeat this step until you have home/work and school longitues and latitudes mapped.
+
+Optional
+--------
+
+* You can add useful icons to individual sets so you can visually identify work, school or home.
+
+![change the icon](changeIcon.png)
+
+* Cursor over **All Items** until you see a paint icon on the right, then click on it
+
+![find better icons](moreIcon.png)
+
+* Click **More icons** found at the bottom
+
+![pick an icon](chooseIcon.png)
+
+* Now select any Icon from the list of icons
+
+[Mess of data](MessOfData2.png)
+
+* You should now be looking at a mess of markers showing infections locations. Rather dissapointingly the solution isn't here! But don't worry we will see if we can apply a hueristic and plot less data and see if we can ID patient 0!
+
+Cleaning more data (optional visual scrub of data) 
+--------------------------------------------------
+
+**Note: If we add this segment we should mention that we somehow know that patient zero lived/worked and went to school in the lower mainland.**
+
+
+![Edit Data Table](OpenDataTable.png)
+
+* We notice some patients outside the lower mainland, we should only have data on patients that live/work in vancouver so lets remove those patients!.
+
+* Double click on any marker that looks off and take note of it's PatientID and remove it from you data.
+
+Hint: There is an empty row, and some patients who are outside of the lower maniland that can be removed!
+
+
+Too much noise, not enough signal
+---------------------------------
 
 It’s really hard to see anything with so much data. When working with large datasets, a common approach is to try and reduce the amount of data we are looking at based on some algorithm or method. For example, we might reduce the number of rows by filtering out all hospitalized individuals under the age of 60. Heuristics are not set in stone-- they can differ based on the problem you are working with.
-Let’s apply a heuristic to the data by filtering on Hospitalization Date. Let’s sort 
-Visualize the data in My Maps again. Has it helped you?
+
+* Let’s apply a heuristic to the data by filtering on Hospitalization Date. 
+
+* Go back to your original spreedsheet and sort InfectionDate A-->Z (by sheet)
+
+* Now lets just pick the earliest PatientID's who where addmited on the 28th and 29th
+ 
 
 **(By the end of the lab, they should have a group of people who they suspect patient zero is. We need those PIDs for next week)**
 
@@ -117,5 +193,5 @@ Deliverable:
 Email your TA with the following subject title, <Section Number> CPSC 100 Data Visualization Lab Answers- Week 1. Emails received without this title will not be marked. Your email should contain answers to the following questions:
 Why do you think you could not figure out who patient zero is?
 What extra data do you think you want?
-
+What PatientID's do you suspect?
 
