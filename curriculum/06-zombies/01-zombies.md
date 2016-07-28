@@ -44,23 +44,20 @@ A mysterious virus has recently started spreading across the Lower Mainland. Inf
 
 Infections are increasing exponentially with each passing day and the Centre for Disease Control (CDC) is desperately trying to control this massive outbreak. The CDC has given you a list of individuals who have been hospitalized with this mysterious virus. You are the research scientists assigned to this case and your mission is to figure out who the very first infected patient is and determine how the virus was spread into the community.
 
-
-Download the Outbreak data
+Working with the Outbreak data
 --------------------------
 
-* Download the list of hospitalizations [here]()**Link Needed**. It is a csv file that Excel or Google Spreadsheets will easily recognize.
+* Download the hospitalizations data [here](zombieOutbreakWeek1.csv)**Link Needs to be updated**. It is a csv file that Excel or Google Spreadsheets will easily recognize.
+
 * Go to [Google SpreadSheets](https://docs.google.com/spreadsheets/). For remainder of the lab, you will need to have access to a Google account (remember, you can always make a Google account with false information!).
 
-Setting up Google SpreadSheets
--------------------------
-
-![GoogleSpreadSheet](GoogleSpreadSheets.png)
+![new sheet](blank.png)
 
 * From [Google SpreadSheets](https://docs.google.com/spreadsheets/) click on the box with a + labelled Blank under "Start a new spreadsheet."
 
 ![drag and drop file](DragDropFile.png)
 
-* In your new spreadsheet, click on File -> Open -> Upload to upload the list from step 1.
+* In your new spreadsheet, click on File -> Open -> Upload to upload the hospitalization data.
 
 ![freeze the row](FreezeRow.png)
 
@@ -96,7 +93,7 @@ Answer: There are a few people who where much older than a 100, this maybe an er
 
 * We are going to try use a simple method to quickly clean the data, there are multiple ways of doing this we will use the simplest of sorting the data and looking at the highest/lowest values to take out outliers that seem implausable.
 
-![sortByAge](sortAge.png)
+![sortByAge](SortAge.png)
 
 * Click on any cell in Age column of the spreadsheet. Click on Data-> Sort Sheet by Column C, Z-->A. **Do not Sort range, as that will only sort your column and not all the rows associated with that age**
 
