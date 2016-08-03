@@ -136,6 +136,6 @@ Assignment: lab0-(put your lab section here (i.e., L1A, L1B, L1C, L1D, or L1E)
 
 ![handinwindow](handin1.png)
 
-Last Things to Note
+You're Done!
 -----------
 Congratulations! You have just finished the very first lab of CPSC 100! If you are using a lab computer, please log out before you leave. If you have plugged in a monitor/keyboard/mouse to your computer, be sure to detach everything before leaving.
