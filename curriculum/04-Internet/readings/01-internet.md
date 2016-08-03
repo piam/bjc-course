@@ -13,8 +13,8 @@ Fun with the Internet
 
 Learning Goals:
 ---------------
-  * Use visual tools to better understand what happens under the hood when we load a webpage.
-  * Visualize on a map at a high level how a packet is routed and forwarded.
+  * Use visual tools to better understand what happens under the hood when we load a webpage
+  * Be able to show on a map (at a high level) how a packet is routed and forwarded
   * Examine a visual representation of all the assets that a webpage requests/loads
   * Compare packet speed (light speed) to page loading speed (seconds) and be able to explain the descrepency
 
@@ -24,13 +24,15 @@ If packets of information move at the speed of light what are some reasons that 
 
 Visualizing Internet Routes
 ---------------------------
+Find a partner to work on the lab together!
+
 Point your browser to this [Internet route visualizing tool](http://www.monitis.com/traceroute/).
 
-This will show you the route from a computer (by default in Washington) to another computer in the world. 
+This will show you the route from a computer (by default near Seattle, WA, USA). If you want to start from locations in Europe and Asia/Pacific, you can use the tabs to change the computer you start from. 
 
 ![trace_route](trace_route.png)
 
-Below we have a list of interesting servers from all over the world. Pick one (or use your own choice) by copying and pasting it into the input field at the top of the page. Now, click "Start Test". Make sure to try at least one server with interesting suffixes like .br, .au, or .tw.
+Below we have a list of interesting servers from all over the world. Pick one (or use your own choice) by copying and pasting it into the input field at the top of the page. Now, click "Start Test". Make sure to try at least three servers, each from a different country.
 
 * ct.cs.ubc.ca (Vancouver, Canada)
 * www.mars.dti.ne.jp (Japan, Tokyo)
@@ -44,9 +46,9 @@ Below we have a list of interesting servers from all over the world. Pick one (o
 * mail.iis.sinica.edu.tw (Taiwan)
 * rrzmta2.rz.uni-regensburg.de (Germany)
 
-The green line you see is the route your packet takes to get to your server!
+The green line you see is the route your packet takes to get to the server that you entered!
 
-Let's take a look at some of the data about its trip. Scroll down until you see a list of hops along with some times in ms.
+Let's take a look at some of the data about its trip. Scroll down until you see a list of hops along with some times in milliseconds (ms).
 If traceroute can't find any data, it will display a * or n/a for that hop. Also, if it does not have an estimate for the packet's round trip, it will display a * or 0 ms for the time.
 
 ![trace_info](route_table.png)
@@ -61,10 +63,9 @@ Answer:
 
 Show your TA:
 
-1. A server that you found that is the furthest away in distance
-2. A server that you found that is the most hops away (can you get one longer than 20 hops?)
+1. The server that is the furthest away in distance
+2. The serverthat is the most hops away (can you get one longer than 20 hops?)
 3. Be able to explain why the times there and back can vary.
-4. Try to find a server that is the most hops away! Can you get one longer than 22?
 
 Page Load Analysis
 ------------------
@@ -86,3 +87,7 @@ Try looking at a few sites with your partner and then show your TA the following
 1. A website that loaded the most amount of different domains (can you get more than 5?)
 2. A website that had the fastest total loadtime (can you get faster than 200ms?)
 3. An explanation of what factors make a website slow to load
+
+You're Done!
+------------------
+That's it for the lab! Make sure your TAs have marked your work before you go.
