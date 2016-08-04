@@ -66,7 +66,7 @@ Clean the data.
 ---------------
 * Before we plot this data on a map and try to make sense of it, we first have to clean the data. Do all the data values make sense? Are they within bounds that you would expect?
 
-Answer: There are a few people who where much older than 100. This maybe an error.
+Answer: There are a few people who are much older than 100. This could possible be an error.
 
 * If we had the time/resrouces we could flag all the rows we find suspicious and compare them to other data sources to see if we can find/fix the error. However, in our case, we suggest you simply remove any rows that have obvious errors.
 
@@ -94,8 +94,6 @@ Hint: You may have found around a dozen people whose ages are suspicious and cou
 * Let's try the same thing with the "Infection Date". Sort Sheet by Column D, Z-->A and A-->Z. Do you see anything interesting?
 
 !Answer: We have some dates from 2013/2014 which is well before the infection break out, those rows can be removed.
-
-**Note: I can't find this bad data, did we add it? remember our data is year-month-day**
 
 Plotting data onto Google My Maps
 -------
@@ -162,10 +160,7 @@ It’s really hard to see anything with so much data. When working with large da
 
 * Let’s apply a heuristic to the data by filtering on Hospitalization Date. 
 * Go back to your original spreedsheet and sort InfectionDate A-->Z (by sheet)
-* Now lets just pick the earliest PatientID's who where addmited on the ??th and ??th
-
-**Note: we do a lot of data cleaning and none of it will matter if they just jump to this step. We have to add 1 person to this date range for each type of data clean we do (location out of bounds, age>125, infection date too early)
- 
+* Now lets just pick the earliest PatientID's who where addmited on August 13th, 2016.
 
 **(By the end of the lab, they should have a group of people who they suspect patient zero is. We need those PIDs for next week)**
 
